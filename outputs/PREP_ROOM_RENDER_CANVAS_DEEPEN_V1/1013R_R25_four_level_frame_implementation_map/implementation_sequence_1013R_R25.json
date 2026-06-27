@@ -1,0 +1,31 @@
+[
+  {
+    "stage": "1013R_R26_PAGE_COPY_FOUR_LEVEL_FRAME_MARKERS",
+    "purpose": "Add data-level markers inside the current R21 page copy only.",
+    "depends_on": [
+      "1013R_R25_FOUR_LEVEL_FRAME_IMPLEMENTATION_MAP"
+    ]
+  },
+  {
+    "stage": "1013R_R27_XIAOJIAO_INTENT_FRAME_ROUTER_FIXTURE",
+    "purpose": "Create static intent-to-level routing fixture, no model/provider/runtime.",
+    "depends_on": [
+      "1013R_R25_FOUR_LEVEL_FRAME_IMPLEMENTATION_MAP"
+    ]
+  },
+  {
+    "stage": "1013R_R28_ROOM_WORKSPACE_REGISTRY",
+    "purpose": "Derive room registry from 1013L states and current product rooms.",
+    "depends_on": [
+      "1013L_R0_MAIN_RENDER_SHELL_BASELINE_AND_BACKEND_REUSE_REGISTRY"
+    ]
+  },
+  {
+    "stage": "1013R_R29_TOOL_FRAME_REGISTRY",
+    "purpose": "Derive tool frame registry from L5 active capabilities and R17/R24 render groups.",
+    "depends_on": [
+      "1013L_R5_MAIN_SHELL_BACKEND_VIEWMODEL_READONLY_FETCH_ADAPTER",
+      "1013R_R17_RENDER_BLOCKS_PROTOCOL_R0"
+    ]
+  }
+]

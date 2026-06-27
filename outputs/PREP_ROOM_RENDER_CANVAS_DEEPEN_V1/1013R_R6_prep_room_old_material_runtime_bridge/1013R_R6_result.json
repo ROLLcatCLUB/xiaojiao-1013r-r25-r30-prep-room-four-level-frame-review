@@ -1,0 +1,47 @@
+{
+  "stage_id": "1013R_R6_PREP_ROOM_OLD_MATERIAL_RUNTIME_BRIDGE",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-26T10:32:06+00:00",
+  "task_object_title": "三年级《色彩的渐变》",
+  "route": {
+    "task_state": "/api/prep-room/task-state/g3_u2_color_gradient",
+    "action": "/api/prep-room/task-state/g3_u2_color_gradient/action"
+  },
+  "checks": {
+    "old_material_reused": true,
+    "real_textbook_catalog_rearranged": true,
+    "color_gradient_targeted": true,
+    "deprecated_color_feeling_blocked": true,
+    "new_system_created": false,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "source_matrix_count": 7,
+    "flask_route_smoke_pass": true
+  },
+  "boundary_flags": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false
+  },
+  "failed_checks": []
+}

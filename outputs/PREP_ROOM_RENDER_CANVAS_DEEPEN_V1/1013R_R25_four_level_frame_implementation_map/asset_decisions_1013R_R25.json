@@ -1,0 +1,92 @@
+[
+  {
+    "asset_id": "1013L_shell_registry_and_fetch_adapter",
+    "decision": "reuse_as_level_1_and_level_2_backbone",
+    "files": [
+      "backend/xiaobei_ai/prep_room_render_shell_registry_1013L_R0.py",
+      "backend/xiaobei_ai/prep_room_main_shell_fetch_adapter_1013L_R5.py"
+    ],
+    "why": "Already defines persistent shell, RenderStage states, and readonly fetch adapter boundaries.",
+    "current_status": "bridge_now_contract_only"
+  },
+  {
+    "asset_id": "1013R_unified_package_render_blocks_component_boundary",
+    "decision": "reuse_as_level_4_render_contract",
+    "files": [
+      "backend/xiaobei_ai/prep_room_unified_viewmodel_1013R_R15.py",
+      "backend/xiaobei_ai/prep_room_source_policy_validator_1013R_R16.py",
+      "backend/xiaobei_ai/prep_room_render_blocks_protocol_1013R_R17.py",
+      "backend/xiaobei_ai/prep_room_unified_package_readonly_export_1013R_R20.py",
+      "backend/xiaobei_ai/prep_room_render_block_component_boundary_1013R_R24.py"
+    ],
+    "why": "These modules already turn the lesson object into render slots, render blocks, source policy, action gates, and future component boundaries.",
+    "current_status": "connect_next_without_runtime"
+  },
+  {
+    "asset_id": "1013R_R21_current_page_copy",
+    "decision": "keep_as_visible_prototype_surface",
+    "files": [
+      "backend/xiaobei_ai/prep_room_page_copy_package_binding_1013R_R21.py",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R21_page_copy_binds_unified_package/prep_room_page_copy_binds_unified_package_1013R_R21.html"
+    ],
+    "why": "User-facing prep-room adjustments must stay inside this existing page copy line unless a rollback copy is explicitly needed.",
+    "current_status": "visible_surface_only"
+  },
+  {
+    "asset_id": "1013K_big_unit_and_courseware_assets",
+    "decision": "reuse_before_new_unit_or_courseware_fields",
+    "files": [
+      "backend/xiaobei_ai/prep_room_big_unit_render_viewmodel_1013K_R7.py",
+      "backend/xiaobei_ai/prep_room_big_unit_renderer_fetch_adapter_1013K_R13.py",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013K_R29A_courseware_viewmodel_normalization_before_visible_render/"
+    ],
+    "why": "Existing big-unit and courseware ViewModel chains explain where unit chunks, screen seeds, display preview, and courseware data should come from.",
+    "current_status": "reuse_as_level_3_tool_sources"
+  },
+  {
+    "asset_id": "platform_core_render_blocks_0954C",
+    "decision": "reference_as_safety_and_type_registry_not_runtime",
+    "files": [
+      "platform_core/render_blocks/render_block_registry_contract_0954C.md",
+      "platform_core/render_blocks/render_block_registry_0954C.js"
+    ],
+    "why": "It has a useful inactive render block registry and safety model, but its own contract says it is not imported into runtime.",
+    "current_status": "reference_only_until_adapter_stage"
+  },
+  {
+    "asset_id": "system_semantic_interaction_runtime",
+    "decision": "reference_for_future_intent_command_gate_not_connected_now",
+    "files": [
+      "backend/xiaobei_ai/system_semantic_interaction_runtime/action_policy.py",
+      "backend/xiaobei_ai/system_semantic_interaction_runtime/command_dsl.py",
+      "backend/xiaobei_ai/system_semantic_interaction_runtime/side_effect_gate.py",
+      "backend/xiaobei_ai/system_semantic_interaction_runtime/orchestrator.py"
+    ],
+    "why": "Existing command/gate concepts match the four-level route idea, but R25-R29 stay static/fixture and do not connect runtime.",
+    "current_status": "future_bridge"
+  },
+  {
+    "asset_id": "frontend_workbench_legacy_assets",
+    "decision": "mine_for_patterns_not_new_page_line",
+    "files": [
+      "frontend/workbench/workbench_intent_router_v1.js",
+      "frontend/workbench/workbench_preview_viewmodel_adapter_070G.js",
+      "frontend/workbench/workbench_renderer_protocol_v1.js",
+      "frontend/workbench/workbench_candidate_decision_v1.js"
+    ],
+    "why": "Workbench contains prior router, preview, renderer, and candidate-decision vocabulary; current prep-room work should not reopen a disconnected workbench page.",
+    "current_status": "pattern_reference"
+  },
+  {
+    "asset_id": "openclaw_history_and_scans",
+    "decision": "archive_reference_only",
+    "files": [
+      "http://localhost:9876/history-viewer.html",
+      "http://localhost:9876/data/inventory-l2.json",
+      "docs/audit/openclaw_import_allowlist_067D.md",
+      "docs/audit/capability_executor_coverage_inventory_067E.md"
+    ],
+    "why": "OpenClaw scan output is useful for locating old assets, but old policy forbids importing its runtime or memory.",
+    "current_status": "do_not_bind_as_runtime"
+  }
+]

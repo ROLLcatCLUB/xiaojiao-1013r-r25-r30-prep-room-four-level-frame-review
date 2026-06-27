@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "stage": "1013R_R26_PAGE_COPY_FOUR_LEVEL_FRAME_MARKERS",
+  "marker_id": "SHIWEI_PAGE_COPY_FOUR_LEVEL_FRAME_MARKERS_R0",
+  "generated_at": "2026-06-27T10:50:22+00:00",
+  "consumes": {
+    "r25_stage": "1013R_R25_FOUR_LEVEL_FRAME_IMPLEMENTATION_MAP",
+    "r21_stage": "1013R_R21_PAGE_COPY_BINDS_UNIFIED_PACKAGE",
+    "current_surface": "R21 page copy"
+  },
+  "marker_data_attributes": [
+    "data-shiwei-four-level-frame",
+    "data-shiwei-four-level-stage",
+    "data-shiwei-frame-route-rule",
+    "data-shiwei-current-room",
+    "data-shiwei-frame-level",
+    "data-shiwei-frame-key",
+    "data-shiwei-frame-role",
+    "data-shiwei-frame-stage"
+  ],
+  "marker_targets": [
+    {
+      "level": 1,
+      "level_key": "platform_shell",
+      "selector_groups": [
+        ".topbar",
+        ".xiaobei-chat-entry",
+        "#chatInput",
+        "#statusMain"
+      ],
+      "role": "global_top_bar_and_bottom_xiaojiao_entry"
+    },
+    {
+      "level": 2,
+      "level_key": "room_workspace",
+      "selector_groups": [
+        ".canvas-stage",
+        ".render-layer",
+        "body[data-active-view='prepNotebook'] .nb-scene:not(.courseware-expanded-scene)",
+        "body[data-active-view='prepNotebook'] .nb-binder"
+      ],
+      "role": "prep_room_workspace_and_dynamic_render_stage"
+    },
+    {
+      "level": 3,
+      "level_key": "tool_frame",
+      "selector_groups": [
+        ".nb-panel",
+        ".nb-right-rail",
+        ".nb-drawer",
+        ".nb-state-bar",
+        ".nb-doc-section-head .node-action",
+        ".r21-big-unit-section-actions",
+        ".courseware-r1e-toolbar"
+      ],
+      "role": "prep_room_tools_and_action_frames"
+    },
+    {
+      "level": 4,
+      "level_key": "content_rendering",
+      "selector_groups": [
+        ".nb-workspace",
+        ".nb-doc-section",
+        ".nb-flow-step",
+        ".nb-step-detail-item",
+        ".r21-big-unit-line",
+        ".r36-edit-bubble",
+        ".r6p-modal",
+        ".courseware-screen-mini",
+        ".courseware-screen-card",
+        ".courseware-screen-row"
+      ],
+      "role": "lesson_content_candidate_cards_and_derivative_content"
+    }
+  ],
+  "html_checks": {
+    "has_marker_stage_id": true,
+    "has_marker_function": true,
+    "has_marker_state": true,
+    "has_level_attribute": true,
+    "has_room_marker": true
+  },
+  "implementation_rule": {
+    "visible_surface_remains_r21_page_copy": true,
+    "no_new_html_page_written_by_r26": true,
+    "markers_are_runtime_data_attributes": true,
+    "markers_do_not_change_layout": true
+  },
+  "next_stage_recommendation": {
+    "stage": "1013R_R27_XIAOJIAO_INTENT_FRAME_ROUTER_FIXTURE",
+    "why": "R21 can now expose four-level frame markers; next define a static Xiaojiao intent-to-frame router fixture without connecting a model."
+  },
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": false,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R26_PAGE_COPY_FOUR_LEVEL_FRAME_MARKERS",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": true,
+    "render_blocks_protocol_defined": true,
+    "light_render_adapter_defined": true,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true,
+    "source_policy_light_validator_readonly": true,
+    "render_blocks_protocol_readonly": true,
+    "light_render_adapter_readonly": true,
+    "existing_page_modified": false,
+    "derivative_object_linkage_readonly": true,
+    "derivative_static_linkage_defined": true,
+    "courseware_export_created": false,
+    "worksheet_export_created": false,
+    "assessment_written": false,
+    "unified_package_readonly_export": true,
+    "static_json_export_allowed": true,
+    "endpoint_registered": false,
+    "prototype_copy_created": false,
+    "page_copy_created": true,
+    "page_binds_unified_package": true,
+    "internal_prototype_binding": true,
+    "external_protocol_band_created": false,
+    "new_blank_static_page_created": false,
+    "source_prototype_modified": false,
+    "teacher_readability_smoke_defined": true,
+    "visual_2k_check_expected": true,
+    "teacher_walkthrough_script_defined": true,
+    "render_block_component_boundary_defined": true,
+    "component_implementation_created": false,
+    "four_level_frame_implementation_map_defined": true,
+    "history_viewer_used_as_index_only": true,
+    "openclaw_runtime_imported": false,
+    "openclaw_memory_imported": false,
+    "page_dom_modified": false,
+    "new_disconnected_page_created": false,
+    "page_copy_four_level_markers_defined": true,
+    "runtime_dom_data_markers_added": true,
+    "visible_layout_modified": false
+  }
+}

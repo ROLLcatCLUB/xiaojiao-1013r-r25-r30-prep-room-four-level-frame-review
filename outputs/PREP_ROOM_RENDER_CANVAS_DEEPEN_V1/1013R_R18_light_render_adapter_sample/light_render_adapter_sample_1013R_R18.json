@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "stage": "1013R_R18_LIGHT_RENDER_ADAPTER_SAMPLE",
+  "adapter_id": "SHIWEI_LIGHT_RENDER_ADAPTER_SAMPLE_R0",
+  "generated_at": "2026-06-26T18:45:23+00:00",
+  "consumes": {
+    "render_blocks_protocol_stage": "1013R_R17_RENDER_BLOCKS_PROTOCOL_R0",
+    "protocol_id": "SHIWEI_RENDER_BLOCKS_PROTOCOL_R0",
+    "block_count": 14
+  },
+  "render_plan": {
+    "layout": "three_column_block_grid",
+    "block_count": 14,
+    "required_block_fields": [
+      "block_id",
+      "slot_id",
+      "block_type",
+      "title",
+      "render_state",
+      "gate_type"
+    ],
+    "html_output": "static_sample_only"
+  },
+  "html": "<!doctype html>\n<html lang=\"zh-CN\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title>R18 备课室轻量渲染适配样板</title>\n  <style>\n    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif; background: #f5f7f3; color: #263f38; }\n    main { max-width: 1180px; margin: 0 auto; padding: 28px; }\n    h1 { font-size: 24px; margin: 0 0 8px; }\n    .r18-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }\n    .r18-block { min-height: 118px; border: 1px solid #d8e4dd; background: #fffdf7; border-radius: 8px; padding: 14px; box-sizing: border-box; }\n    .r18-block-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }\n    .r18-block-head strong { font-size: 15px; }\n    .r18-block-head em { font-style: normal; color: #5a756b; font-size: 12px; }\n    .r18-block p { color: #425e54; font-size: 13px; line-height: 1.5; }\n    .r18-badges { display: flex; flex-wrap: wrap; gap: 6px; }\n    .r18-badges span { border: 1px solid #d3e6dd; border-radius: 999px; padding: 3px 7px; font-size: 12px; color: #2d6f61; }\n  </style>\n</head>\n<body>\n  <main>\n    <h1>备课室轻量渲染适配样板</h1>\n    <p>当前对象：2-1《色彩的渐变》。本页只渲染 R17 render_blocks，不写入、不调用模型、不 formal apply。</p>\n    <div class=\"r18-grid\">\n<section class=\"r18-block\" data-slot=\"current_object_card\" data-gate=\"view_only\"><div class=\"r18-block-head\"><strong>当前课题卡</strong><em>object_summary</em></div><p>bound · view_only · 暂无可执行动作</p><div class=\"r18-badges\"><span>textbook_anchor</span><span>user_provided_g3_textbook_catalog_photo</span></div></section>\n<section class=\"r18-block\" data-slot=\"xiaojiao_task_state\" data-gate=\"view_only\"><div class=\"r18-block-head\"><strong>小教任务状态</strong><em>task_state</em></div><p>contract_ready · view_only · 暂无可执行动作</p><div class=\"r18-badges\"><span>system_structure</span><span>task_state_contract_1013R_R13</span></div></section>\n<section class=\"r18-block\" data-slot=\"lesson_body\" data-gate=\"preview_then_confirm\"><div class=\"r18-block-head\"><strong>备课本正文</strong><em>document_sections</em></div><p>bound · preview_then_confirm · 精修备课本正文 / 确认精修备课正文预览</p><div class=\"r18-badges\"><span>textbook_anchor_plus_reference</span><span>user_provided_g3_textbook_catalog_photo</span><span>work_plan_render_packet_0993B_real_catalog_hint</span></div></section>\n<section class=\"r18-block\" data-slot=\"teaching_process\" data-gate=\"preview_then_confirm\"><div class=\"r18-block-head\"><strong>教学过程</strong><em>process_steps</em></div><p>bound · preview_then_confirm · 精修备课本正文 / 确认精修备课正文预览</p><div class=\"r18-badges\"><span>system_structure</span><span>prep_view_patch.current_lesson.process_steps</span></div></section>\n<section class=\"r18-block\" data-slot=\"teacher_demo\" data-gate=\"preview_then_confirm\"><div class=\"r18-block-head\"><strong>教师示范</strong><em>derivative_placeholder</em></div><p>placeholder · preview_then_confirm · 暂无可执行动作</p><div class=\"r18-badges\"><span>teacher_input_required</span><span>teacher_input_required</span></div></section>\n<section class=\"r18-block\" data-slot=\"courseware_script\" data-gate=\"preview_then_confirm\"><div class=\"r18-block-head\"><strong>课件脚本</strong><em>courseware_preview</em></div><p>bound_as_preview · preview_then_confirm · 生成课件脚本预览 / 确认生成课件脚本预览</p><div class=\"r18-badges\"><span>system_structure</span><span>courseware_screen_patch</span></div></section>\n<section class=\"r18-block\" data-slot=\"classroom_display_screen\" data-gate=\"preview_then_confirm\"><div class=\"r18-block-head\"><strong>大屏呈现</strong><em>display_preview</em></div><p>bound_as_preview · preview_then_confirm · 生成大屏呈现预览 / 确认生成大屏预览</p><div class=\"r18-badges\"><span>system_structure</span><span>courseware_screen_patch</span></div></section>\n<section class=\"r18-block\" data-slot=\"worksheet\" data-gate=\"preview_then_confirm\"><div class=\"r18-block-head\"><strong>学习单</strong><em>worksheet_placeholder</em></div><p>placeholder · preview_then_confirm · 生成学习单预览 / 确认生成学习单预览</p><div class=\"r18-badges\"><span>teacher_input_required</span><span>teacher_input_required</span></div></section>\n<section class=\"r18-block\" data-slot=\"assessment_rubric\" data-gate=\"blocked_until_teacher_dimension\"><div class=\"r18-block-head\"><strong>评价表</strong><em>assessment_blocked</em></div><p>placeholder · blocked_until_teacher_dimension · 生成评价表预览</p><div class=\"r18-badges\"><span>teacher_input_required</span><span>teacher_input_required</span></div></section>\n<section class=\"r18-block\" data-slot=\"blackboard_design\" data-gate=\"preview_then_confirm\"><div class=\"r18-block-head\"><strong>板书设计</strong><em>blackboard_placeholder</em></div><p>placeholder · preview_then_confirm · 暂无可执行动作</p><div class=\"r18-badges\"><span>teacher_input_required</span><span>teacher_input_required</span></div></section>\n<section class=\"r18-block\" data-slot=\"materials_list\" data-gate=\"preview_then_confirm\"><div class=\"r18-block-head\"><strong>材料清单</strong><em>materials_preview</em></div><p>bound_as_preview · preview_then_confirm · 暂无可执行动作</p><div class=\"r18-badges\"><span>mixed_reference</span><span>source_matrix</span></div></section>\n<section class=\"r18-block\" data-slot=\"source_evidence\" data-gate=\"view_only\"><div class=\"r18-block-head\"><strong>资料来源与证据</strong><em>source_policy</em></div><p>contract_ready · view_only · 暂无可执行动作</p><div class=\"r18-badges\"><span>source_policy</span><span>source_matrix</span></div></section>\n<section class=\"r18-block\" data-slot=\"confirm_actions\" data-gate=\"gate_required\"><div class=\"r18-block-head\"><strong>教师确认动作</strong><em>action_gate</em></div><p>contract_ready · gate_required · 暂无可执行动作</p><div class=\"r18-badges\"><span>system_structure</span><span>runtime_actions</span></div></section>\n<section class=\"r18-block\" data-slot=\"bottom_composer\" data-gate=\"intent_preview_only\"><div class=\"r18-block-head\"><strong>底部小教输入</strong><em>composer_prompt</em></div><p>bound_as_prompt · intent_preview_only · 暂无可执行动作</p><div class=\"r18-badges\"><span>system_structure</span><span>task_state_contract_1013R_R13</span></div></section>\n    </div>\n  </main>\n</body>\n</html>\n",
+  "next_stage_recommendation": {
+    "stage": "1013R_R19_DERIVATIVE_OBJECT_STATIC_LINKAGE_SAMPLE",
+    "why": "轻量适配器已经能渲染 blocks；下一步把大屏、课件、学习单、评价表和教学过程建立静态联动。"
+  },
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R18_LIGHT_RENDER_ADAPTER_SAMPLE",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": true,
+    "render_blocks_protocol_defined": true,
+    "light_render_adapter_defined": true,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true,
+    "source_policy_light_validator_readonly": true,
+    "render_blocks_protocol_readonly": true,
+    "light_render_adapter_readonly": true,
+    "existing_page_modified": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "stage_id": "1013R_R20_PREP_ROOM_UNIFIED_PACKAGE_READONLY_EXPORT_R0",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-26T19:09:27+00:00",
+  "checks": {
+    "unified_package_created": true,
+    "r15_r16_r17_r19_consumed": true,
+    "render_blocks_and_derivatives_linked": true,
+    "not_route_or_endpoint": true,
+    "readonly_boundaries_intact": true,
+    "R36_modified": false,
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

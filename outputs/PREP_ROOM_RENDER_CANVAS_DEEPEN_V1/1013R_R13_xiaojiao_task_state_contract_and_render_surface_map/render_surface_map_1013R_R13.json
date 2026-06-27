@@ -1,0 +1,323 @@
+[
+  {
+    "slot_id": "current_object_card",
+    "human_name": "当前课题卡",
+    "teacher_visible_purpose": "让老师一眼知道当前正在备哪一课。",
+    "data_source": [
+      "task_object",
+      "prep_view_patch.current_lesson"
+    ],
+    "render_state": "bound",
+    "action_gate": "view_only",
+    "source_refs": {
+      "source_ids": [
+        "user_provided_g3_textbook_catalog_photo"
+      ],
+      "source_policy": "textbook_anchor",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "switch_lesson_after_gate"
+    ]
+  },
+  {
+    "slot_id": "xiaojiao_task_state",
+    "human_name": "小教任务状态",
+    "teacher_visible_purpose": "显示小教判断、已知材料、缺口和建议下一步。",
+    "data_source": [
+      "xiaojiao_task_state_contract"
+    ],
+    "render_state": "contract_ready",
+    "action_gate": "view_only",
+    "source_refs": {
+      "source_ids": [
+        "task_state_contract_1013R_R13"
+      ],
+      "source_policy": "system_structure",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "add_material",
+      "choose_preview_candidate"
+    ]
+  },
+  {
+    "slot_id": "lesson_body",
+    "human_name": "备课本正文",
+    "teacher_visible_purpose": "承载教学目标、重难点、准备、过程和评价建议。",
+    "data_source": [
+      "prep_view_patch.current_lesson.sections"
+    ],
+    "render_state": "bound",
+    "action_gate": "preview_then_confirm",
+    "source_refs": {
+      "source_ids": [
+        "user_provided_g3_textbook_catalog_photo",
+        "work_plan_render_packet_0993B_real_catalog_hint",
+        "kb_g3_u1_old_ai_gradient_unit_doc"
+      ],
+      "source_policy": "textbook_anchor_plus_reference",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "refine_section",
+      "preview_patch",
+      "teacher_confirm_patch"
+    ]
+  },
+  {
+    "slot_id": "teaching_process",
+    "human_name": "教学过程",
+    "teacher_visible_purpose": "把课堂环节拆成可检查的教师动作、学生活动、大屏提示和证据。",
+    "data_source": [
+      "prep_view_patch.current_lesson.process_steps"
+    ],
+    "render_state": "bound",
+    "action_gate": "preview_then_confirm",
+    "source_refs": {
+      "source_ids": [
+        "prep_view_patch.current_lesson.process_steps"
+      ],
+      "source_policy": "system_structure",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "refine_process_step",
+      "link_display_screen",
+      "create_evidence_check"
+    ]
+  },
+  {
+    "slot_id": "teacher_demo",
+    "human_name": "教师示范",
+    "teacher_visible_purpose": "沉淀示范步骤、注意点和可上屏的示范语。",
+    "data_source": [
+      "prep_view_patch.current_lesson.process_steps",
+      "courseware_screen_patch"
+    ],
+    "render_state": "placeholder",
+    "action_gate": "preview_then_confirm",
+    "source_refs": {
+      "source_ids": [
+        "teacher_input_required"
+      ],
+      "source_policy": "teacher_input_required",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "generate_demo_preview",
+      "confirm_demo_script"
+    ]
+  },
+  {
+    "slot_id": "courseware_script",
+    "human_name": "课件脚本",
+    "teacher_visible_purpose": "定义 PPT/课件的屏幕顺序、标题、课堂作用和素材状态。",
+    "data_source": [
+      "courseware_screen_patch"
+    ],
+    "render_state": "bound_as_preview",
+    "action_gate": "preview_then_confirm",
+    "source_refs": {
+      "source_ids": [
+        "courseware_screen_patch"
+      ],
+      "source_policy": "system_structure",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "generate_courseware_script",
+      "export_courseware_after_gate"
+    ]
+  },
+  {
+    "slot_id": "classroom_display_screen",
+    "human_name": "大屏呈现",
+    "teacher_visible_purpose": "定义上课时投屏给学生看的文字、图像、白板和任务提示。",
+    "data_source": [
+      "prep_view_patch.current_lesson.big_screen_short_text",
+      "courseware_screen_patch"
+    ],
+    "render_state": "bound_as_preview",
+    "action_gate": "preview_then_confirm",
+    "source_refs": {
+      "source_ids": [
+        "courseware_screen_patch"
+      ],
+      "source_policy": "system_structure",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "generate_display_screen_preview",
+      "link_screen_to_process_step"
+    ]
+  },
+  {
+    "slot_id": "worksheet",
+    "human_name": "学习单",
+    "teacher_visible_purpose": "记录学生试色、排序、发现和修改理由。",
+    "data_source": [
+      "prep_view_patch.current_lesson.sections.assessment"
+    ],
+    "render_state": "placeholder",
+    "action_gate": "preview_then_confirm",
+    "source_refs": {
+      "source_ids": [
+        "teacher_input_required"
+      ],
+      "source_policy": "teacher_input_required",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "generate_worksheet_preview",
+      "confirm_worksheet"
+    ]
+  },
+  {
+    "slot_id": "assessment_rubric",
+    "human_name": "评价表",
+    "teacher_visible_purpose": "定义课堂评价维度、证据和教师确认后的评价用语。",
+    "data_source": [
+      "prep_view_patch.current_lesson.sections.assessment"
+    ],
+    "render_state": "placeholder",
+    "action_gate": "blocked_until_teacher_dimension",
+    "source_refs": {
+      "source_ids": [
+        "teacher_input_required"
+      ],
+      "source_policy": "teacher_input_required",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "define_assessment_dimension",
+      "preview_rubric"
+    ]
+  },
+  {
+    "slot_id": "blackboard_design",
+    "human_name": "板书设计",
+    "teacher_visible_purpose": "承载本课核心概念、步骤和学生可见的课堂结构。",
+    "data_source": [
+      "prep_view_patch.current_lesson.flow",
+      "teacher_input_required"
+    ],
+    "render_state": "placeholder",
+    "action_gate": "preview_then_confirm",
+    "source_refs": {
+      "source_ids": [
+        "teacher_input_required"
+      ],
+      "source_policy": "teacher_input_required",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "generate_blackboard_preview"
+    ]
+  },
+  {
+    "slot_id": "materials_list",
+    "human_name": "材料清单",
+    "teacher_visible_purpose": "列出教材页、色卡、试色纸、颜料、学生作品样例等材料。",
+    "data_source": [
+      "prep_view_patch.current_lesson.sections.preparation",
+      "source_matrix"
+    ],
+    "render_state": "bound_as_preview",
+    "action_gate": "preview_then_confirm",
+    "source_refs": {
+      "source_ids": [
+        "source_matrix"
+      ],
+      "source_policy": "mixed_reference",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "check_missing_materials",
+      "add_teacher_material"
+    ]
+  },
+  {
+    "slot_id": "source_evidence",
+    "human_name": "资料来源与证据",
+    "teacher_visible_purpose": "区分教材依据、教师输入、AI 草案、外部参考和系统结构。",
+    "data_source": [
+      "source_matrix",
+      "source_policy_notes"
+    ],
+    "render_state": "contract_ready",
+    "action_gate": "view_only",
+    "source_refs": {
+      "source_ids": [
+        "source_matrix"
+      ],
+      "source_policy": "source_policy",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "open_source_detail",
+      "run_source_policy_validator"
+    ]
+  },
+  {
+    "slot_id": "confirm_actions",
+    "human_name": "教师确认动作",
+    "teacher_visible_purpose": "列出可预览、需确认、阻断和未来动作。",
+    "data_source": [
+      "runtime_actions",
+      "preview_candidates",
+      "teacher_confirm_actions",
+      "blocked_actions"
+    ],
+    "render_state": "contract_ready",
+    "action_gate": "gate_required",
+    "source_refs": {
+      "source_ids": [
+        "runtime_actions"
+      ],
+      "source_policy": "system_structure",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "confirm_preview",
+      "reject_preview",
+      "defer_action"
+    ]
+  },
+  {
+    "slot_id": "bottom_composer",
+    "human_name": "底部小教输入",
+    "teacher_visible_purpose": "作为推进当前工作的入口，而不是普通聊天框。",
+    "data_source": [
+      "task_state",
+      "suggested_teacher_prompts"
+    ],
+    "render_state": "bound_as_prompt",
+    "action_gate": "intent_preview_only",
+    "source_refs": {
+      "source_ids": [
+        "task_state_contract_1013R_R13"
+      ],
+      "source_policy": "system_structure",
+      "must_show_source_badge": true,
+      "ai_draft_may_not_be_standard": true
+    },
+    "future_actions": [
+      "submit_teacher_requirement",
+      "classify_intent"
+    ]
+  }
+]

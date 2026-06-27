@@ -1,0 +1,21 @@
+{
+  "stage_id": "1013R_R11_PREP_ROOM_R9_FETCH_R10_VIEWMODEL_STATIC_BINDING",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-26T18:29:54+00:00",
+  "html_path": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R11_prep_room_fetch_r10_viewmodel_static_binding\\prep_room_render_canvas_deepen_v1_1013R_R11_prep_room_fetch_r10_viewmodel_static_binding.html",
+  "checks": {
+    "r9_copy_inherited": true,
+    "legacy_1013l_hydration_disabled": true,
+    "legacy_r7_text_walker_disabled": true,
+    "r11_fetches_r10_viewmodel": true,
+    "r11_main_binding_avoids_full_text_walker": true,
+    "r10_real_textbook_anchor": true,
+    "readonly_boundaries_intact": true,
+    "R36_modified": false,
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

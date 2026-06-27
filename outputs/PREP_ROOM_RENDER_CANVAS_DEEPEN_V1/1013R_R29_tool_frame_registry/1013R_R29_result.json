@@ -1,0 +1,15 @@
+{
+  "stage_id": "1013R_R29_TOOL_FRAME_REGISTRY",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-27T10:50:24+00:00",
+  "checks": {
+    "tool_registry_defined": true,
+    "all_expected_tools_present": true,
+    "render_groups_from_r17": true,
+    "component_groups_from_r24": true,
+    "tool_behavior_not_implemented": true,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

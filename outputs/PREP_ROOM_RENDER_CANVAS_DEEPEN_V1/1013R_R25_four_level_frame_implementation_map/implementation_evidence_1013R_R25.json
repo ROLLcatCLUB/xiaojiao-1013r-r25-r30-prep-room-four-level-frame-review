@@ -1,0 +1,107 @@
+{
+  "module": "backend.xiaobei_ai.prep_room_four_level_frame_implementation_map_1013R_R25",
+  "map_id": "SHIWEI_FOUR_LEVEL_FRAME_IMPLEMENTATION_MAP_R0",
+  "level_count": 4,
+  "asset_decision_count": 8,
+  "implementation_sequence": [
+    {
+      "stage": "1013R_R26_PAGE_COPY_FOUR_LEVEL_FRAME_MARKERS",
+      "purpose": "Add data-level markers inside the current R21 page copy only.",
+      "depends_on": [
+        "1013R_R25_FOUR_LEVEL_FRAME_IMPLEMENTATION_MAP"
+      ]
+    },
+    {
+      "stage": "1013R_R27_XIAOJIAO_INTENT_FRAME_ROUTER_FIXTURE",
+      "purpose": "Create static intent-to-level routing fixture, no model/provider/runtime.",
+      "depends_on": [
+        "1013R_R25_FOUR_LEVEL_FRAME_IMPLEMENTATION_MAP"
+      ]
+    },
+    {
+      "stage": "1013R_R28_ROOM_WORKSPACE_REGISTRY",
+      "purpose": "Derive room registry from 1013L states and current product rooms.",
+      "depends_on": [
+        "1013L_R0_MAIN_RENDER_SHELL_BASELINE_AND_BACKEND_REUSE_REGISTRY"
+      ]
+    },
+    {
+      "stage": "1013R_R29_TOOL_FRAME_REGISTRY",
+      "purpose": "Derive tool frame registry from L5 active capabilities and R17/R24 render groups.",
+      "depends_on": [
+        "1013L_R5_MAIN_SHELL_BACKEND_VIEWMODEL_READONLY_FETCH_ADAPTER",
+        "1013R_R17_RENDER_BLOCKS_PROTOCOL_R0"
+      ]
+    }
+  ],
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": false,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R25_FOUR_LEVEL_FRAME_IMPLEMENTATION_MAP",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": true,
+    "render_blocks_protocol_defined": true,
+    "light_render_adapter_defined": true,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true,
+    "source_policy_light_validator_readonly": true,
+    "render_blocks_protocol_readonly": true,
+    "light_render_adapter_readonly": true,
+    "existing_page_modified": false,
+    "derivative_object_linkage_readonly": true,
+    "derivative_static_linkage_defined": true,
+    "courseware_export_created": false,
+    "worksheet_export_created": false,
+    "assessment_written": false,
+    "unified_package_readonly_export": true,
+    "static_json_export_allowed": true,
+    "endpoint_registered": false,
+    "prototype_copy_created": false,
+    "page_copy_created": true,
+    "page_binds_unified_package": true,
+    "internal_prototype_binding": true,
+    "external_protocol_band_created": false,
+    "new_blank_static_page_created": false,
+    "source_prototype_modified": false,
+    "teacher_readability_smoke_defined": true,
+    "visual_2k_check_expected": true,
+    "teacher_walkthrough_script_defined": true,
+    "render_block_component_boundary_defined": true,
+    "component_implementation_created": false,
+    "four_level_frame_implementation_map_defined": true,
+    "history_viewer_used_as_index_only": true,
+    "openclaw_runtime_imported": false,
+    "openclaw_memory_imported": false,
+    "page_dom_modified": false,
+    "new_disconnected_page_created": false
+  }
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "unit_no": 1,
+    "unit_title": "记录生活",
+    "lessons": [
+      {
+        "lesson_no": 1,
+        "lesson_title": "画中的生活",
+        "page": 1
+      },
+      {
+        "lesson_no": 2,
+        "lesson_title": "流淌的情感",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "unit_no": 2,
+    "unit_title": "多彩的世界",
+    "lessons": [
+      {
+        "lesson_no": 1,
+        "lesson_title": "色彩的渐变",
+        "page": 6
+      },
+      {
+        "lesson_no": 2,
+        "lesson_title": "渐变的节奏",
+        "page": 8
+      },
+      {
+        "lesson_no": 3,
+        "lesson_title": "多彩的生活",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "unit_no": 3,
+    "unit_title": "辽阔的海洋",
+    "lessons": [
+      {
+        "lesson_no": 1,
+        "lesson_title": "奇异的海洋生物",
+        "page": 12
+      },
+      {
+        "lesson_no": 2,
+        "lesson_title": "跳动的蓝色心脏",
+        "page": 14
+      },
+      {
+        "lesson_no": 3,
+        "lesson_title": "守护生命的摇篮",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "unit_no": 4,
+    "unit_title": "红领巾告诉我",
+    "lessons": [
+      {
+        "lesson_no": 1,
+        "lesson_title": "种下红色种子",
+        "page": 18
+      },
+      {
+        "lesson_no": 2,
+        "lesson_title": "传承红色精神",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "unit_no": "special",
+    "unit_title": "青绿中国色",
+    "lessons": [
+      {
+        "lesson_no": "theme",
+        "lesson_title": "青绿中国色",
+        "page": 22
+      }
+    ],
+    "page_span": "22-27"
+  },
+  {
+    "unit_no": 5,
+    "unit_title": "足下生辉",
+    "lessons": [
+      {
+        "lesson_no": 1,
+        "lesson_title": "走过四季",
+        "page": 28
+      },
+      {
+        "lesson_no": 2,
+        "lesson_title": "魅力鞋汇",
+        "page": 30
+      },
+      {
+        "lesson_no": 3,
+        "lesson_title": "时空“履”行",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "unit_no": 6,
+    "unit_title": "装点生活",
+    "lessons": [
+      {
+        "lesson_no": 1,
+        "lesson_title": "纹样有特点",
+        "page": 34
+      },
+      {
+        "lesson_no": 2,
+        "lesson_title": "纹样的魅力",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "unit_no": 7,
+    "unit_title": "虎虎生威",
+    "lessons": [
+      {
+        "lesson_no": 1,
+        "lesson_title": "虎虎虎",
+        "page": 38
+      },
+      {
+        "lesson_no": 2,
+        "lesson_title": "巧手做老虎",
+        "page": 40
+      }
+    ]
+  },
+  {
+    "unit_no": 8,
+    "unit_title": "成长日记",
+    "lessons": [
+      {
+        "lesson_no": 1,
+        "lesson_title": "蓬勃的生命",
+        "page": 42
+      },
+      {
+        "lesson_no": 2,
+        "lesson_title": "奔跑的少年",
+        "page": 44
+      },
+      {
+        "lesson_no": 3,
+        "lesson_title": "未来的我们",
+        "page": 46
+      }
+    ]
+  },
+  {
+    "unit_no": "extension",
+    "unit_title": "迁移拓展",
+    "lessons": [
+      {
+        "lesson_no": "extension",
+        "lesson_title": "迁移拓展",
+        "page": 48
+      }
+    ]
+  }
+]

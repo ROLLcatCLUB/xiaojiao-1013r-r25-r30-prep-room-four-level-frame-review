@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>R18 备课室轻量渲染适配样板</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f7f3; color: #263f38; }
+    main { max-width: 1180px; margin: 0 auto; padding: 28px; }
+    h1 { font-size: 24px; margin: 0 0 8px; }
+    .r18-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+    .r18-block { min-height: 118px; border: 1px solid #d8e4dd; background: #fffdf7; border-radius: 8px; padding: 14px; box-sizing: border-box; }
+    .r18-block-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .r18-block-head strong { font-size: 15px; }
+    .r18-block-head em { font-style: normal; color: #5a756b; font-size: 12px; }
+    .r18-block p { color: #425e54; font-size: 13px; line-height: 1.5; }
+    .r18-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+    .r18-badges span { border: 1px solid #d3e6dd; border-radius: 999px; padding: 3px 7px; font-size: 12px; color: #2d6f61; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>备课室轻量渲染适配样板</h1>
+    <p>当前对象：2-1《色彩的渐变》。本页只渲染 R17 render_blocks，不写入、不调用模型、不 formal apply。</p>
+    <div class="r18-grid">
+<section class="r18-block" data-slot="current_object_card" data-gate="view_only"><div class="r18-block-head"><strong>当前课题卡</strong><em>object_summary</em></div><p>bound · view_only · 暂无可执行动作</p><div class="r18-badges"><span>textbook_anchor</span><span>user_provided_g3_textbook_catalog_photo</span></div></section>
+<section class="r18-block" data-slot="xiaojiao_task_state" data-gate="view_only"><div class="r18-block-head"><strong>小教任务状态</strong><em>task_state</em></div><p>contract_ready · view_only · 暂无可执行动作</p><div class="r18-badges"><span>system_structure</span><span>task_state_contract_1013R_R13</span></div></section>
+<section class="r18-block" data-slot="lesson_body" data-gate="preview_then_confirm"><div class="r18-block-head"><strong>备课本正文</strong><em>document_sections</em></div><p>bound · preview_then_confirm · 精修备课本正文 / 确认精修备课正文预览</p><div class="r18-badges"><span>textbook_anchor_plus_reference</span><span>user_provided_g3_textbook_catalog_photo</span><span>work_plan_render_packet_0993B_real_catalog_hint</span></div></section>
+<section class="r18-block" data-slot="teaching_process" data-gate="preview_then_confirm"><div class="r18-block-head"><strong>教学过程</strong><em>process_steps</em></div><p>bound · preview_then_confirm · 精修备课本正文 / 确认精修备课正文预览</p><div class="r18-badges"><span>system_structure</span><span>prep_view_patch.current_lesson.process_steps</span></div></section>
+<section class="r18-block" data-slot="teacher_demo" data-gate="preview_then_confirm"><div class="r18-block-head"><strong>教师示范</strong><em>derivative_placeholder</em></div><p>placeholder · preview_then_confirm · 暂无可执行动作</p><div class="r18-badges"><span>teacher_input_required</span><span>teacher_input_required</span></div></section>
+<section class="r18-block" data-slot="courseware_script" data-gate="preview_then_confirm"><div class="r18-block-head"><strong>课件脚本</strong><em>courseware_preview</em></div><p>bound_as_preview · preview_then_confirm · 生成课件脚本预览 / 确认生成课件脚本预览</p><div class="r18-badges"><span>system_structure</span><span>courseware_screen_patch</span></div></section>
+<section class="r18-block" data-slot="classroom_display_screen" data-gate="preview_then_confirm"><div class="r18-block-head"><strong>大屏呈现</strong><em>display_preview</em></div><p>bound_as_preview · preview_then_confirm · 生成大屏呈现预览 / 确认生成大屏预览</p><div class="r18-badges"><span>system_structure</span><span>courseware_screen_patch</span></div></section>
+<section class="r18-block" data-slot="worksheet" data-gate="preview_then_confirm"><div class="r18-block-head"><strong>学习单</strong><em>worksheet_placeholder</em></div><p>placeholder · preview_then_confirm · 生成学习单预览 / 确认生成学习单预览</p><div class="r18-badges"><span>teacher_input_required</span><span>teacher_input_required</span></div></section>
+<section class="r18-block" data-slot="assessment_rubric" data-gate="blocked_until_teacher_dimension"><div class="r18-block-head"><strong>评价表</strong><em>assessment_blocked</em></div><p>placeholder · blocked_until_teacher_dimension · 生成评价表预览</p><div class="r18-badges"><span>teacher_input_required</span><span>teacher_input_required</span></div></section>
+<section class="r18-block" data-slot="blackboard_design" data-gate="preview_then_confirm"><div class="r18-block-head"><strong>板书设计</strong><em>blackboard_placeholder</em></div><p>placeholder · preview_then_confirm · 暂无可执行动作</p><div class="r18-badges"><span>teacher_input_required</span><span>teacher_input_required</span></div></section>
+<section class="r18-block" data-slot="materials_list" data-gate="preview_then_confirm"><div class="r18-block-head"><strong>材料清单</strong><em>materials_preview</em></div><p>bound_as_preview · preview_then_confirm · 暂无可执行动作</p><div class="r18-badges"><span>mixed_reference</span><span>source_matrix</span></div></section>
+<section class="r18-block" data-slot="source_evidence" data-gate="view_only"><div class="r18-block-head"><strong>资料来源与证据</strong><em>source_policy</em></div><p>contract_ready · view_only · 暂无可执行动作</p><div class="r18-badges"><span>source_policy</span><span>source_matrix</span></div></section>
+<section class="r18-block" data-slot="confirm_actions" data-gate="gate_required"><div class="r18-block-head"><strong>教师确认动作</strong><em>action_gate</em></div><p>contract_ready · gate_required · 暂无可执行动作</p><div class="r18-badges"><span>system_structure</span><span>runtime_actions</span></div></section>
+<section class="r18-block" data-slot="bottom_composer" data-gate="intent_preview_only"><div class="r18-block-head"><strong>底部小教输入</strong><em>composer_prompt</em></div><p>bound_as_prompt · intent_preview_only · 暂无可执行动作</p><div class="r18-badges"><span>system_structure</span><span>task_state_contract_1013R_R13</span></div></section>
+    </div>
+  </main>
+</body>
+</html>

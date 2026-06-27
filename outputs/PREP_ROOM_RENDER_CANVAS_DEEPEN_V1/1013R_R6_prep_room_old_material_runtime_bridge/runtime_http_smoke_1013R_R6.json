@@ -1,0 +1,16 @@
+﻿{
+    "http_server_started":  true,
+    "port":  8083,
+    "pid":  57236,
+    "get_status_code":  200,
+    "get_ok":  true,
+    "get_title":  "三年级《色彩的渐变》",
+    "get_unit":  "第二单元《多彩的世界》",
+    "get_page":  6,
+    "get_route":  "/api/prep-room/task-state/g3_u2_color_gradient",
+    "post_status_code":  200,
+    "post_ok":  true,
+    "post_write_allowed":  false,
+    "old_color_feeling_route_status":  404,
+    "url":  "http://127.0.0.1:8083/api/prep-room/task-state/g3_u2_color_gradient"
+}

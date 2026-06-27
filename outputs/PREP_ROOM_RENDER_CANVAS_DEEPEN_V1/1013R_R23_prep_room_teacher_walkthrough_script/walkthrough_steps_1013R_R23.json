@@ -1,0 +1,38 @@
+[
+  {
+    "step_id": "open_prep_room",
+    "teacher_action": "老师打开备课室页面副本。",
+    "expected_system_state": "第一屏显示备课室、三年级第二单元第1课《色彩的渐变》和小教判断。",
+    "pass_signal": "不是空白聊天框，当前对象和小教任务状态同时可见。"
+  },
+  {
+    "step_id": "read_known_and_missing",
+    "teacher_action": "老师先看已知材料和缺口。",
+    "expected_system_state": "系统区分教材依据、教师输入、AI 草案和系统结构，并显示学生样例、评价维度等缺口。",
+    "pass_signal": "老师能知道下一步需要补什么，而不是只看到一篇长文。"
+  },
+  {
+    "step_id": "preview_display",
+    "teacher_action": "老师选择查看大屏呈现预览。",
+    "expected_system_state": "页面显示教学过程对应的大屏提示，但不导出、不保存。",
+    "pass_signal": "大屏是派生对象预览，仍在确认门内。"
+  },
+  {
+    "step_id": "preview_courseware",
+    "teacher_action": "老师查看课件脚本。",
+    "expected_system_state": "课件脚本与教学环节联动，显示预览状态。",
+    "pass_signal": "课件脚本不是独立长文，而是挂在课堂过程上。"
+  },
+  {
+    "step_id": "try_assessment",
+    "teacher_action": "老师尝试做评价表。",
+    "expected_system_state": "系统提示缺少学生作品样例和评价维度，评价表处于阻断状态。",
+    "pass_signal": "小教没有越过老师直接生成正式评价。"
+  },
+  {
+    "step_id": "teacher_confirm_next",
+    "teacher_action": "老师选择继续补充备课要求。",
+    "expected_system_state": "输入框提示为“告诉小教你要推进哪一步”。",
+    "pass_signal": "输入框是工作推进入口，不是产品中心。"
+  }
+]

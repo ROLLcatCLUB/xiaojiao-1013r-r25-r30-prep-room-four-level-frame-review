@@ -1,0 +1,18 @@
+{
+  "stage_id": "1013R_R17_RENDER_BLOCKS_PROTOCOL_R0",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-26T18:45:23+00:00",
+  "checks": {
+    "render_blocks_protocol_defined": true,
+    "r15_and_r16_consumed": true,
+    "major_blocks_present": true,
+    "no_block_allows_formal_apply": true,
+    "readonly_boundaries_intact": true,
+    "R36_modified": false,
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

@@ -1,0 +1,18 @@
+{
+  "stage_id": "1013R_R16_SOURCE_POLICY_LIGHT_VALIDATOR_R0",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-26T18:45:23+00:00",
+  "checks": {
+    "r15_unified_viewmodel_consumed": true,
+    "source_policy_ok": true,
+    "assessment_blocked": true,
+    "memory_write_blocked": true,
+    "readonly_boundaries_intact": true,
+    "R36_modified": false,
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

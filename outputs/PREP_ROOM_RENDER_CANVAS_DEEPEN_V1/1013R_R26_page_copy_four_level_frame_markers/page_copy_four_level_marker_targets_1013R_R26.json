@@ -1,0 +1,55 @@
+[
+  {
+    "level": 1,
+    "level_key": "platform_shell",
+    "selector_groups": [
+      ".topbar",
+      ".xiaobei-chat-entry",
+      "#chatInput",
+      "#statusMain"
+    ],
+    "role": "global_top_bar_and_bottom_xiaojiao_entry"
+  },
+  {
+    "level": 2,
+    "level_key": "room_workspace",
+    "selector_groups": [
+      ".canvas-stage",
+      ".render-layer",
+      "body[data-active-view='prepNotebook'] .nb-scene:not(.courseware-expanded-scene)",
+      "body[data-active-view='prepNotebook'] .nb-binder"
+    ],
+    "role": "prep_room_workspace_and_dynamic_render_stage"
+  },
+  {
+    "level": 3,
+    "level_key": "tool_frame",
+    "selector_groups": [
+      ".nb-panel",
+      ".nb-right-rail",
+      ".nb-drawer",
+      ".nb-state-bar",
+      ".nb-doc-section-head .node-action",
+      ".r21-big-unit-section-actions",
+      ".courseware-r1e-toolbar"
+    ],
+    "role": "prep_room_tools_and_action_frames"
+  },
+  {
+    "level": 4,
+    "level_key": "content_rendering",
+    "selector_groups": [
+      ".nb-workspace",
+      ".nb-doc-section",
+      ".nb-flow-step",
+      ".nb-step-detail-item",
+      ".r21-big-unit-line",
+      ".r36-edit-bubble",
+      ".r6p-modal",
+      ".courseware-screen-mini",
+      ".courseware-screen-card",
+      ".courseware-screen-row"
+    ],
+    "role": "lesson_content_candidate_cards_and_derivative_content"
+  }
+]

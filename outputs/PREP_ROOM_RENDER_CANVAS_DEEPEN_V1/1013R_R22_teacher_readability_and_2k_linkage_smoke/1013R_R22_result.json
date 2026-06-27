@@ -1,0 +1,17 @@
+{
+  "stage_id": "1013R_R22_TEACHER_READABILITY_AND_2K_LINKAGE_SMOKE",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-27T10:50:24+00:00",
+  "checks": {
+    "teacher_readability_static_checks_pass": true,
+    "screenshot_created": true,
+    "screenshot_2k_size": true,
+    "readonly_boundaries_intact": true,
+    "R36_modified": false,
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

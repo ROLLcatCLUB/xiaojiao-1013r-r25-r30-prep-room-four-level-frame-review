@@ -1,0 +1,20 @@
+{
+  "stage_id": "1013R_R15_PREP_ROOM_UNIFIED_VIEWMODEL_R0",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-26T18:45:23+00:00",
+  "checks": {
+    "unified_viewmodel_defined": true,
+    "real_textbook_object_preserved": true,
+    "contracts_consumed": true,
+    "render_slots_complete": true,
+    "courseware_and_display_slots_bound": true,
+    "source_policy_embedded": true,
+    "readonly_boundaries_intact": true,
+    "R36_modified": false,
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

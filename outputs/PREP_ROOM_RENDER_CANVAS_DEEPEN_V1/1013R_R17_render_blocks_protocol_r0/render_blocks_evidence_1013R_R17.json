@@ -1,0 +1,89 @@
+{
+  "module": "backend.xiaobei_ai.prep_room_render_blocks_protocol_1013R_R17",
+  "protocol_id": "SHIWEI_RENDER_BLOCKS_PROTOCOL_R0",
+  "block_count": 14,
+  "block_groups": [
+    {
+      "group_id": "lesson_core",
+      "label": "备课核心",
+      "slot_ids": [
+        "current_object_card",
+        "xiaojiao_task_state",
+        "lesson_body",
+        "teaching_process"
+      ]
+    },
+    {
+      "group_id": "derivatives",
+      "label": "课堂派生物",
+      "slot_ids": [
+        "teacher_demo",
+        "courseware_script",
+        "classroom_display_screen",
+        "worksheet",
+        "assessment_rubric",
+        "blackboard_design"
+      ]
+    },
+    {
+      "group_id": "governance",
+      "label": "来源与确认",
+      "slot_ids": [
+        "materials_list",
+        "source_evidence",
+        "confirm_actions",
+        "bottom_composer"
+      ]
+    }
+  ],
+  "requirements": {
+    "stable_order": true,
+    "must_render_block_title": true,
+    "must_show_gate_state": true,
+    "must_show_source_badges": true,
+    "must_not_formal_apply": true,
+    "must_not_call_provider": true
+  },
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R17_RENDER_BLOCKS_PROTOCOL_R0",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": true,
+    "render_blocks_protocol_defined": true,
+    "light_render_adapter_defined": false,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true,
+    "source_policy_light_validator_readonly": true,
+    "render_blocks_protocol_readonly": true
+  }
+}

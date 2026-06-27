@@ -1,0 +1,278 @@
+[
+  {
+    "action_id": "preview_lesson_body_refinement",
+    "label": "精修备课本正文",
+    "action_kind": "preview_candidate",
+    "target_slots": [
+      "lesson_body",
+      "teaching_process"
+    ],
+    "target_slot_gates": {
+      "lesson_body": "preview_then_confirm",
+      "teaching_process": "preview_then_confirm"
+    },
+    "gate_type": "preview_then_confirm",
+    "allowed_now": true,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "preview_only",
+    "blocked_by": [],
+    "must_show_before_confirm": [
+      "preview_content",
+      "impact_scope",
+      "source_badges",
+      "write_effect=preview_only"
+    ]
+  },
+  {
+    "action_id": "preview_courseware_script",
+    "label": "生成课件脚本预览",
+    "action_kind": "preview_candidate",
+    "target_slots": [
+      "courseware_script"
+    ],
+    "target_slot_gates": {
+      "courseware_script": "preview_then_confirm"
+    },
+    "gate_type": "preview_then_confirm",
+    "allowed_now": true,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "preview_only",
+    "blocked_by": [],
+    "must_show_before_confirm": [
+      "preview_content",
+      "impact_scope",
+      "source_badges",
+      "write_effect=preview_only"
+    ]
+  },
+  {
+    "action_id": "preview_display_screen",
+    "label": "生成大屏呈现预览",
+    "action_kind": "preview_candidate",
+    "target_slots": [
+      "classroom_display_screen"
+    ],
+    "target_slot_gates": {
+      "classroom_display_screen": "preview_then_confirm"
+    },
+    "gate_type": "preview_then_confirm",
+    "allowed_now": true,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "preview_only",
+    "blocked_by": [],
+    "must_show_before_confirm": [
+      "preview_content",
+      "impact_scope",
+      "source_badges",
+      "write_effect=preview_only"
+    ]
+  },
+  {
+    "action_id": "preview_worksheet",
+    "label": "生成学习单预览",
+    "action_kind": "preview_candidate",
+    "target_slots": [
+      "worksheet"
+    ],
+    "target_slot_gates": {
+      "worksheet": "preview_then_confirm"
+    },
+    "gate_type": "preview_then_confirm",
+    "allowed_now": true,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "preview_only",
+    "blocked_by": [],
+    "must_show_before_confirm": [
+      "preview_content",
+      "impact_scope",
+      "source_badges",
+      "write_effect=preview_only"
+    ]
+  },
+  {
+    "action_id": "preview_assessment_rubric",
+    "label": "生成评价表预览",
+    "action_kind": "preview_candidate",
+    "target_slots": [
+      "assessment_rubric"
+    ],
+    "target_slot_gates": {
+      "assessment_rubric": "blocked_until_teacher_dimension"
+    },
+    "gate_type": "blocked_until_teacher_dimension",
+    "allowed_now": false,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "preview_only",
+    "blocked_by": [
+      "assessment_dimensions",
+      "student_work_samples"
+    ],
+    "must_show_before_confirm": [
+      "preview_content",
+      "impact_scope",
+      "source_badges",
+      "write_effect=preview_only"
+    ]
+  },
+  {
+    "action_id": "confirm_refine_lesson_body_preview",
+    "label": "确认精修备课正文预览",
+    "action_kind": "teacher_confirmation",
+    "target_slots": [
+      "lesson_body",
+      "teaching_process"
+    ],
+    "target_slot_gates": {
+      "lesson_body": "preview_then_confirm",
+      "teaching_process": "preview_then_confirm"
+    },
+    "gate_type": "gate_required",
+    "allowed_now": true,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "record_preview_decision_only",
+    "must_show_before_confirm": [
+      "preview_diff_or_summary",
+      "affected_slots",
+      "source_policy_notes",
+      "no_formal_apply_notice"
+    ]
+  },
+  {
+    "action_id": "confirm_generate_courseware_preview",
+    "label": "确认生成课件脚本预览",
+    "action_kind": "teacher_confirmation",
+    "target_slots": [
+      "courseware_script"
+    ],
+    "target_slot_gates": {
+      "courseware_script": "preview_then_confirm"
+    },
+    "gate_type": "gate_required",
+    "allowed_now": true,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "record_preview_decision_only",
+    "must_show_before_confirm": [
+      "preview_diff_or_summary",
+      "affected_slots",
+      "source_policy_notes",
+      "no_formal_apply_notice"
+    ]
+  },
+  {
+    "action_id": "confirm_generate_display_preview",
+    "label": "确认生成大屏预览",
+    "action_kind": "teacher_confirmation",
+    "target_slots": [
+      "classroom_display_screen"
+    ],
+    "target_slot_gates": {
+      "classroom_display_screen": "preview_then_confirm"
+    },
+    "gate_type": "gate_required",
+    "allowed_now": true,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "record_preview_decision_only",
+    "must_show_before_confirm": [
+      "preview_diff_or_summary",
+      "affected_slots",
+      "source_policy_notes",
+      "no_formal_apply_notice"
+    ]
+  },
+  {
+    "action_id": "confirm_generate_worksheet_preview",
+    "label": "确认生成学习单预览",
+    "action_kind": "teacher_confirmation",
+    "target_slots": [
+      "worksheet"
+    ],
+    "target_slot_gates": {
+      "worksheet": "preview_then_confirm"
+    },
+    "gate_type": "gate_required",
+    "allowed_now": true,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "record_preview_decision_only",
+    "must_show_before_confirm": [
+      "preview_diff_or_summary",
+      "affected_slots",
+      "source_policy_notes",
+      "no_formal_apply_notice"
+    ]
+  },
+  {
+    "action_id": "formal_save_to_lesson_package",
+    "label": "保存到正式课包",
+    "action_kind": "blocked_action",
+    "target_slots": [],
+    "gate_type": "blocked_until_teacher_dimension",
+    "allowed_now": false,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "none",
+    "blocked_reason": "当前只有只读合同和预览态，没有 formal apply gate。",
+    "unblock_requires": [
+      "TEACHER_ACTION_GATE_CONTRACT_R0",
+      "formal_apply_authorization"
+    ]
+  },
+  {
+    "action_id": "write_student_assessment",
+    "label": "正式评价学生作品",
+    "action_kind": "blocked_action",
+    "target_slots": [],
+    "gate_type": "blocked_until_teacher_dimension",
+    "allowed_now": false,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "none",
+    "blocked_reason": "缺少学生作品样例和教师确认的评价维度。",
+    "unblock_requires": [
+      "student_work_samples",
+      "assessment_dimensions",
+      "teacher_confirmation"
+    ]
+  },
+  {
+    "action_id": "export_courseware_file",
+    "label": "导出课件文件",
+    "action_kind": "blocked_action",
+    "target_slots": [],
+    "gate_type": "future_only",
+    "allowed_now": false,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "none",
+    "blocked_reason": "当前只定义课件脚本预览，不生成正式文件。",
+    "unblock_requires": [
+      "render_blocks_protocol",
+      "export_contract",
+      "teacher_confirmation"
+    ]
+  },
+  {
+    "action_id": "write_memory_or_archive",
+    "label": "写入记忆或档案",
+    "action_kind": "blocked_action",
+    "target_slots": [],
+    "gate_type": "future_only",
+    "allowed_now": false,
+    "requires_teacher_confirmation": true,
+    "formal_apply_allowed": false,
+    "write_effect": "none",
+    "blocked_reason": "记忆底座后置，当前避免污染教师偏好和历史记录。",
+    "unblock_requires": [
+      "memory_policy_contract",
+      "source_policy_validator"
+    ]
+  }
+]

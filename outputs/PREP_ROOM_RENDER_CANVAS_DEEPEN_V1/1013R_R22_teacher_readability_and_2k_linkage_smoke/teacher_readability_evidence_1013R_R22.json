@@ -1,0 +1,128 @@
+{
+  "module": "backend.xiaobei_ai.prep_room_teacher_readability_smoke_1013R_R22",
+  "smoke_id": "SHIWEI_PREP_ROOM_TEACHER_READABILITY_2K_SMOKE_R0",
+  "consumes": {
+    "r21_stage": "1013R_R21_PAGE_COPY_BINDS_UNIFIED_PACKAGE",
+    "r21_binding_id": "SHIWEI_PREP_ROOM_PAGE_COPY_PACKAGE_BINDING_R0"
+  },
+  "static_checks": [
+    {
+      "check_id": "current_object_first_screen",
+      "label": "第一眼知道当前课题",
+      "pass": true
+    },
+    {
+      "check_id": "xiaojiao_task_state_visible",
+      "label": "第一眼知道小教正在判断备课任务",
+      "pass": true
+    },
+    {
+      "check_id": "known_missing_suggested_visible",
+      "label": "已知材料 / 缺口 / 动作可见",
+      "pass": true
+    },
+    {
+      "check_id": "render_blocks_visible",
+      "label": "render_blocks 不是只躺在 JSON 里",
+      "pass": true
+    },
+    {
+      "check_id": "prototype_base_preserved",
+      "label": "页面仍在原型里，不另起静态页，也不外贴协议带",
+      "pass": true
+    },
+    {
+      "check_id": "derivatives_visible",
+      "label": "课件 / 大屏 / 学习单 / 评价表都有可见入口",
+      "pass": true
+    },
+    {
+      "check_id": "teaching_process_expanded",
+      "label": "教学过程不是一行摘要，已恢复多微环节",
+      "pass": true
+    },
+    {
+      "check_id": "big_unit_edit_card_grammar",
+      "label": "大单元编辑也复用修改卡片语法",
+      "pass": true
+    },
+    {
+      "check_id": "source_policy_quiet_visible",
+      "label": "来源提示能看见但不压过主任务",
+      "pass": true
+    },
+    {
+      "check_id": "not_chatbox",
+      "label": "不是 AI 聊天框",
+      "pass": true
+    }
+  ],
+  "html_path": "D:\\Documents\\SmartEdu\\xiaobei-github-review\\xiaojiao-1013r-r25-r30-prep-room-four-level-frame-review\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R22_teacher_readability_and_2k_linkage_smoke\\prep_room_page_copy_for_r22_teacher_readability.html",
+  "screenshot_path": "D:\\Documents\\SmartEdu\\xiaobei-github-review\\xiaojiao-1013r-r25-r30-prep-room-four-level-frame-review\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R22_teacher_readability_and_2k_linkage_smoke\\1013R_R22_2k_teacher_readability_check.png",
+  "screenshot_size": {
+    "width": 2560,
+    "height": 1440
+  },
+  "screenshot_message": "ok",
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R22_TEACHER_READABILITY_AND_2K_LINKAGE_SMOKE",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": true,
+    "render_blocks_protocol_defined": true,
+    "light_render_adapter_defined": true,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true,
+    "source_policy_light_validator_readonly": true,
+    "render_blocks_protocol_readonly": true,
+    "light_render_adapter_readonly": true,
+    "existing_page_modified": false,
+    "derivative_object_linkage_readonly": true,
+    "derivative_static_linkage_defined": true,
+    "courseware_export_created": false,
+    "worksheet_export_created": false,
+    "assessment_written": false,
+    "unified_package_readonly_export": true,
+    "static_json_export_allowed": true,
+    "endpoint_registered": false,
+    "prototype_copy_created": true,
+    "page_copy_created": true,
+    "page_binds_unified_package": true,
+    "internal_prototype_binding": true,
+    "external_protocol_band_created": false,
+    "new_blank_static_page_created": false,
+    "source_prototype_modified": false,
+    "teacher_readability_smoke_defined": true,
+    "visual_2k_check_expected": true
+  }
+}

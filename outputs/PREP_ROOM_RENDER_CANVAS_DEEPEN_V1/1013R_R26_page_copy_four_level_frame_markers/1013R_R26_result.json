@@ -1,0 +1,16 @@
+{
+  "stage_id": "1013R_R26_PAGE_COPY_FOUR_LEVEL_FRAME_MARKERS",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-27T10:50:22+00:00",
+  "checks": {
+    "marker_contract_defined": true,
+    "r21_html_contains_marker_logic": true,
+    "four_marker_levels_defined": true,
+    "runtime_dom_data_markers_added": true,
+    "no_visible_layout_modified": true,
+    "no_disconnected_page_created": true,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

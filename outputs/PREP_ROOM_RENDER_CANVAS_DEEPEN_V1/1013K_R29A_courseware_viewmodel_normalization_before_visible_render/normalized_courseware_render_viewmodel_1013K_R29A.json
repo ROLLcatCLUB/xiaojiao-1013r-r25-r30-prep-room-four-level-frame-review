@@ -1,0 +1,402 @@
+{
+  "stage": "1013K_R29A_COURSEWARE_VIEWMODEL_NORMALIZATION_BEFORE_VISIBLE_RENDER",
+  "source_stage": "1013K_R25_CURRICULUM_CHUNK_TO_COURSEWARE_SCREEN_SEED_CONTRACT",
+  "target_existing_page": "1013J_R1M_courseware_classroom_display_preview_static",
+  "viewmodel_type": "normalized_courseware_render_viewmodel",
+  "lesson_context": {
+    "unit": "第一单元 · 多变的色彩",
+    "lesson": "1-2 《色彩的感觉》",
+    "subject": "美术",
+    "grade": "三年级",
+    "preview_only": true
+  },
+  "screen_count": 8,
+  "required_render_fields": [
+    "title",
+    "teaching_intent",
+    "display_body",
+    "teacher_note",
+    "source_chunk_ref"
+  ],
+  "all_screens_have_required_render_fields": true,
+  "selected_screen_id": "courseware_screen_seed_03_color_comparison_1013K_R25",
+  "ratio_options": [
+    "16:9",
+    "4:3"
+  ],
+  "render_screens": [
+    {
+      "screen_id": "courseware_screen_seed_01_intro_1013K_R25",
+      "screen_order": 1,
+      "screen_type": "cover",
+      "title": "色彩的感觉",
+      "teaching_intent": "让学生先进入本课问题：颜色为什么会让人产生不同感觉。",
+      "display_body": {
+        "prompt": "颜色会让你想到什么感觉？",
+        "visual_priority": "text_light_visual_space_high",
+        "material_slots": [],
+        "text_policy": "minimal_text_for_art_course",
+        "image_policy": "image_or_visual_placeholder_should_dominate_when_material_exists"
+      },
+      "teacher_note": "教师可先让学生用一个词说第一感觉。",
+      "source_chunk_ref": [
+        "render_chunk_unit_questions_1013K_R3",
+        "render_chunk_lesson_task_chain_1013K_R3"
+      ],
+      "source_chunk_refs": [
+        "render_chunk_unit_questions_1013K_R3",
+        "render_chunk_lesson_task_chain_1013K_R3"
+      ],
+      "source_lesson_section_refs": [
+        "unit_question",
+        "lesson_position"
+      ],
+      "lesson_bridge": {
+        "lesson_section_ref": "本课方向",
+        "teacher_visible_bridge": "本课从颜色感觉问题进入，先让学生说第一感觉。",
+        "source_big_unit_chunks": [
+          "render_chunk_unit_questions_1013K_R3",
+          "render_chunk_lesson_task_chain_1013K_R3"
+        ]
+      },
+      "status": "ready_as_text_screen",
+      "preview_only": true
+    },
+    {
+      "screen_id": "courseware_screen_seed_02_image_observation_1013K_R25",
+      "screen_order": 2,
+      "screen_type": "image_observation",
+      "title": "看色彩图片",
+      "teaching_intent": "用生活图片或作品图片打开学生已有的色彩感受。",
+      "display_body": {
+        "prompt": "你第一眼感觉这组颜色怎样？",
+        "visual_priority": "image_primary_text_minimal",
+        "material_slots": [
+          {
+            "slot_id": "slot_life_color_images",
+            "slot_label": "生活色彩图片",
+            "expected_count": 3,
+            "status": "pending_material"
+          }
+        ],
+        "text_policy": "minimal_text_for_art_course",
+        "image_policy": "image_or_visual_placeholder_should_dominate_when_material_exists"
+      },
+      "teacher_note": "先说直观感受，不急着解释概念。",
+      "source_chunk_ref": [
+        "render_chunk_student_starting_point_1013K_R3",
+        "render_chunk_materials_and_scaffolds_1013K_R3"
+      ],
+      "source_chunk_refs": [
+        "render_chunk_student_starting_point_1013K_R3",
+        "render_chunk_materials_and_scaffolds_1013K_R3"
+      ],
+      "source_lesson_section_refs": [
+        "student_starting_point",
+        "materials"
+      ],
+      "lesson_bridge": {
+        "lesson_section_ref": "导入与观察",
+        "teacher_visible_bridge": "用图片或作品打开学生已有经验。",
+        "source_big_unit_chunks": [
+          "render_chunk_student_starting_point_1013K_R3",
+          "render_chunk_materials_and_scaffolds_1013K_R3"
+        ]
+      },
+      "status": "pending_material",
+      "preview_only": true
+    },
+    {
+      "screen_id": "courseware_screen_seed_03_color_comparison_1013K_R25",
+      "screen_order": 3,
+      "screen_type": "comparison",
+      "title": "比较两组颜色",
+      "teaching_intent": "帮助学生从好看、不好看走向能说明为什么安静、热烈或强烈。",
+      "display_body": {
+        "prompt": "哪一组颜色更安静？你从哪些颜色看出来？",
+        "visual_priority": "two_large_images_primary",
+        "material_slots": [
+          {
+            "slot_id": "slot_warm_color_combination",
+            "slot_label": "热闹的色彩组合",
+            "expected_count": 1,
+            "status": "pending_material"
+          },
+          {
+            "slot_id": "slot_quiet_color_combination",
+            "slot_label": "安静的色彩组合",
+            "expected_count": 1,
+            "status": "pending_material"
+          }
+        ],
+        "text_policy": "minimal_text_for_art_course",
+        "image_policy": "image_or_visual_placeholder_should_dominate_when_material_exists"
+      },
+      "teacher_note": "可圈画学生提到的颜色，保留学生原话。",
+      "source_chunk_ref": [
+        "render_chunk_student_starting_point_1013K_R3",
+        "render_chunk_knowledge_and_skills_1013K_R3",
+        "render_chunk_materials_and_scaffolds_1013K_R3"
+      ],
+      "source_chunk_refs": [
+        "render_chunk_student_starting_point_1013K_R3",
+        "render_chunk_knowledge_and_skills_1013K_R3",
+        "render_chunk_materials_and_scaffolds_1013K_R3"
+      ],
+      "source_lesson_section_refs": [
+        "student_starting_point",
+        "knowledge_and_skills",
+        "classroom_comparison"
+      ],
+      "lesson_bridge": {
+        "lesson_section_ref": "比较变化",
+        "teacher_visible_bridge": "让学生比较两组颜色，并借助感觉词把理由说清楚。",
+        "source_big_unit_chunks": [
+          "render_chunk_knowledge_and_skills_1013K_R3",
+          "render_chunk_student_starting_point_1013K_R3"
+        ]
+      },
+      "status": "pending_material",
+      "preview_only": true
+    },
+    {
+      "screen_id": "courseware_screen_seed_04_feeling_word_cards_1013K_R25",
+      "screen_order": 4,
+      "screen_type": "prompt",
+      "title": "感觉词卡",
+      "teaching_intent": "给学生一组轻量表达词，帮助他们把直观感觉说得更具体。",
+      "display_body": {
+        "prompt": "你能用哪个词说这组颜色的感觉？",
+        "visual_priority": "small_word_cards_supporting_images",
+        "material_slots": [
+          {
+            "slot_id": "slot_feeling_word_cards",
+            "slot_label": "感觉词卡",
+            "expected_count": 1,
+            "status": "ready_as_text"
+          }
+        ],
+        "text_policy": "minimal_text_for_art_course",
+        "image_policy": "image_or_visual_placeholder_should_dominate_when_material_exists"
+      },
+      "teacher_note": "词卡只作支架，允许学生说自己的词。",
+      "source_chunk_ref": [
+        "render_chunk_core_literacy_goals_1013K_R3",
+        "render_chunk_unit_questions_1013K_R3"
+      ],
+      "source_chunk_refs": [
+        "render_chunk_core_literacy_goals_1013K_R3",
+        "render_chunk_unit_questions_1013K_R3"
+      ],
+      "source_lesson_section_refs": [
+        "aesthetic_perception",
+        "language_scaffold"
+      ],
+      "lesson_bridge": {
+        "lesson_section_ref": "比较变化",
+        "teacher_visible_bridge": "让学生比较两组颜色，并借助感觉词把理由说清楚。",
+        "source_big_unit_chunks": [
+          "render_chunk_knowledge_and_skills_1013K_R3",
+          "render_chunk_student_starting_point_1013K_R3"
+        ]
+      },
+      "status": "ready_as_text_screen",
+      "preview_only": true
+    },
+    {
+      "screen_id": "courseware_screen_seed_05_color_experiment_task_1013K_R25",
+      "screen_order": 5,
+      "screen_type": "task",
+      "title": "色彩实验任务",
+      "teaching_intent": "把色彩感觉转成学生可完成的小练习或小作品。",
+      "display_body": {
+        "prompt": "用 3 到 4 种颜色表达一种感觉。",
+        "visual_priority": "task_brief_text_light",
+        "material_slots": [
+          {
+            "slot_id": "slot_color_experiment_sheet",
+            "slot_label": "色彩实验卡",
+            "expected_count": 1,
+            "status": "pending_material"
+          }
+        ],
+        "text_policy": "minimal_text_for_art_course",
+        "image_policy": "image_or_visual_placeholder_should_dominate_when_material_exists"
+      },
+      "teacher_note": "让学生先选感觉，再选颜色。",
+      "source_chunk_ref": [
+        "render_chunk_performance_task_1013K_R3",
+        "render_chunk_knowledge_and_skills_1013K_R3"
+      ],
+      "source_chunk_refs": [
+        "render_chunk_performance_task_1013K_R3",
+        "render_chunk_knowledge_and_skills_1013K_R3"
+      ],
+      "source_lesson_section_refs": [
+        "performance_task",
+        "classroom_task"
+      ],
+      "lesson_bridge": {
+        "lesson_section_ref": "色彩实验",
+        "teacher_visible_bridge": "从比较转入小练习，允许用局部白板或色卡看到调整效果。",
+        "source_big_unit_chunks": [
+          "render_chunk_performance_task_1013K_R3",
+          "render_chunk_learning_progression_1013K_R3"
+        ]
+      },
+      "status": "pending_material",
+      "preview_only": true
+    },
+    {
+      "screen_id": "courseware_screen_seed_06_whiteboard_try_colors_1013K_R25",
+      "screen_order": 6,
+      "screen_type": "whiteboard_block",
+      "title": "白板试色",
+      "teaching_intent": "局部使用白板或色卡，让学生看到改动一处颜色后画面感觉会变化。",
+      "display_body": {
+        "prompt": "换掉一处颜色后，感觉变了吗？",
+        "visual_priority": "interactive_block_inside_screen",
+        "material_slots": [
+          {
+            "slot_id": "slot_color_cards_or_palette",
+            "slot_label": "色卡或调色块",
+            "expected_count": 1,
+            "status": "placeholder_ready"
+          }
+        ],
+        "text_policy": "minimal_text_for_art_course",
+        "image_policy": "image_or_visual_placeholder_should_dominate_when_material_exists"
+      },
+      "teacher_note": "白板只是本屏局部工具，不是整套课件的默认形态。",
+      "source_chunk_ref": [
+        "render_chunk_knowledge_and_skills_1013K_R3",
+        "render_chunk_learning_progression_1013K_R3"
+      ],
+      "source_chunk_refs": [
+        "render_chunk_knowledge_and_skills_1013K_R3",
+        "render_chunk_learning_progression_1013K_R3"
+      ],
+      "source_lesson_section_refs": [
+        "color_adjustment",
+        "revision_scaffold"
+      ],
+      "lesson_bridge": {
+        "lesson_section_ref": "色彩实验",
+        "teacher_visible_bridge": "从比较转入小练习，允许用局部白板或色卡看到调整效果。",
+        "source_big_unit_chunks": [
+          "render_chunk_performance_task_1013K_R3",
+          "render_chunk_learning_progression_1013K_R3"
+        ]
+      },
+      "status": "whiteboard_placeholder_ready",
+      "preview_only": true
+    },
+    {
+      "screen_id": "courseware_screen_seed_07_student_work_display_1013K_R25",
+      "screen_order": 7,
+      "screen_type": "student_work_display",
+      "title": "学生作品展示",
+      "teaching_intent": "让学生展示作品，并说明自己用了哪些颜色、想表达什么感觉。",
+      "display_body": {
+        "prompt": "你用了哪些颜色？想表达什么感觉？",
+        "visual_priority": "student_work_image_primary",
+        "material_slots": [
+          {
+            "slot_id": "slot_student_work_examples",
+            "slot_label": "学生作品或示例",
+            "expected_count": 2,
+            "status": "pending_material"
+          }
+        ],
+        "text_policy": "minimal_text_for_art_course",
+        "image_policy": "image_or_visual_placeholder_should_dominate_when_material_exists"
+      },
+      "teacher_note": "先听学生说明，再追问选色理由。",
+      "source_chunk_ref": [
+        "render_chunk_performance_task_1013K_R3",
+        "render_chunk_assessment_evidence_1013K_R3"
+      ],
+      "source_chunk_refs": [
+        "render_chunk_performance_task_1013K_R3",
+        "render_chunk_assessment_evidence_1013K_R3"
+      ],
+      "source_lesson_section_refs": [
+        "student_work",
+        "display_and_explanation"
+      ],
+      "lesson_bridge": {
+        "lesson_section_ref": "展示评价",
+        "teacher_visible_bridge": "用作品展示和简短评价句式收束，让学生说明选色理由和修改方向。",
+        "source_big_unit_chunks": [
+          "render_chunk_assessment_evidence_1013K_R3",
+          "render_chunk_performance_task_1013K_R3"
+        ]
+      },
+      "status": "pending_material",
+      "preview_only": true
+    },
+    {
+      "screen_id": "courseware_screen_seed_08_assessment_review_1013K_R25",
+      "screen_order": 8,
+      "screen_type": "assessment_prompt",
+      "title": "总结回看",
+      "teaching_intent": "用很轻的评价提示帮助学生回看色彩感觉、选择理由和修改方向。",
+      "display_body": {
+        "prompt": "我的颜色表达了什么感觉？我还想调整哪里？",
+        "visual_priority": "short_prompt_no_heavy_text",
+        "material_slots": [
+          {
+            "slot_id": "slot_review_sentence_stems",
+            "slot_label": "评价句式",
+            "expected_count": 1,
+            "status": "ready_as_text"
+          }
+        ],
+        "text_policy": "minimal_text_for_art_course",
+        "image_policy": "image_or_visual_placeholder_should_dominate_when_material_exists"
+      },
+      "teacher_note": "评价不只看最后作品，也看学生能否说明和调整。",
+      "source_chunk_ref": [
+        "render_chunk_assessment_evidence_1013K_R3",
+        "render_chunk_learning_progression_1013K_R3"
+      ],
+      "source_chunk_refs": [
+        "render_chunk_assessment_evidence_1013K_R3",
+        "render_chunk_learning_progression_1013K_R3"
+      ],
+      "source_lesson_section_refs": [
+        "assessment_evidence",
+        "lesson_closure"
+      ],
+      "lesson_bridge": {
+        "lesson_section_ref": "展示评价",
+        "teacher_visible_bridge": "用作品展示和简短评价句式收束，让学生说明选色理由和修改方向。",
+        "source_big_unit_chunks": [
+          "render_chunk_assessment_evidence_1013K_R3",
+          "render_chunk_performance_task_1013K_R3"
+        ]
+      },
+      "status": "ready_as_text_screen",
+      "preview_only": true
+    }
+  ],
+  "boundary": {
+    "hidden_data_injection_only": true,
+    "visible_dom_changed": false,
+    "visible_page_modified": false,
+    "runtime_connected": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "upload_implemented": false,
+    "search_implemented": false,
+    "material_library_connected": false,
+    "whiteboard_library_connected": false,
+    "ppt_export_implemented": false,
+    "formal_apply_performed": false,
+    "main_project_pushed": false,
+    "github_uploaded": false
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "ok": true,
+  "stage": "1013R_R17_RENDER_BLOCKS_PROTOCOL_R0",
+  "protocol_id": "SHIWEI_RENDER_BLOCKS_PROTOCOL_R0",
+  "protocol_version": "0.1.0",
+  "generated_at": "2026-06-26T18:45:23+00:00",
+  "consumes": {
+    "unified_viewmodel_stage": "1013R_R15_PREP_ROOM_UNIFIED_VIEWMODEL_R0",
+    "source_policy_stage": "1013R_R16_SOURCE_POLICY_LIGHT_VALIDATOR_R0",
+    "current_object": {
+      "id": "g3_u2_l1_color_gradient",
+      "type": "single_lesson",
+      "grade": "三年级",
+      "term": "2025学年第二学期",
+      "unit": "第二单元 多彩的世界",
+      "title": "2-1《色彩的渐变》",
+      "textbook_page": "教材第6-7页",
+      "status": "待确认"
+    }
+  },
+  "render_blocks": [
+    {
+      "block_id": "rb_01_current_object_card",
+      "slot_id": "current_object_card",
+      "block_type": "object_summary",
+      "title": "当前课题卡",
+      "order": 1,
+      "render_state": "bound",
+      "gate_type": "view_only",
+      "content_ref": {
+        "payload_refs": [
+          "current_object",
+          "lesson_viewmodel.current_lesson"
+        ],
+        "primary_ref": "current_object",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "textbook_anchor",
+        "user_provided_g3_textbook_catalog_photo"
+      ],
+      "available_actions": [],
+      "future_actions": [
+        "switch_lesson_after_gate"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_02_xiaojiao_task_state",
+      "slot_id": "xiaojiao_task_state",
+      "block_type": "task_state",
+      "title": "小教任务状态",
+      "order": 2,
+      "render_state": "contract_ready",
+      "gate_type": "view_only",
+      "content_ref": {
+        "payload_refs": [
+          "task_state"
+        ],
+        "primary_ref": "task_state",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "system_structure",
+        "task_state_contract_1013R_R13"
+      ],
+      "available_actions": [],
+      "future_actions": [
+        "add_material",
+        "choose_preview_candidate"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_03_lesson_body",
+      "slot_id": "lesson_body",
+      "block_type": "document_sections",
+      "title": "备课本正文",
+      "order": 3,
+      "render_state": "bound",
+      "gate_type": "preview_then_confirm",
+      "content_ref": {
+        "payload_refs": [
+          "lesson_viewmodel.current_lesson.sections"
+        ],
+        "primary_ref": "lesson_viewmodel.current_lesson.sections",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "textbook_anchor_plus_reference",
+        "user_provided_g3_textbook_catalog_photo",
+        "work_plan_render_packet_0993B_real_catalog_hint"
+      ],
+      "available_actions": [
+        {
+          "action_id": "preview_lesson_body_refinement",
+          "label": "精修备课本正文",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_refine_lesson_body_preview",
+          "label": "确认精修备课正文预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "refine_section",
+        "preview_patch",
+        "teacher_confirm_patch"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_04_teaching_process",
+      "slot_id": "teaching_process",
+      "block_type": "process_steps",
+      "title": "教学过程",
+      "order": 4,
+      "render_state": "bound",
+      "gate_type": "preview_then_confirm",
+      "content_ref": {
+        "payload_refs": [
+          "lesson_viewmodel.current_lesson.process_steps"
+        ],
+        "primary_ref": "lesson_viewmodel.current_lesson.process_steps",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "system_structure",
+        "prep_view_patch.current_lesson.process_steps"
+      ],
+      "available_actions": [
+        {
+          "action_id": "preview_lesson_body_refinement",
+          "label": "精修备课本正文",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_refine_lesson_body_preview",
+          "label": "确认精修备课正文预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "refine_process_step",
+        "link_display_screen",
+        "create_evidence_check"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_05_teacher_demo",
+      "slot_id": "teacher_demo",
+      "block_type": "derivative_placeholder",
+      "title": "教师示范",
+      "order": 5,
+      "render_state": "placeholder",
+      "gate_type": "preview_then_confirm",
+      "content_ref": {
+        "payload_refs": [
+          "lesson_viewmodel.current_lesson.process_steps",
+          "lesson_viewmodel.courseware_screens"
+        ],
+        "primary_ref": "lesson_viewmodel.current_lesson.process_steps",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "teacher_input_required",
+        "teacher_input_required"
+      ],
+      "available_actions": [],
+      "future_actions": [
+        "generate_demo_preview",
+        "confirm_demo_script"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_06_courseware_script",
+      "slot_id": "courseware_script",
+      "block_type": "courseware_preview",
+      "title": "课件脚本",
+      "order": 6,
+      "render_state": "bound_as_preview",
+      "gate_type": "preview_then_confirm",
+      "content_ref": {
+        "payload_refs": [
+          "lesson_viewmodel.courseware_screens"
+        ],
+        "primary_ref": "lesson_viewmodel.courseware_screens",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "system_structure",
+        "courseware_screen_patch"
+      ],
+      "available_actions": [
+        {
+          "action_id": "preview_courseware_script",
+          "label": "生成课件脚本预览",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_generate_courseware_preview",
+          "label": "确认生成课件脚本预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "generate_courseware_script",
+        "export_courseware_after_gate"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_07_classroom_display_screen",
+      "slot_id": "classroom_display_screen",
+      "block_type": "display_preview",
+      "title": "大屏呈现",
+      "order": 7,
+      "render_state": "bound_as_preview",
+      "gate_type": "preview_then_confirm",
+      "content_ref": {
+        "payload_refs": [
+          "lesson_viewmodel.current_lesson.big_screen_short_text",
+          "lesson_viewmodel.courseware_screens"
+        ],
+        "primary_ref": "lesson_viewmodel.current_lesson.big_screen_short_text",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "system_structure",
+        "courseware_screen_patch"
+      ],
+      "available_actions": [
+        {
+          "action_id": "preview_display_screen",
+          "label": "生成大屏呈现预览",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_generate_display_preview",
+          "label": "确认生成大屏预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "generate_display_screen_preview",
+        "link_screen_to_process_step"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_08_worksheet",
+      "slot_id": "worksheet",
+      "block_type": "worksheet_placeholder",
+      "title": "学习单",
+      "order": 8,
+      "render_state": "placeholder",
+      "gate_type": "preview_then_confirm",
+      "content_ref": {
+        "payload_refs": [
+          "lesson_viewmodel.current_lesson.sections.assessment"
+        ],
+        "primary_ref": "lesson_viewmodel.current_lesson.sections.assessment",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "teacher_input_required",
+        "teacher_input_required"
+      ],
+      "available_actions": [
+        {
+          "action_id": "preview_worksheet",
+          "label": "生成学习单预览",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_generate_worksheet_preview",
+          "label": "确认生成学习单预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "generate_worksheet_preview",
+        "confirm_worksheet"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_09_assessment_rubric",
+      "slot_id": "assessment_rubric",
+      "block_type": "assessment_blocked",
+      "title": "评价表",
+      "order": 9,
+      "render_state": "placeholder",
+      "gate_type": "blocked_until_teacher_dimension",
+      "content_ref": {
+        "payload_refs": [
+          "lesson_viewmodel.current_lesson.sections.assessment",
+          "task_state.missing_materials"
+        ],
+        "primary_ref": "lesson_viewmodel.current_lesson.sections.assessment",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "teacher_input_required",
+        "teacher_input_required"
+      ],
+      "available_actions": [
+        {
+          "action_id": "preview_assessment_rubric",
+          "label": "生成评价表预览",
+          "gate_type": "blocked_until_teacher_dimension",
+          "allowed_now": false,
+          "write_effect": "preview_only"
+        }
+      ],
+      "future_actions": [
+        "define_assessment_dimension",
+        "preview_rubric"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_10_blackboard_design",
+      "slot_id": "blackboard_design",
+      "block_type": "blackboard_placeholder",
+      "title": "板书设计",
+      "order": 10,
+      "render_state": "placeholder",
+      "gate_type": "preview_then_confirm",
+      "content_ref": {
+        "payload_refs": [
+          "lesson_viewmodel.current_lesson.flow"
+        ],
+        "primary_ref": "lesson_viewmodel.current_lesson.flow",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "teacher_input_required",
+        "teacher_input_required"
+      ],
+      "available_actions": [],
+      "future_actions": [
+        "generate_blackboard_preview"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_11_materials_list",
+      "slot_id": "materials_list",
+      "block_type": "materials_preview",
+      "title": "材料清单",
+      "order": 11,
+      "render_state": "bound_as_preview",
+      "gate_type": "preview_then_confirm",
+      "content_ref": {
+        "payload_refs": [
+          "lesson_viewmodel.current_lesson.sections.preparation",
+          "source_policy"
+        ],
+        "primary_ref": "lesson_viewmodel.current_lesson.sections.preparation",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "mixed_reference",
+        "source_matrix"
+      ],
+      "available_actions": [],
+      "future_actions": [
+        "check_missing_materials",
+        "add_teacher_material"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_12_source_evidence",
+      "slot_id": "source_evidence",
+      "block_type": "source_policy",
+      "title": "资料来源与证据",
+      "order": 12,
+      "render_state": "contract_ready",
+      "gate_type": "view_only",
+      "content_ref": {
+        "payload_refs": [
+          "source_policy"
+        ],
+        "primary_ref": "source_policy",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "source_policy",
+        "source_matrix"
+      ],
+      "available_actions": [],
+      "future_actions": [
+        "open_source_detail",
+        "run_source_policy_validator"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_13_confirm_actions",
+      "slot_id": "confirm_actions",
+      "block_type": "action_gate",
+      "title": "教师确认动作",
+      "order": 13,
+      "render_state": "contract_ready",
+      "gate_type": "gate_required",
+      "content_ref": {
+        "payload_refs": [
+          "action_gate"
+        ],
+        "primary_ref": "action_gate",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "system_structure",
+        "runtime_actions"
+      ],
+      "available_actions": [],
+      "future_actions": [
+        "confirm_preview",
+        "reject_preview",
+        "defer_action"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    },
+    {
+      "block_id": "rb_14_bottom_composer",
+      "slot_id": "bottom_composer",
+      "block_type": "composer_prompt",
+      "title": "底部小教输入",
+      "order": 14,
+      "render_state": "bound_as_prompt",
+      "gate_type": "intent_preview_only",
+      "content_ref": {
+        "payload_refs": [
+          "task_state.suggested_teacher_prompts"
+        ],
+        "primary_ref": "task_state.suggested_teacher_prompts",
+        "requires_runtime_resolution": false
+      },
+      "source_badges": [
+        "system_structure",
+        "task_state_contract_1013R_R13"
+      ],
+      "available_actions": [],
+      "future_actions": [
+        "submit_teacher_requirement",
+        "classify_intent"
+      ],
+      "teacher_visible": true,
+      "formal_apply_allowed": false
+    }
+  ],
+  "block_groups": [
+    {
+      "group_id": "lesson_core",
+      "label": "备课核心",
+      "slot_ids": [
+        "current_object_card",
+        "xiaojiao_task_state",
+        "lesson_body",
+        "teaching_process"
+      ]
+    },
+    {
+      "group_id": "derivatives",
+      "label": "课堂派生物",
+      "slot_ids": [
+        "teacher_demo",
+        "courseware_script",
+        "classroom_display_screen",
+        "worksheet",
+        "assessment_rubric",
+        "blackboard_design"
+      ]
+    },
+    {
+      "group_id": "governance",
+      "label": "来源与确认",
+      "slot_ids": [
+        "materials_list",
+        "source_evidence",
+        "confirm_actions",
+        "bottom_composer"
+      ]
+    }
+  ],
+  "renderer_requirements": {
+    "stable_order": true,
+    "must_render_block_title": true,
+    "must_show_gate_state": true,
+    "must_show_source_badges": true,
+    "must_not_formal_apply": true,
+    "must_not_call_provider": true
+  },
+  "next_stage_recommendation": {
+    "stage": "1013R_R18_LIGHT_RENDER_ADAPTER_SAMPLE",
+    "why": "render_blocks 协议已定义，可用轻量适配器验证页面未来如何按 block 渲染。"
+  },
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R17_RENDER_BLOCKS_PROTOCOL_R0",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": true,
+    "render_blocks_protocol_defined": true,
+    "light_render_adapter_defined": false,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true,
+    "source_policy_light_validator_readonly": true,
+    "render_blocks_protocol_readonly": true
+  }
+}

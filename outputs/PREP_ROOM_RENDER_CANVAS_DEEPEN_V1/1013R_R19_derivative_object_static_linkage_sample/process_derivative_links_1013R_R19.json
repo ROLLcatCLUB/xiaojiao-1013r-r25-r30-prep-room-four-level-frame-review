@@ -1,0 +1,147 @@
+[
+  {
+    "link_id": "link_1_intro",
+    "process_step_id": "intro",
+    "process_step_title": "看见渐变",
+    "courseware_screen": {
+      "screen_no": 2,
+      "title": "看色彩图片",
+      "role": "导入观察",
+      "status": "待补图"
+    },
+    "classroom_display": {
+      "screen_seed": "一张自然渐变图 + 5格色阶",
+      "student_visible_prompt": "颜色慢慢变，层次就出现。",
+      "render_state": "preview"
+    },
+    "worksheet": {
+      "capture_prompt": "学生能指出变化方向。",
+      "render_state": "placeholder",
+      "requires_teacher_confirmation": true
+    },
+    "assessment_rubric": {
+      "evidence": "学生能指出变化方向。",
+      "render_state": "blocked_until_teacher_dimension",
+      "blocked_by": [
+        "student_work_samples",
+        "assessment_dimensions"
+      ]
+    }
+  },
+  {
+    "link_id": "link_2_sense",
+    "process_step_id": "sense",
+    "process_step_title": "比较明度与纯度",
+    "courseware_screen": {
+      "screen_no": 3,
+      "title": "比较两组颜色",
+      "role": "比较变化",
+      "status": "待补图"
+    },
+    "classroom_display": {
+      "screen_seed": "明度变化 / 纯度变化 对照",
+      "student_visible_prompt": "每一步只变一点点。",
+      "render_state": "preview"
+    },
+    "worksheet": {
+      "capture_prompt": "学生完成色阶排序。",
+      "render_state": "placeholder",
+      "requires_teacher_confirmation": true
+    },
+    "assessment_rubric": {
+      "evidence": "学生完成色阶排序。",
+      "render_state": "blocked_until_teacher_dimension",
+      "blocked_by": [
+        "student_work_samples",
+        "assessment_dimensions"
+      ]
+    }
+  },
+  {
+    "link_id": "link_3_explore",
+    "process_step_id": "explore",
+    "process_step_title": "做渐变实验",
+    "courseware_screen": {
+      "screen_no": 4,
+      "title": "感觉词卡",
+      "role": "比较变化",
+      "status": "已有文字"
+    },
+    "classroom_display": {
+      "screen_seed": "调色步骤：原色 -> 加白/加水 -> 逐格变化",
+      "student_visible_prompt": "试色纸也是作品证据。",
+      "render_state": "preview"
+    },
+    "worksheet": {
+      "capture_prompt": "试色纸保留过程。",
+      "render_state": "preview",
+      "requires_teacher_confirmation": true
+    },
+    "assessment_rubric": {
+      "evidence": "试色纸保留过程。",
+      "render_state": "blocked_until_teacher_dimension",
+      "blocked_by": [
+        "student_work_samples",
+        "assessment_dimensions"
+      ]
+    }
+  },
+  {
+    "link_id": "link_4_make",
+    "process_step_id": "make",
+    "process_step_title": "把渐变用到画面",
+    "courseware_screen": {
+      "screen_no": 5,
+      "title": "色彩实验任务",
+      "role": "色彩实验",
+      "status": "待补图"
+    },
+    "classroom_display": {
+      "screen_seed": "学生作品参考：鸟、鲸、纸构空间",
+      "student_visible_prompt": "颜色慢慢变，层次就出现。",
+      "render_state": "preview"
+    },
+    "worksheet": {
+      "capture_prompt": "作品中出现清晰渐变区域。",
+      "render_state": "placeholder",
+      "requires_teacher_confirmation": true
+    },
+    "assessment_rubric": {
+      "evidence": "作品中出现清晰渐变区域。",
+      "render_state": "blocked_until_teacher_dimension",
+      "blocked_by": [
+        "student_work_samples",
+        "assessment_dimensions"
+      ]
+    }
+  },
+  {
+    "link_id": "link_5_share",
+    "process_step_id": "share",
+    "process_step_title": "说出修改理由",
+    "courseware_screen": {
+      "screen_no": 6,
+      "title": "白板试色",
+      "role": "色彩实验",
+      "status": "可白板"
+    },
+    "classroom_display": {
+      "screen_seed": "我用了__到__的渐变，因为__。",
+      "student_visible_prompt": "每一步只变一点点。",
+      "render_state": "preview"
+    },
+    "worksheet": {
+      "capture_prompt": "学生能用证据说明作品。",
+      "render_state": "preview",
+      "requires_teacher_confirmation": true
+    },
+    "assessment_rubric": {
+      "evidence": "学生能用证据说明作品。",
+      "render_state": "blocked_until_teacher_dimension",
+      "blocked_by": [
+        "student_work_samples",
+        "assessment_dimensions"
+      ]
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "stage_id": "1013R_R18_LIGHT_RENDER_ADAPTER_SAMPLE",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-26T18:45:23+00:00",
+  "checks": {
+    "r17_render_blocks_consumed": true,
+    "html_sample_created": true,
+    "major_slots_rendered": true,
+    "readonly_boundaries_intact": true,
+    "R36_modified": false,
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

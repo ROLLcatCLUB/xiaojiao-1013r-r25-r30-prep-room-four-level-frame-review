@@ -1,0 +1,16 @@
+{
+  "stage_id": "1013R_R23_PREP_ROOM_TEACHER_WALKTHROUGH_SCRIPT",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-26T19:09:27+00:00",
+  "checks": {
+    "walkthrough_script_defined": true,
+    "major_teacher_flow_present": true,
+    "readonly_boundaries_intact": true,
+    "R36_modified": false,
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

@@ -1,0 +1,20 @@
+{
+  "stage_id": "1013R_PRODUCT_FRAME_FOUR_LEVEL",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-27T10:50:21+00:00",
+  "checks": {
+    "framework_doc_exists": true,
+    "level_1_shell_defined": true,
+    "level_2_room_defined": true,
+    "level_3_tool_defined": true,
+    "level_4_content_defined": true,
+    "r21_references_framework": true,
+    "r17_references_framework": true,
+    "r24_references_framework": true,
+    "recursive_rule_defined": true,
+    "agent_routing_rule_defined": true,
+    "diagnosis_rule_defined": true
+  },
+  "failed_checks": []
+}

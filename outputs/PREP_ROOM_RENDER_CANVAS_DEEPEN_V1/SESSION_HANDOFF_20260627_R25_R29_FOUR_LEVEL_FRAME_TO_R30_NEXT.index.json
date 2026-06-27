@@ -1,0 +1,117 @@
+{
+  "handoff_id": "SESSION_HANDOFF_20260627_R25_R29_FOUR_LEVEL_FRAME_TO_R30_NEXT",
+  "repo": "D:\\Documents\\SmartEdu\\xiaobei-core",
+  "created_for": "new_session_takeover",
+  "current_surface": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R21_page_copy_binds_unified_package/prep_room_page_copy_binds_unified_package_1013R_R21.html",
+  "current_real_lesson": "三年级第二单元第1课《色彩的渐变》",
+  "next_stage": "1013R_R30_RENDER_SURFACE_CONNECTOR_PLAN_OR_VISUAL_TOOL_POLISH",
+  "must_read_first": [
+    "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/SESSION_HANDOFF_20260627_R25_R29_FOUR_LEVEL_FRAME_TO_R30_NEXT.md",
+    "docs/1013R_product_frame_four_level.md",
+    "docs/1013R_R25_four_level_frame_implementation_map.md",
+    "docs/1013R_R26_page_copy_four_level_frame_markers.md",
+    "docs/1013R_R27_xiaojiao_intent_frame_router_fixture.md",
+    "docs/1013R_R28_room_workspace_registry.md",
+    "docs/1013R_R29_tool_frame_registry.md"
+  ],
+  "active_code_files": [
+    "backend/xiaobei_ai/prep_room_page_copy_package_binding_1013R_R21.py",
+    "backend/xiaobei_ai/prep_room_four_level_frame_implementation_map_1013R_R25.py",
+    "backend/xiaobei_ai/prep_room_page_copy_four_level_markers_1013R_R26.py",
+    "backend/xiaobei_ai/prep_room_xiaojiao_intent_frame_router_1013R_R27.py",
+    "backend/xiaobei_ai/prep_room_room_workspace_registry_1013R_R28.py",
+    "backend/xiaobei_ai/prep_room_tool_frame_registry_1013R_R29.py"
+  ],
+  "validators": [
+    "scripts/validate_1013R_product_frame_four_level.py",
+    "scripts/validate_1013R_R21_page_copy_binds_unified_package.py",
+    "scripts/validate_1013R_R22_teacher_readability_and_2k_linkage_smoke.py",
+    "scripts/validate_1013R_R25_four_level_frame_implementation_map.py",
+    "scripts/validate_1013R_R26_page_copy_four_level_frame_markers.py",
+    "scripts/validate_1013R_R27_xiaojiao_intent_frame_router_fixture.py",
+    "scripts/validate_1013R_R28_room_workspace_registry.py",
+    "scripts/validate_1013R_R29_tool_frame_registry.py"
+  ],
+  "latest_pass_results": [
+    "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R25_four_level_frame_implementation_map/1013R_R25_result.json",
+    "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R26_page_copy_four_level_frame_markers/1013R_R26_result.json",
+    "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R27_xiaojiao_intent_frame_router_fixture/1013R_R27_result.json",
+    "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R28_room_workspace_registry/1013R_R28_result.json",
+    "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R29_tool_frame_registry/1013R_R29_result.json"
+  ],
+  "github_review_handoff": {
+    "policy": "do_not_push_whole_xiaobei_core_use_small_dedicated_review_repo",
+    "template": "docs/guides/github_review_upload_prompt_template_for_gpt.md",
+    "reference_habit_doc": "docs/handoff/xiaojiao_teacher_jarvis_workbench_1000A_to_new_planning_line_handoff_20260612.md",
+    "suggested_repo": "ROLLcatCLUB/xiaojiao-1013r-r25-r30-prep-room-four-level-frame-review",
+    "suggested_local_root": "D:\\Documents\\SmartEdu\\xiaobei-github-review\\xiaojiao-1013r-r25-r30-prep-room-four-level-frame-review",
+    "copy_list_minimum": [
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/SESSION_HANDOFF_20260627_R25_R29_FOUR_LEVEL_FRAME_TO_R30_NEXT.md",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/SESSION_HANDOFF_20260627_R25_R29_FOUR_LEVEL_FRAME_TO_R30_NEXT.index.json",
+      "docs/1013R_product_frame_four_level.md",
+      "docs/1013R_R25_four_level_frame_implementation_map.md",
+      "docs/1013R_R26_page_copy_four_level_frame_markers.md",
+      "docs/1013R_R27_xiaojiao_intent_frame_router_fixture.md",
+      "docs/1013R_R28_room_workspace_registry.md",
+      "docs/1013R_R29_tool_frame_registry.md",
+      "backend/xiaobei_ai/prep_room_page_copy_package_binding_1013R_R21.py",
+      "backend/xiaobei_ai/prep_room_four_level_frame_implementation_map_1013R_R25.py",
+      "backend/xiaobei_ai/prep_room_page_copy_four_level_markers_1013R_R26.py",
+      "backend/xiaobei_ai/prep_room_xiaojiao_intent_frame_router_1013R_R27.py",
+      "backend/xiaobei_ai/prep_room_room_workspace_registry_1013R_R28.py",
+      "backend/xiaobei_ai/prep_room_tool_frame_registry_1013R_R29.py",
+      "scripts/validate_1013R_product_frame_four_level.py",
+      "scripts/validate_1013R_R21_page_copy_binds_unified_package.py",
+      "scripts/validate_1013R_R22_teacher_readability_and_2k_linkage_smoke.py",
+      "scripts/validate_1013R_R25_four_level_frame_implementation_map.py",
+      "scripts/validate_1013R_R26_page_copy_four_level_frame_markers.py",
+      "scripts/validate_1013R_R27_xiaojiao_intent_frame_router_fixture.py",
+      "scripts/validate_1013R_R28_room_workspace_registry.py",
+      "scripts/validate_1013R_R29_tool_frame_registry.py",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R25_four_level_frame_implementation_map/1013R_R25_result.json",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R26_page_copy_four_level_frame_markers/1013R_R26_result.json",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R27_xiaojiao_intent_frame_router_fixture/1013R_R27_result.json",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R28_room_workspace_registry/1013R_R28_result.json",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R29_tool_frame_registry/1013R_R29_result.json",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R21_page_copy_binds_unified_package/prep_room_page_copy_binds_unified_package_1013R_R21.html",
+      "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R22_teacher_readability_and_2k_linkage_smoke/1013R_R22_2k_teacher_readability_check.png"
+    ],
+    "forbidden_uploads": [
+      ".env",
+      "token",
+      "secret",
+      "real_student_data",
+      "real_classroom_logs",
+      "feishu_token",
+      "provider_raw_prompt_response",
+      "node_modules",
+      "__pycache__",
+      "whole_xiaobei_core_repo",
+      "database_files"
+    ],
+    "raw_link_template_repo": "https://github.com/ROLLcatCLUB/xiaojiao-1013r-r25-r30-prep-room-four-level-frame-review",
+    "gpt_review_focus": [
+      "whether_R25_R29_are_enough_as_R30_protocol_prerequisites",
+      "whether_boundaries_are_still_observed",
+      "whether_R30_should_light_connect_four_level_frame_to_R21_visible_structure",
+      "whether_duplicate_versions_field_regressions_tool_frame_breaks_or_forbidden_files_exist"
+    ]
+  },
+  "do_not": [
+    "do_not_create_disconnected_static_page",
+    "do_not_modify_R36",
+    "do_not_return_to_R22_O_R2_M_R5",
+    "do_not_treat_openclaw_scan_as_field_standard",
+    "do_not_connect_model_or_provider",
+    "do_not_connect_runtime",
+    "do_not_formal_apply",
+    "do_not_write_database_feishu_memory"
+  ],
+  "r30_allowed_scope": [
+    "current_R21_page_copy_generator_only",
+    "visible_light_connection_of_four_level_markers",
+    "tool_id_and_room_id_data_markers",
+    "static_mapping_from_tools_to_level_4_content",
+    "docs_outputs_validators"
+  ]
+}

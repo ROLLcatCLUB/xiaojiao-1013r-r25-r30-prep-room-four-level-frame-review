@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "stage": "1013R_R6_PREP_ROOM_OLD_MATERIAL_RUNTIME_BRIDGE",
+  "runtime_mode": "local_readonly_task_state_bridge",
+  "task_object_id": "PREP-G3-U2-L1-COLOR-GRADIENT",
+  "accepted_action": {
+    "action_id": "confirm_real_textbook_anchor",
+    "teacher_label": "确认按色彩的渐变重排",
+    "result_state": "real_textbook_anchor_confirmed_in_runtime_only",
+    "write_allowed": false
+  },
+  "state_patch_preview": {
+    "last_action_id": "confirm_real_textbook_anchor",
+    "candidate_status": "preview_requested",
+    "write_allowed": false,
+    "teacher_confirmation_required": true,
+    "next_suggested_action": "在备课室页面中查看《色彩的渐变》预览，再决定是否继续接正文候选或课件预览。"
+  },
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false
+  }
+}

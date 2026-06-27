@@ -1,0 +1,391 @@
+{
+  "ok": true,
+  "stage": "1013R_R27_XIAOJIAO_INTENT_FRAME_ROUTER_FIXTURE",
+  "router_id": "SHIWEI_XIAOJIAO_INTENT_FRAME_ROUTER_FIXTURE_R0",
+  "generated_at": "2026-06-27T10:50:22+00:00",
+  "consumes": {
+    "r26_stage": "1013R_R26_PAGE_COPY_FOUR_LEVEL_FRAME_MARKERS",
+    "marker_id": "SHIWEI_PAGE_COPY_FOUR_LEVEL_FRAME_MARKERS_R0",
+    "command_dsl_command_types": [
+      "START_FLOW",
+      "SET_SLOT",
+      "UPDATE_SLOT",
+      "DISAMBIGUATE_FLOW",
+      "CLARIFY_INTENT",
+      "CLARIFY_ARTIFACT",
+      "CLARIFY_USE_CASE",
+      "CLARIFY_KEY_SLOT",
+      "GENERATE_CANDIDATE",
+      "MODIFY_CANDIDATE",
+      "SYNC_RENDERER",
+      "ASK_CONFIRMATION",
+      "BLOCK_ACTION",
+      "EXPLAIN_LIMITATION",
+      "NOOP"
+    ],
+    "action_policy_markers": {
+      "formal_action_markers": [
+        "导出",
+        "提交",
+        "发布",
+        "覆盖",
+        "写入",
+        "记住",
+        "保存到",
+        "正式"
+      ],
+      "modify_markers": [
+        "改",
+        "调整",
+        "修改",
+        "换成",
+        "轻一点",
+        "重一点",
+        "删掉",
+        "补充"
+      ],
+      "generate_markers": [
+        "生成",
+        "做一份",
+        "写一份",
+        "直接做",
+        "开始做"
+      ]
+    }
+  },
+  "frame_levels": {
+    "1": {
+      "level_key": "platform_shell",
+      "teacher_name": "平台外壳框架",
+      "target_marker": "data-shiwei-frame-level=1"
+    },
+    "2": {
+      "level_key": "room_workspace",
+      "teacher_name": "各室工作空间框架",
+      "target_marker": "data-shiwei-frame-level=2"
+    },
+    "3": {
+      "level_key": "tool_frame",
+      "teacher_name": "工具框架",
+      "target_marker": "data-shiwei-frame-level=3"
+    },
+    "4": {
+      "level_key": "content_rendering",
+      "teacher_name": "内容框架",
+      "target_marker": "data-shiwei-frame-level=4"
+    }
+  },
+  "routing_policy": {
+    "route_intent_by_framework_level": true,
+    "diagnose_issues_by_framework_level": true,
+    "recursive_order": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cross_level_intent_must_be_split": true,
+    "use_frame_markers_before_dom_operation": true,
+    "teacher_confirmation_required_for_formal_actions": true,
+    "formal_apply_allowed": false
+  },
+  "fixture_routes": [
+    {
+      "message": "切到备课室",
+      "operation": "clarify_or_continue",
+      "primary_level": 2,
+      "primary_level_key": "room_workspace",
+      "level_path": [
+        {
+          "level": 2,
+          "level_key": "room_workspace",
+          "teacher_name": "各室工作空间框架",
+          "target_marker": "data-shiwei-frame-level=2"
+        }
+      ],
+      "route_reasons": [
+        "mentions_room_or_workspace_switch"
+      ],
+      "command_type": "CLARIFY_KEY_SLOT",
+      "command_allowed_by_existing_dsl": true,
+      "teacher_confirmation_required": false,
+      "formal_apply_allowed": false,
+      "runtime_call_allowed": false,
+      "model_call_allowed": false
+    },
+    {
+      "message": "下面输入栏不好用",
+      "operation": "clarify_or_continue",
+      "primary_level": 1,
+      "primary_level_key": "platform_shell",
+      "level_path": [
+        {
+          "level": 1,
+          "level_key": "platform_shell",
+          "teacher_name": "平台外壳框架",
+          "target_marker": "data-shiwei-frame-level=1"
+        }
+      ],
+      "route_reasons": [
+        "mentions_global_shell_or_bottom_entry"
+      ],
+      "command_type": "NOOP",
+      "command_allowed_by_existing_dsl": true,
+      "teacher_confirmation_required": false,
+      "formal_apply_allowed": false,
+      "runtime_call_allowed": false,
+      "model_call_allowed": false
+    },
+    {
+      "message": "备课室工具按钮太乱",
+      "operation": "clarify_or_continue",
+      "primary_level": 2,
+      "primary_level_key": "room_workspace",
+      "level_path": [
+        {
+          "level": 2,
+          "level_key": "room_workspace",
+          "teacher_name": "各室工作空间框架",
+          "target_marker": "data-shiwei-frame-level=2"
+        },
+        {
+          "level": 3,
+          "level_key": "tool_frame",
+          "teacher_name": "工具框架",
+          "target_marker": "data-shiwei-frame-level=3"
+        }
+      ],
+      "route_reasons": [
+        "mentions_room_or_workspace_switch",
+        "mentions_tool_or_action_frame"
+      ],
+      "command_type": "CLARIFY_KEY_SLOT",
+      "command_allowed_by_existing_dsl": true,
+      "teacher_confirmation_required": false,
+      "formal_apply_allowed": false,
+      "runtime_call_allowed": false,
+      "model_call_allowed": false
+    },
+    {
+      "message": "这份教案内容层级不清",
+      "operation": "clarify_or_continue",
+      "primary_level": 4,
+      "primary_level_key": "content_rendering",
+      "level_path": [
+        {
+          "level": 4,
+          "level_key": "content_rendering",
+          "teacher_name": "内容框架",
+          "target_marker": "data-shiwei-frame-level=4"
+        }
+      ],
+      "route_reasons": [
+        "mentions_rendered_lesson_content"
+      ],
+      "command_type": "NOOP",
+      "command_allowed_by_existing_dsl": true,
+      "teacher_confirmation_required": false,
+      "formal_apply_allowed": false,
+      "runtime_call_allowed": false,
+      "model_call_allowed": false
+    },
+    {
+      "message": "为什么我找不到课件生成入口",
+      "operation": "create",
+      "primary_level": 2,
+      "primary_level_key": "room_workspace",
+      "level_path": [
+        {
+          "level": 2,
+          "level_key": "room_workspace",
+          "teacher_name": "各室工作空间框架",
+          "target_marker": "data-shiwei-frame-level=2"
+        },
+        {
+          "level": 3,
+          "level_key": "tool_frame",
+          "teacher_name": "工具框架",
+          "target_marker": "data-shiwei-frame-level=3"
+        }
+      ],
+      "route_reasons": [
+        "mentions_tool_or_action_frame",
+        "requires_recursive_diagnosis"
+      ],
+      "command_type": "GENERATE_CANDIDATE",
+      "command_allowed_by_existing_dsl": true,
+      "teacher_confirmation_required": false,
+      "formal_apply_allowed": false,
+      "runtime_call_allowed": false,
+      "model_call_allowed": false
+    },
+    {
+      "message": "这个页面整体很乱",
+      "operation": "clarify_or_continue",
+      "primary_level": 1,
+      "primary_level_key": "platform_shell",
+      "level_path": [
+        {
+          "level": 1,
+          "level_key": "platform_shell",
+          "teacher_name": "平台外壳框架",
+          "target_marker": "data-shiwei-frame-level=1"
+        },
+        {
+          "level": 2,
+          "level_key": "room_workspace",
+          "teacher_name": "各室工作空间框架",
+          "target_marker": "data-shiwei-frame-level=2"
+        },
+        {
+          "level": 3,
+          "level_key": "tool_frame",
+          "teacher_name": "工具框架",
+          "target_marker": "data-shiwei-frame-level=3"
+        },
+        {
+          "level": 4,
+          "level_key": "content_rendering",
+          "teacher_name": "内容框架",
+          "target_marker": "data-shiwei-frame-level=4"
+        }
+      ],
+      "route_reasons": [
+        "requires_recursive_diagnosis"
+      ],
+      "command_type": "NOOP",
+      "command_allowed_by_existing_dsl": true,
+      "teacher_confirmation_required": false,
+      "formal_apply_allowed": false,
+      "runtime_call_allowed": false,
+      "model_call_allowed": false
+    },
+    {
+      "message": "把这个教学过程段落改得更适合公开课",
+      "operation": "modify",
+      "primary_level": 4,
+      "primary_level_key": "content_rendering",
+      "level_path": [
+        {
+          "level": 4,
+          "level_key": "content_rendering",
+          "teacher_name": "内容框架",
+          "target_marker": "data-shiwei-frame-level=4"
+        }
+      ],
+      "route_reasons": [
+        "mentions_rendered_lesson_content"
+      ],
+      "command_type": "MODIFY_CANDIDATE",
+      "command_allowed_by_existing_dsl": true,
+      "teacher_confirmation_required": false,
+      "formal_apply_allowed": false,
+      "runtime_call_allowed": false,
+      "model_call_allowed": false
+    },
+    {
+      "message": "保存到课包并导出课件",
+      "operation": "formal_action",
+      "primary_level": 3,
+      "primary_level_key": "tool_frame",
+      "level_path": [
+        {
+          "level": 3,
+          "level_key": "tool_frame",
+          "teacher_name": "工具框架",
+          "target_marker": "data-shiwei-frame-level=3"
+        }
+      ],
+      "route_reasons": [
+        "mentions_tool_or_action_frame"
+      ],
+      "command_type": "ASK_CONFIRMATION",
+      "command_allowed_by_existing_dsl": true,
+      "teacher_confirmation_required": true,
+      "formal_apply_allowed": false,
+      "runtime_call_allowed": false,
+      "model_call_allowed": false
+    }
+  ],
+  "next_stage_recommendation": {
+    "stage": "1013R_R28_ROOM_WORKSPACE_REGISTRY",
+    "why": "Intent can now route to frame levels in static fixture form; next derive room registry from the existing 1013L shell states."
+  },
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": false,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R27_XIAOJIAO_INTENT_FRAME_ROUTER_FIXTURE",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": true,
+    "render_blocks_protocol_defined": true,
+    "light_render_adapter_defined": true,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true,
+    "source_policy_light_validator_readonly": true,
+    "render_blocks_protocol_readonly": true,
+    "light_render_adapter_readonly": true,
+    "existing_page_modified": false,
+    "derivative_object_linkage_readonly": true,
+    "derivative_static_linkage_defined": true,
+    "courseware_export_created": false,
+    "worksheet_export_created": false,
+    "assessment_written": false,
+    "unified_package_readonly_export": true,
+    "static_json_export_allowed": true,
+    "endpoint_registered": false,
+    "prototype_copy_created": false,
+    "page_copy_created": true,
+    "page_binds_unified_package": true,
+    "internal_prototype_binding": true,
+    "external_protocol_band_created": false,
+    "new_blank_static_page_created": false,
+    "source_prototype_modified": false,
+    "teacher_readability_smoke_defined": true,
+    "visual_2k_check_expected": true,
+    "teacher_walkthrough_script_defined": true,
+    "render_block_component_boundary_defined": true,
+    "component_implementation_created": false,
+    "four_level_frame_implementation_map_defined": true,
+    "history_viewer_used_as_index_only": true,
+    "openclaw_runtime_imported": false,
+    "openclaw_memory_imported": false,
+    "page_dom_modified": false,
+    "new_disconnected_page_created": false,
+    "page_copy_four_level_markers_defined": true,
+    "runtime_dom_data_markers_added": true,
+    "visible_layout_modified": false,
+    "intent_frame_router_fixture_defined": true,
+    "static_fixture_only": true,
+    "runtime_router_connected": false,
+    "semantic_runtime_called": false
+  }
+}

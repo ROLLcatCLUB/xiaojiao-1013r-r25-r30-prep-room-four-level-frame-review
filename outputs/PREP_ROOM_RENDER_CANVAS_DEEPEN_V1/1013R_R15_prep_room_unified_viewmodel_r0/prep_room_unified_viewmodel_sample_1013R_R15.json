@@ -1,0 +1,2255 @@
+{
+  "ok": true,
+  "stage": "1013R_R15_PREP_ROOM_UNIFIED_VIEWMODEL_R0",
+  "viewmodel_type": "prep_room_unified_readonly_contract_viewmodel",
+  "viewmodel_id": "g3_u2_l1_color_gradient_unified",
+  "generated_at": "2026-06-26T18:45:23+00:00",
+  "current_object": {
+    "id": "g3_u2_l1_color_gradient",
+    "type": "single_lesson",
+    "grade": "三年级",
+    "term": "2025学年第二学期",
+    "unit": "第二单元 多彩的世界",
+    "title": "2-1《色彩的渐变》",
+    "textbook_page": "教材第6-7页",
+    "status": "待确认"
+  },
+  "lesson_viewmodel": {
+    "active_view": "prepNotebook",
+    "active_node_id": "u2_l1",
+    "lesson_tree": [
+      {
+        "id": "u1",
+        "label": "记录生活",
+        "type": "unit",
+        "unit_no": 1,
+        "lessons": [
+          {
+            "id": "u1_l1",
+            "code": "1",
+            "title": "画中的生活",
+            "page": 1,
+            "active": false
+          },
+          {
+            "id": "u1_l2",
+            "code": "2",
+            "title": "流淌的情感",
+            "page": 4,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "u2",
+        "label": "多彩的世界",
+        "type": "unit",
+        "unit_no": 2,
+        "lessons": [
+          {
+            "id": "u2_l1",
+            "code": "1",
+            "title": "色彩的渐变",
+            "page": 6,
+            "active": true
+          },
+          {
+            "id": "u2_l2",
+            "code": "2",
+            "title": "渐变的节奏",
+            "page": 8,
+            "active": false
+          },
+          {
+            "id": "u2_l3",
+            "code": "3",
+            "title": "多彩的生活",
+            "page": 10,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "u3",
+        "label": "辽阔的海洋",
+        "type": "unit",
+        "unit_no": 3,
+        "lessons": [
+          {
+            "id": "u3_l1",
+            "code": "1",
+            "title": "奇异的海洋生物",
+            "page": 12,
+            "active": false
+          },
+          {
+            "id": "u3_l2",
+            "code": "2",
+            "title": "跳动的蓝色心脏",
+            "page": 14,
+            "active": false
+          },
+          {
+            "id": "u3_l3",
+            "code": "3",
+            "title": "守护生命的摇篮",
+            "page": 16,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "u4",
+        "label": "红领巾告诉我",
+        "type": "unit",
+        "unit_no": 4,
+        "lessons": [
+          {
+            "id": "u4_l1",
+            "code": "1",
+            "title": "种下红色种子",
+            "page": 18,
+            "active": false
+          },
+          {
+            "id": "u4_l2",
+            "code": "2",
+            "title": "传承红色精神",
+            "page": 20,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "special",
+        "label": "青绿中国色",
+        "type": "unit",
+        "unit_no": "special",
+        "lessons": [
+          {
+            "id": "special_ltheme",
+            "code": "theme",
+            "title": "青绿中国色",
+            "page": 22,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "u5",
+        "label": "足下生辉",
+        "type": "unit",
+        "unit_no": 5,
+        "lessons": [
+          {
+            "id": "u5_l1",
+            "code": "1",
+            "title": "走过四季",
+            "page": 28,
+            "active": false
+          },
+          {
+            "id": "u5_l2",
+            "code": "2",
+            "title": "魅力鞋汇",
+            "page": 30,
+            "active": false
+          },
+          {
+            "id": "u5_l3",
+            "code": "3",
+            "title": "时空“履”行",
+            "page": 32,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "u6",
+        "label": "装点生活",
+        "type": "unit",
+        "unit_no": 6,
+        "lessons": [
+          {
+            "id": "u6_l1",
+            "code": "1",
+            "title": "纹样有特点",
+            "page": 34,
+            "active": false
+          },
+          {
+            "id": "u6_l2",
+            "code": "2",
+            "title": "纹样的魅力",
+            "page": 36,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "u7",
+        "label": "虎虎生威",
+        "type": "unit",
+        "unit_no": 7,
+        "lessons": [
+          {
+            "id": "u7_l1",
+            "code": "1",
+            "title": "虎虎虎",
+            "page": 38,
+            "active": false
+          },
+          {
+            "id": "u7_l2",
+            "code": "2",
+            "title": "巧手做老虎",
+            "page": 40,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "u8",
+        "label": "成长日记",
+        "type": "unit",
+        "unit_no": 8,
+        "lessons": [
+          {
+            "id": "u8_l1",
+            "code": "1",
+            "title": "蓬勃的生命",
+            "page": 42,
+            "active": false
+          },
+          {
+            "id": "u8_l2",
+            "code": "2",
+            "title": "奔跑的少年",
+            "page": 44,
+            "active": false
+          },
+          {
+            "id": "u8_l3",
+            "code": "3",
+            "title": "未来的我们",
+            "page": 46,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "extension",
+        "label": "迁移拓展",
+        "type": "unit",
+        "unit_no": "extension",
+        "lessons": [
+          {
+            "id": "extension_lextension",
+            "code": "extension",
+            "title": "迁移拓展",
+            "page": 48,
+            "active": false
+          }
+        ]
+      }
+    ],
+    "current_lesson": {
+      "id": "g3_u2_l1_color_gradient",
+      "title": "2-1《色彩的渐变》",
+      "eyebrow": "第二单元 多彩的世界",
+      "textbook_page": "教材第6-7页",
+      "status": "待确认",
+      "flow": [
+        "教材锚点",
+        "备课正文",
+        "课堂大屏",
+        "学习单",
+        "作品证据",
+        "教师确认"
+      ],
+      "badges": [
+        "真实教材锚点",
+        "教材第6-7页图像",
+        "旧 AI 资料降级为参考",
+        "只读 runtime"
+      ],
+      "sections": [
+        {
+          "id": "basis",
+          "title": "一、本课依据",
+          "items": [
+            "本课对应三年级第二单元《多彩的世界》第1课《色彩的渐变》，教材页码为第6页。",
+            "教材呈现自然中的色彩渐变、色彩明度与纯度变化、渐变排列游戏和学生作品。",
+            "本地旧 AI 教学资料只能作为渐变技法参考，不能作为教材标准或字段标准。"
+          ]
+        },
+        {
+          "id": "analysis",
+          "title": "二、学情分析",
+          "items": [
+            "三年级学生能直观看到颜色深浅、浓淡和鲜灰差异，但容易把渐变理解为把几种颜色并排涂上去。",
+            "他们需要通过色卡排列、颜料试色或纸条排序，把颜色慢慢变化的规律变成可操作步骤。",
+            "本版学情是备课预设，后续应接入课堂记录和教师确认修正。"
+          ]
+        },
+        {
+          "id": "goals",
+          "title": "三、教学目标",
+          "items": [
+            "观察自然和作品中的色彩渐变，知道明度、纯度会影响渐变效果。",
+            "能用调色、拼摆或绘画方式表现有秩序的色彩渐变。",
+            "感受色彩渐变带来的节奏、层次和视觉美感。"
+          ]
+        },
+        {
+          "id": "keypoints",
+          "title": "四、教学重难点",
+          "items": [
+            "重点：发现色彩由深到浅、由鲜到灰、由一种颜色逐步过渡到另一种颜色的变化。",
+            "难点：让渐变有规律、有层次，不变成随意涂色或简单排色。"
+          ]
+        },
+        {
+          "id": "preparation",
+          "title": "五、教学准备",
+          "items": [
+            "教师准备教材页图、渐变色阶示例、试色纸和可视化调色步骤。",
+            "学生准备水彩笔、油画棒或水粉材料，保留试色过程作为证据。"
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "六、学习单与评价",
+          "items": [
+            "学习单只记录色阶顺序、调色发现和一次修改理由。",
+            "评价看试色证据、渐变秩序、作品应用和表达说明，不只看画面是否漂亮。"
+          ]
+        },
+        {
+          "id": "reflection",
+          "title": "七、教师待确认",
+          "items": [
+            "是否优先用颜料调色，还是用纸条拼摆降低操作难度。",
+            "是否把第2课《渐变的节奏》和第3课《多彩的生活》作为本课延展预告。"
+          ]
+        }
+      ],
+      "process_steps": [
+        {
+          "id": "intro",
+          "title": "看见渐变",
+          "teacher_action": "出示自然图片和教材页，引导学生找从明到暗、从鲜到灰的变化。",
+          "student_action": "用手指沿色带说出颜色怎样慢慢变化。",
+          "screen_seed": "一张自然渐变图 + 5格色阶",
+          "evidence": "学生能指出变化方向。"
+        },
+        {
+          "id": "sense",
+          "title": "比较明度与纯度",
+          "teacher_action": "用同一种颜色加入白色、黑色或灰色，展示明度和纯度变化。",
+          "student_action": "比较哪一格更亮、哪一格更灰，并尝试排序。",
+          "screen_seed": "明度变化 / 纯度变化 对照",
+          "evidence": "学生完成色阶排序。"
+        },
+        {
+          "id": "explore",
+          "title": "做渐变实验",
+          "teacher_action": "示范少量多次加色，提醒每一步只改变一点点。",
+          "student_action": "在试色纸上完成3到5格渐变色阶。",
+          "screen_seed": "调色步骤：原色 -> 加白/加水 -> 逐格变化",
+          "evidence": "试色纸保留过程。"
+        },
+        {
+          "id": "make",
+          "title": "把渐变用到画面",
+          "teacher_action": "提示把渐变用于动物、植物、建筑或校园空间。",
+          "student_action": "选择一个对象，把渐变规律转化为画面层次。",
+          "screen_seed": "学生作品参考：鸟、鲸、纸构空间",
+          "evidence": "作品中出现清晰渐变区域。"
+        },
+        {
+          "id": "share",
+          "title": "说出修改理由",
+          "teacher_action": "组织学生用一句话说明自己的渐变方向和调整原因。",
+          "student_action": "展示作品和试色纸，说出保留或修改的一处。",
+          "screen_seed": "我用了__到__的渐变，因为__。",
+          "evidence": "学生能用证据说明作品。"
+        }
+      ],
+      "big_screen_short_text": [
+        "颜色慢慢变，层次就出现。",
+        "每一步只变一点点。",
+        "试色纸也是作品证据。"
+      ]
+    },
+    "section_index": {
+      "basis": {
+        "id": "basis",
+        "title": "一、本课依据",
+        "items": [
+          "本课对应三年级第二单元《多彩的世界》第1课《色彩的渐变》，教材页码为第6页。",
+          "教材呈现自然中的色彩渐变、色彩明度与纯度变化、渐变排列游戏和学生作品。",
+          "本地旧 AI 教学资料只能作为渐变技法参考，不能作为教材标准或字段标准。"
+        ]
+      },
+      "analysis": {
+        "id": "analysis",
+        "title": "二、学情分析",
+        "items": [
+          "三年级学生能直观看到颜色深浅、浓淡和鲜灰差异，但容易把渐变理解为把几种颜色并排涂上去。",
+          "他们需要通过色卡排列、颜料试色或纸条排序，把颜色慢慢变化的规律变成可操作步骤。",
+          "本版学情是备课预设，后续应接入课堂记录和教师确认修正。"
+        ]
+      },
+      "goals": {
+        "id": "goals",
+        "title": "三、教学目标",
+        "items": [
+          "观察自然和作品中的色彩渐变，知道明度、纯度会影响渐变效果。",
+          "能用调色、拼摆或绘画方式表现有秩序的色彩渐变。",
+          "感受色彩渐变带来的节奏、层次和视觉美感。"
+        ]
+      },
+      "keypoints": {
+        "id": "keypoints",
+        "title": "四、教学重难点",
+        "items": [
+          "重点：发现色彩由深到浅、由鲜到灰、由一种颜色逐步过渡到另一种颜色的变化。",
+          "难点：让渐变有规律、有层次，不变成随意涂色或简单排色。"
+        ]
+      },
+      "preparation": {
+        "id": "preparation",
+        "title": "五、教学准备",
+        "items": [
+          "教师准备教材页图、渐变色阶示例、试色纸和可视化调色步骤。",
+          "学生准备水彩笔、油画棒或水粉材料，保留试色过程作为证据。"
+        ]
+      },
+      "assessment": {
+        "id": "assessment",
+        "title": "六、学习单与评价",
+        "items": [
+          "学习单只记录色阶顺序、调色发现和一次修改理由。",
+          "评价看试色证据、渐变秩序、作品应用和表达说明，不只看画面是否漂亮。"
+        ]
+      },
+      "reflection": {
+        "id": "reflection",
+        "title": "七、教师待确认",
+        "items": [
+          "是否优先用颜料调色，还是用纸条拼摆降低操作难度。",
+          "是否把第2课《渐变的节奏》和第3课《多彩的生活》作为本课延展预告。"
+        ]
+      }
+    },
+    "courseware_screens": [
+      {
+        "screen_no": 1,
+        "title": "色彩的渐变",
+        "role": "本课方向",
+        "status": "已有文字"
+      },
+      {
+        "screen_no": 2,
+        "title": "看色彩图片",
+        "role": "导入观察",
+        "status": "待补图"
+      },
+      {
+        "screen_no": 3,
+        "title": "比较两组颜色",
+        "role": "比较变化",
+        "status": "待补图"
+      },
+      {
+        "screen_no": 4,
+        "title": "感觉词卡",
+        "role": "比较变化",
+        "status": "已有文字"
+      },
+      {
+        "screen_no": 5,
+        "title": "色彩实验任务",
+        "role": "色彩实验",
+        "status": "待补图"
+      },
+      {
+        "screen_no": 6,
+        "title": "白板试色",
+        "role": "色彩实验",
+        "status": "可白板"
+      },
+      {
+        "screen_no": 7,
+        "title": "学生作品展示",
+        "role": "展示评价",
+        "status": "待学生作品"
+      },
+      {
+        "screen_no": 8,
+        "title": "总结回看",
+        "role": "展示评价",
+        "status": "已有文字"
+      }
+    ]
+  },
+  "task_state": {
+    "space": {
+      "id": "prep_room",
+      "label": "备课室",
+      "xiaojiao_role": "备课助理"
+    },
+    "task_state": {
+      "state_id": "prep_preview_in_progress",
+      "teacher_visible_label": "小教判断：正在备课",
+      "current_step": "教学判断与结构化预览",
+      "known_material_count": 5,
+      "missing_material_count": 4,
+      "recommended_next_action_id": "preview_lesson_body_refinement",
+      "should_not_long_chat": true,
+      "teacher_visible_summary": "小教已定位三年级第二单元第1课《色彩的渐变》，当前处于备课预览态；后续保存、导出、评价和归档都需要教师确认门。"
+    },
+    "known_materials": [
+      {
+        "id": "grade_term",
+        "label": "年级与学期",
+        "value": "三年级 · 2025学年第二学期",
+        "source_category": "system_structure"
+      },
+      {
+        "id": "lesson_anchor",
+        "label": "当前课题",
+        "value": "2-1《色彩的渐变》",
+        "source_category": "textbook_anchor"
+      },
+      {
+        "id": "unit_anchor",
+        "label": "单元位置",
+        "value": "第二单元 多彩的世界",
+        "source_category": "textbook_anchor"
+      },
+      {
+        "id": "textbook_page",
+        "label": "教材页码",
+        "value": "教材第6-7页",
+        "source_category": "textbook_anchor"
+      },
+      {
+        "id": "courseware_screen_patch",
+        "label": "课件屏幕草案",
+        "value": "8 屏预览",
+        "source_category": "system_structure"
+      }
+    ],
+    "missing_materials": [
+      {
+        "id": "student_work_samples",
+        "label": "学生作品样例",
+        "why_needed": "评价表和展示评价需要真实作品证据，不能只靠 AI 设想。",
+        "blocks_slots": [
+          "assessment_rubric",
+          "classroom_display_screen"
+        ],
+        "severity": "medium"
+      },
+      {
+        "id": "assessment_dimensions",
+        "label": "评价维度",
+        "why_needed": "正式评价和评语必须由教师确认维度后才能推进。",
+        "blocks_slots": [
+          "assessment_rubric"
+        ],
+        "severity": "high"
+      },
+      {
+        "id": "official_textbook_ocr",
+        "label": "教材第6-7页正式 OCR",
+        "why_needed": "当前有教材锚点和页面位置，但不能把 AI 草案当教材原文。",
+        "blocks_slots": [
+          "source_evidence"
+        ],
+        "severity": "medium"
+      },
+      {
+        "id": "classroom_constraints",
+        "label": "课堂条件",
+        "why_needed": "颜料、水粉、纸条拼摆和白板演示会影响教学过程和材料清单。",
+        "blocks_slots": [
+          "teacher_demo",
+          "materials_list"
+        ],
+        "severity": "medium"
+      }
+    ],
+    "preview_candidates": [
+      {
+        "id": "preview_lesson_body_refinement",
+        "label": "精修备课本正文",
+        "targets": [
+          "lesson_body",
+          "teaching_process"
+        ],
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "write_effect": "preview_only"
+      },
+      {
+        "id": "preview_courseware_script",
+        "label": "生成课件脚本预览",
+        "targets": [
+          "courseware_script"
+        ],
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "write_effect": "preview_only"
+      },
+      {
+        "id": "preview_display_screen",
+        "label": "生成大屏呈现预览",
+        "targets": [
+          "classroom_display_screen"
+        ],
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "write_effect": "preview_only"
+      },
+      {
+        "id": "preview_worksheet",
+        "label": "生成学习单预览",
+        "targets": [
+          "worksheet"
+        ],
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "write_effect": "preview_only"
+      },
+      {
+        "id": "preview_assessment_rubric",
+        "label": "生成评价表预览",
+        "targets": [
+          "assessment_rubric"
+        ],
+        "allowed_now": false,
+        "requires_teacher_confirmation": true,
+        "blocked_by": [
+          "assessment_dimensions",
+          "student_work_samples"
+        ],
+        "write_effect": "preview_only"
+      }
+    ],
+    "suggested_teacher_prompts": [
+      "帮我先精修教学过程。",
+      "先生成大屏呈现预览。",
+      "把学习单做成轻量版。",
+      "我补充学生作品样例后再做评价表。"
+    ]
+  },
+  "action_gate": {
+    "contract_id": "SHIWEI_TEACHER_ACTION_GATE_CONTRACT_R0",
+    "gate_types": [
+      {
+        "gate_type": "view_only",
+        "label": "只读查看",
+        "allowed_effects": [
+          "read_state",
+          "open_detail"
+        ],
+        "forbidden_effects": [
+          "create_preview",
+          "write_state",
+          "export_file",
+          "formal_apply"
+        ],
+        "teacher_confirmation_required": false
+      },
+      {
+        "gate_type": "intent_preview_only",
+        "label": "只识别意图",
+        "allowed_effects": [
+          "classify_teacher_input",
+          "suggest_next_action"
+        ],
+        "forbidden_effects": [
+          "write_state",
+          "export_file",
+          "formal_apply"
+        ],
+        "teacher_confirmation_required": false
+      },
+      {
+        "gate_type": "preview_then_confirm",
+        "label": "先生成预览，再等确认",
+        "allowed_effects": [
+          "create_preview",
+          "show_impact_scope",
+          "show_source_badges"
+        ],
+        "forbidden_effects": [
+          "write_state",
+          "export_file",
+          "formal_apply"
+        ],
+        "teacher_confirmation_required": true
+      },
+      {
+        "gate_type": "gate_required",
+        "label": "必须经过教师确认门",
+        "allowed_effects": [
+          "show_confirm_dialog",
+          "record_preview_decision"
+        ],
+        "forbidden_effects": [
+          "silent_write",
+          "formal_apply_without_explicit_gate"
+        ],
+        "teacher_confirmation_required": true
+      },
+      {
+        "gate_type": "blocked_until_teacher_dimension",
+        "label": "缺少教师维度，暂时阻断",
+        "allowed_effects": [
+          "show_block_reason",
+          "ask_for_missing_material"
+        ],
+        "forbidden_effects": [
+          "create_formal_assessment",
+          "write_student_record",
+          "formal_apply"
+        ],
+        "teacher_confirmation_required": true
+      },
+      {
+        "gate_type": "future_only",
+        "label": "未来能力",
+        "allowed_effects": [
+          "show_future_badge"
+        ],
+        "forbidden_effects": [
+          "execute_action",
+          "write_state",
+          "export_file",
+          "formal_apply"
+        ],
+        "teacher_confirmation_required": true
+      }
+    ],
+    "action_matrix": [
+      {
+        "action_id": "preview_lesson_body_refinement",
+        "label": "精修备课本正文",
+        "action_kind": "preview_candidate",
+        "target_slots": [
+          "lesson_body",
+          "teaching_process"
+        ],
+        "target_slot_gates": {
+          "lesson_body": "preview_then_confirm",
+          "teaching_process": "preview_then_confirm"
+        },
+        "gate_type": "preview_then_confirm",
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "preview_only",
+        "blocked_by": [],
+        "must_show_before_confirm": [
+          "preview_content",
+          "impact_scope",
+          "source_badges",
+          "write_effect=preview_only"
+        ]
+      },
+      {
+        "action_id": "preview_courseware_script",
+        "label": "生成课件脚本预览",
+        "action_kind": "preview_candidate",
+        "target_slots": [
+          "courseware_script"
+        ],
+        "target_slot_gates": {
+          "courseware_script": "preview_then_confirm"
+        },
+        "gate_type": "preview_then_confirm",
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "preview_only",
+        "blocked_by": [],
+        "must_show_before_confirm": [
+          "preview_content",
+          "impact_scope",
+          "source_badges",
+          "write_effect=preview_only"
+        ]
+      },
+      {
+        "action_id": "preview_display_screen",
+        "label": "生成大屏呈现预览",
+        "action_kind": "preview_candidate",
+        "target_slots": [
+          "classroom_display_screen"
+        ],
+        "target_slot_gates": {
+          "classroom_display_screen": "preview_then_confirm"
+        },
+        "gate_type": "preview_then_confirm",
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "preview_only",
+        "blocked_by": [],
+        "must_show_before_confirm": [
+          "preview_content",
+          "impact_scope",
+          "source_badges",
+          "write_effect=preview_only"
+        ]
+      },
+      {
+        "action_id": "preview_worksheet",
+        "label": "生成学习单预览",
+        "action_kind": "preview_candidate",
+        "target_slots": [
+          "worksheet"
+        ],
+        "target_slot_gates": {
+          "worksheet": "preview_then_confirm"
+        },
+        "gate_type": "preview_then_confirm",
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "preview_only",
+        "blocked_by": [],
+        "must_show_before_confirm": [
+          "preview_content",
+          "impact_scope",
+          "source_badges",
+          "write_effect=preview_only"
+        ]
+      },
+      {
+        "action_id": "preview_assessment_rubric",
+        "label": "生成评价表预览",
+        "action_kind": "preview_candidate",
+        "target_slots": [
+          "assessment_rubric"
+        ],
+        "target_slot_gates": {
+          "assessment_rubric": "blocked_until_teacher_dimension"
+        },
+        "gate_type": "blocked_until_teacher_dimension",
+        "allowed_now": false,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "preview_only",
+        "blocked_by": [
+          "assessment_dimensions",
+          "student_work_samples"
+        ],
+        "must_show_before_confirm": [
+          "preview_content",
+          "impact_scope",
+          "source_badges",
+          "write_effect=preview_only"
+        ]
+      },
+      {
+        "action_id": "confirm_refine_lesson_body_preview",
+        "label": "确认精修备课正文预览",
+        "action_kind": "teacher_confirmation",
+        "target_slots": [
+          "lesson_body",
+          "teaching_process"
+        ],
+        "target_slot_gates": {
+          "lesson_body": "preview_then_confirm",
+          "teaching_process": "preview_then_confirm"
+        },
+        "gate_type": "gate_required",
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "record_preview_decision_only",
+        "must_show_before_confirm": [
+          "preview_diff_or_summary",
+          "affected_slots",
+          "source_policy_notes",
+          "no_formal_apply_notice"
+        ]
+      },
+      {
+        "action_id": "confirm_generate_courseware_preview",
+        "label": "确认生成课件脚本预览",
+        "action_kind": "teacher_confirmation",
+        "target_slots": [
+          "courseware_script"
+        ],
+        "target_slot_gates": {
+          "courseware_script": "preview_then_confirm"
+        },
+        "gate_type": "gate_required",
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "record_preview_decision_only",
+        "must_show_before_confirm": [
+          "preview_diff_or_summary",
+          "affected_slots",
+          "source_policy_notes",
+          "no_formal_apply_notice"
+        ]
+      },
+      {
+        "action_id": "confirm_generate_display_preview",
+        "label": "确认生成大屏预览",
+        "action_kind": "teacher_confirmation",
+        "target_slots": [
+          "classroom_display_screen"
+        ],
+        "target_slot_gates": {
+          "classroom_display_screen": "preview_then_confirm"
+        },
+        "gate_type": "gate_required",
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "record_preview_decision_only",
+        "must_show_before_confirm": [
+          "preview_diff_or_summary",
+          "affected_slots",
+          "source_policy_notes",
+          "no_formal_apply_notice"
+        ]
+      },
+      {
+        "action_id": "confirm_generate_worksheet_preview",
+        "label": "确认生成学习单预览",
+        "action_kind": "teacher_confirmation",
+        "target_slots": [
+          "worksheet"
+        ],
+        "target_slot_gates": {
+          "worksheet": "preview_then_confirm"
+        },
+        "gate_type": "gate_required",
+        "allowed_now": true,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "record_preview_decision_only",
+        "must_show_before_confirm": [
+          "preview_diff_or_summary",
+          "affected_slots",
+          "source_policy_notes",
+          "no_formal_apply_notice"
+        ]
+      },
+      {
+        "action_id": "formal_save_to_lesson_package",
+        "label": "保存到正式课包",
+        "action_kind": "blocked_action",
+        "target_slots": [],
+        "gate_type": "blocked_until_teacher_dimension",
+        "allowed_now": false,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "none",
+        "blocked_reason": "当前只有只读合同和预览态，没有 formal apply gate。",
+        "unblock_requires": [
+          "TEACHER_ACTION_GATE_CONTRACT_R0",
+          "formal_apply_authorization"
+        ]
+      },
+      {
+        "action_id": "write_student_assessment",
+        "label": "正式评价学生作品",
+        "action_kind": "blocked_action",
+        "target_slots": [],
+        "gate_type": "blocked_until_teacher_dimension",
+        "allowed_now": false,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "none",
+        "blocked_reason": "缺少学生作品样例和教师确认的评价维度。",
+        "unblock_requires": [
+          "student_work_samples",
+          "assessment_dimensions",
+          "teacher_confirmation"
+        ]
+      },
+      {
+        "action_id": "export_courseware_file",
+        "label": "导出课件文件",
+        "action_kind": "blocked_action",
+        "target_slots": [],
+        "gate_type": "future_only",
+        "allowed_now": false,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "none",
+        "blocked_reason": "当前只定义课件脚本预览，不生成正式文件。",
+        "unblock_requires": [
+          "render_blocks_protocol",
+          "export_contract",
+          "teacher_confirmation"
+        ]
+      },
+      {
+        "action_id": "write_memory_or_archive",
+        "label": "写入记忆或档案",
+        "action_kind": "blocked_action",
+        "target_slots": [],
+        "gate_type": "future_only",
+        "allowed_now": false,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "none",
+        "blocked_reason": "记忆底座后置，当前避免污染教师偏好和历史记录。",
+        "unblock_requires": [
+          "memory_policy_contract",
+          "source_policy_validator"
+        ]
+      }
+    ],
+    "confirmation_rules": [
+      {
+        "rule_id": "show_preview_before_confirm",
+        "label": "确认前必须先显示预览",
+        "must_hold": true
+      },
+      {
+        "rule_id": "show_impact_scope",
+        "label": "确认前必须显示影响哪些渲染位",
+        "must_hold": true
+      },
+      {
+        "rule_id": "show_source_badges",
+        "label": "确认前必须显示资料来源标签",
+        "must_hold": true
+      },
+      {
+        "rule_id": "no_silent_write",
+        "label": "不得静默写入数据库、记忆、飞书、向量或正式课包",
+        "must_hold": true
+      },
+      {
+        "rule_id": "formal_apply_separate_gate",
+        "label": "formal apply 必须是后续独立门，不得混入 R14",
+        "must_hold": true
+      }
+    ],
+    "confirmation_receipt_schema": {
+      "receipt_id": "string",
+      "action_id": "string",
+      "teacher_decision": [
+        "confirm_preview",
+        "revise_preview",
+        "reject_preview",
+        "defer"
+      ],
+      "target_slots": [
+        "string"
+      ],
+      "preview_summary": "string",
+      "source_badges": [
+        "textbook_anchor",
+        "teacher_input",
+        "ai_draft",
+        "system_structure"
+      ],
+      "write_effect": [
+        "preview_only",
+        "record_preview_decision_only",
+        "none"
+      ],
+      "formal_apply_performed": false,
+      "created_at": "iso8601"
+    },
+    "teacher_visible_groups": [
+      {
+        "group_id": "can_preview_now",
+        "label": "现在可以先预览",
+        "action_ids": [
+          "preview_lesson_body_refinement",
+          "preview_courseware_script",
+          "preview_display_screen",
+          "preview_worksheet"
+        ]
+      },
+      {
+        "group_id": "need_teacher_confirm",
+        "label": "需要教师确认",
+        "action_ids": [
+          "preview_lesson_body_refinement",
+          "preview_courseware_script",
+          "preview_display_screen",
+          "preview_worksheet",
+          "confirm_refine_lesson_body_preview",
+          "confirm_generate_courseware_preview",
+          "confirm_generate_display_preview",
+          "confirm_generate_worksheet_preview"
+        ]
+      },
+      {
+        "group_id": "blocked_now",
+        "label": "当前阻断",
+        "action_ids": [
+          "preview_assessment_rubric",
+          "formal_save_to_lesson_package",
+          "write_student_assessment",
+          "export_courseware_file",
+          "write_memory_or_archive"
+        ]
+      }
+    ]
+  },
+  "render_surface_map": [
+    {
+      "slot_id": "current_object_card",
+      "human_name": "当前课题卡",
+      "teacher_visible_purpose": "让老师一眼知道当前正在备哪一课。",
+      "data_source": [
+        "task_object",
+        "prep_view_patch.current_lesson"
+      ],
+      "render_state": "bound",
+      "action_gate": "view_only",
+      "source_refs": {
+        "source_ids": [
+          "user_provided_g3_textbook_catalog_photo"
+        ],
+        "source_policy": "textbook_anchor",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "switch_lesson_after_gate"
+      ]
+    },
+    {
+      "slot_id": "xiaojiao_task_state",
+      "human_name": "小教任务状态",
+      "teacher_visible_purpose": "显示小教判断、已知材料、缺口和建议下一步。",
+      "data_source": [
+        "xiaojiao_task_state_contract"
+      ],
+      "render_state": "contract_ready",
+      "action_gate": "view_only",
+      "source_refs": {
+        "source_ids": [
+          "task_state_contract_1013R_R13"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "add_material",
+        "choose_preview_candidate"
+      ]
+    },
+    {
+      "slot_id": "lesson_body",
+      "human_name": "备课本正文",
+      "teacher_visible_purpose": "承载教学目标、重难点、准备、过程和评价建议。",
+      "data_source": [
+        "prep_view_patch.current_lesson.sections"
+      ],
+      "render_state": "bound",
+      "action_gate": "preview_then_confirm",
+      "source_refs": {
+        "source_ids": [
+          "user_provided_g3_textbook_catalog_photo",
+          "work_plan_render_packet_0993B_real_catalog_hint",
+          "kb_g3_u1_old_ai_gradient_unit_doc"
+        ],
+        "source_policy": "textbook_anchor_plus_reference",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "refine_section",
+        "preview_patch",
+        "teacher_confirm_patch"
+      ]
+    },
+    {
+      "slot_id": "teaching_process",
+      "human_name": "教学过程",
+      "teacher_visible_purpose": "把课堂环节拆成可检查的教师动作、学生活动、大屏提示和证据。",
+      "data_source": [
+        "prep_view_patch.current_lesson.process_steps"
+      ],
+      "render_state": "bound",
+      "action_gate": "preview_then_confirm",
+      "source_refs": {
+        "source_ids": [
+          "prep_view_patch.current_lesson.process_steps"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "refine_process_step",
+        "link_display_screen",
+        "create_evidence_check"
+      ]
+    },
+    {
+      "slot_id": "teacher_demo",
+      "human_name": "教师示范",
+      "teacher_visible_purpose": "沉淀示范步骤、注意点和可上屏的示范语。",
+      "data_source": [
+        "prep_view_patch.current_lesson.process_steps",
+        "courseware_screen_patch"
+      ],
+      "render_state": "placeholder",
+      "action_gate": "preview_then_confirm",
+      "source_refs": {
+        "source_ids": [
+          "teacher_input_required"
+        ],
+        "source_policy": "teacher_input_required",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "generate_demo_preview",
+        "confirm_demo_script"
+      ]
+    },
+    {
+      "slot_id": "courseware_script",
+      "human_name": "课件脚本",
+      "teacher_visible_purpose": "定义 PPT/课件的屏幕顺序、标题、课堂作用和素材状态。",
+      "data_source": [
+        "courseware_screen_patch"
+      ],
+      "render_state": "bound_as_preview",
+      "action_gate": "preview_then_confirm",
+      "source_refs": {
+        "source_ids": [
+          "courseware_screen_patch"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "generate_courseware_script",
+        "export_courseware_after_gate"
+      ]
+    },
+    {
+      "slot_id": "classroom_display_screen",
+      "human_name": "大屏呈现",
+      "teacher_visible_purpose": "定义上课时投屏给学生看的文字、图像、白板和任务提示。",
+      "data_source": [
+        "prep_view_patch.current_lesson.big_screen_short_text",
+        "courseware_screen_patch"
+      ],
+      "render_state": "bound_as_preview",
+      "action_gate": "preview_then_confirm",
+      "source_refs": {
+        "source_ids": [
+          "courseware_screen_patch"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "generate_display_screen_preview",
+        "link_screen_to_process_step"
+      ]
+    },
+    {
+      "slot_id": "worksheet",
+      "human_name": "学习单",
+      "teacher_visible_purpose": "记录学生试色、排序、发现和修改理由。",
+      "data_source": [
+        "prep_view_patch.current_lesson.sections.assessment"
+      ],
+      "render_state": "placeholder",
+      "action_gate": "preview_then_confirm",
+      "source_refs": {
+        "source_ids": [
+          "teacher_input_required"
+        ],
+        "source_policy": "teacher_input_required",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "generate_worksheet_preview",
+        "confirm_worksheet"
+      ]
+    },
+    {
+      "slot_id": "assessment_rubric",
+      "human_name": "评价表",
+      "teacher_visible_purpose": "定义课堂评价维度、证据和教师确认后的评价用语。",
+      "data_source": [
+        "prep_view_patch.current_lesson.sections.assessment"
+      ],
+      "render_state": "placeholder",
+      "action_gate": "blocked_until_teacher_dimension",
+      "source_refs": {
+        "source_ids": [
+          "teacher_input_required"
+        ],
+        "source_policy": "teacher_input_required",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "define_assessment_dimension",
+        "preview_rubric"
+      ]
+    },
+    {
+      "slot_id": "blackboard_design",
+      "human_name": "板书设计",
+      "teacher_visible_purpose": "承载本课核心概念、步骤和学生可见的课堂结构。",
+      "data_source": [
+        "prep_view_patch.current_lesson.flow",
+        "teacher_input_required"
+      ],
+      "render_state": "placeholder",
+      "action_gate": "preview_then_confirm",
+      "source_refs": {
+        "source_ids": [
+          "teacher_input_required"
+        ],
+        "source_policy": "teacher_input_required",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "generate_blackboard_preview"
+      ]
+    },
+    {
+      "slot_id": "materials_list",
+      "human_name": "材料清单",
+      "teacher_visible_purpose": "列出教材页、色卡、试色纸、颜料、学生作品样例等材料。",
+      "data_source": [
+        "prep_view_patch.current_lesson.sections.preparation",
+        "source_matrix"
+      ],
+      "render_state": "bound_as_preview",
+      "action_gate": "preview_then_confirm",
+      "source_refs": {
+        "source_ids": [
+          "source_matrix"
+        ],
+        "source_policy": "mixed_reference",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "check_missing_materials",
+        "add_teacher_material"
+      ]
+    },
+    {
+      "slot_id": "source_evidence",
+      "human_name": "资料来源与证据",
+      "teacher_visible_purpose": "区分教材依据、教师输入、AI 草案、外部参考和系统结构。",
+      "data_source": [
+        "source_matrix",
+        "source_policy_notes"
+      ],
+      "render_state": "contract_ready",
+      "action_gate": "view_only",
+      "source_refs": {
+        "source_ids": [
+          "source_matrix"
+        ],
+        "source_policy": "source_policy",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "open_source_detail",
+        "run_source_policy_validator"
+      ]
+    },
+    {
+      "slot_id": "confirm_actions",
+      "human_name": "教师确认动作",
+      "teacher_visible_purpose": "列出可预览、需确认、阻断和未来动作。",
+      "data_source": [
+        "runtime_actions",
+        "preview_candidates",
+        "teacher_confirm_actions",
+        "blocked_actions"
+      ],
+      "render_state": "contract_ready",
+      "action_gate": "gate_required",
+      "source_refs": {
+        "source_ids": [
+          "runtime_actions"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "confirm_preview",
+        "reject_preview",
+        "defer_action"
+      ]
+    },
+    {
+      "slot_id": "bottom_composer",
+      "human_name": "底部小教输入",
+      "teacher_visible_purpose": "作为推进当前工作的入口，而不是普通聊天框。",
+      "data_source": [
+        "task_state",
+        "suggested_teacher_prompts"
+      ],
+      "render_state": "bound_as_prompt",
+      "action_gate": "intent_preview_only",
+      "source_refs": {
+        "source_ids": [
+          "task_state_contract_1013R_R13"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "future_actions": [
+        "submit_teacher_requirement",
+        "classify_intent"
+      ]
+    }
+  ],
+  "render_slots": [
+    {
+      "slot_id": "current_object_card",
+      "human_name": "当前课题卡",
+      "render_state": "bound",
+      "action_gate": "view_only",
+      "payload_refs": [
+        "current_object",
+        "lesson_viewmodel.current_lesson"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "user_provided_g3_textbook_catalog_photo"
+        ],
+        "source_policy": "textbook_anchor",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [],
+      "future_actions": [
+        "switch_lesson_after_gate"
+      ]
+    },
+    {
+      "slot_id": "xiaojiao_task_state",
+      "human_name": "小教任务状态",
+      "render_state": "contract_ready",
+      "action_gate": "view_only",
+      "payload_refs": [
+        "task_state"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "task_state_contract_1013R_R13"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [],
+      "future_actions": [
+        "add_material",
+        "choose_preview_candidate"
+      ]
+    },
+    {
+      "slot_id": "lesson_body",
+      "human_name": "备课本正文",
+      "render_state": "bound",
+      "action_gate": "preview_then_confirm",
+      "payload_refs": [
+        "lesson_viewmodel.current_lesson.sections"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "user_provided_g3_textbook_catalog_photo",
+          "work_plan_render_packet_0993B_real_catalog_hint",
+          "kb_g3_u1_old_ai_gradient_unit_doc"
+        ],
+        "source_policy": "textbook_anchor_plus_reference",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [
+        {
+          "action_id": "preview_lesson_body_refinement",
+          "label": "精修备课本正文",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_refine_lesson_body_preview",
+          "label": "确认精修备课正文预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "refine_section",
+        "preview_patch",
+        "teacher_confirm_patch"
+      ]
+    },
+    {
+      "slot_id": "teaching_process",
+      "human_name": "教学过程",
+      "render_state": "bound",
+      "action_gate": "preview_then_confirm",
+      "payload_refs": [
+        "lesson_viewmodel.current_lesson.process_steps"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "prep_view_patch.current_lesson.process_steps"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [
+        {
+          "action_id": "preview_lesson_body_refinement",
+          "label": "精修备课本正文",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_refine_lesson_body_preview",
+          "label": "确认精修备课正文预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "refine_process_step",
+        "link_display_screen",
+        "create_evidence_check"
+      ]
+    },
+    {
+      "slot_id": "teacher_demo",
+      "human_name": "教师示范",
+      "render_state": "placeholder",
+      "action_gate": "preview_then_confirm",
+      "payload_refs": [
+        "lesson_viewmodel.current_lesson.process_steps",
+        "lesson_viewmodel.courseware_screens"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "teacher_input_required"
+        ],
+        "source_policy": "teacher_input_required",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [],
+      "future_actions": [
+        "generate_demo_preview",
+        "confirm_demo_script"
+      ]
+    },
+    {
+      "slot_id": "courseware_script",
+      "human_name": "课件脚本",
+      "render_state": "bound_as_preview",
+      "action_gate": "preview_then_confirm",
+      "payload_refs": [
+        "lesson_viewmodel.courseware_screens"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "courseware_screen_patch"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [
+        {
+          "action_id": "preview_courseware_script",
+          "label": "生成课件脚本预览",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_generate_courseware_preview",
+          "label": "确认生成课件脚本预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "generate_courseware_script",
+        "export_courseware_after_gate"
+      ]
+    },
+    {
+      "slot_id": "classroom_display_screen",
+      "human_name": "大屏呈现",
+      "render_state": "bound_as_preview",
+      "action_gate": "preview_then_confirm",
+      "payload_refs": [
+        "lesson_viewmodel.current_lesson.big_screen_short_text",
+        "lesson_viewmodel.courseware_screens"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "courseware_screen_patch"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [
+        {
+          "action_id": "preview_display_screen",
+          "label": "生成大屏呈现预览",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_generate_display_preview",
+          "label": "确认生成大屏预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "generate_display_screen_preview",
+        "link_screen_to_process_step"
+      ]
+    },
+    {
+      "slot_id": "worksheet",
+      "human_name": "学习单",
+      "render_state": "placeholder",
+      "action_gate": "preview_then_confirm",
+      "payload_refs": [
+        "lesson_viewmodel.current_lesson.sections.assessment"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "teacher_input_required"
+        ],
+        "source_policy": "teacher_input_required",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [
+        {
+          "action_id": "preview_worksheet",
+          "label": "生成学习单预览",
+          "gate_type": "preview_then_confirm",
+          "allowed_now": true,
+          "write_effect": "preview_only"
+        },
+        {
+          "action_id": "confirm_generate_worksheet_preview",
+          "label": "确认生成学习单预览",
+          "gate_type": "gate_required",
+          "allowed_now": true,
+          "write_effect": "record_preview_decision_only"
+        }
+      ],
+      "future_actions": [
+        "generate_worksheet_preview",
+        "confirm_worksheet"
+      ]
+    },
+    {
+      "slot_id": "assessment_rubric",
+      "human_name": "评价表",
+      "render_state": "placeholder",
+      "action_gate": "blocked_until_teacher_dimension",
+      "payload_refs": [
+        "lesson_viewmodel.current_lesson.sections.assessment",
+        "task_state.missing_materials"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "teacher_input_required"
+        ],
+        "source_policy": "teacher_input_required",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [
+        {
+          "action_id": "preview_assessment_rubric",
+          "label": "生成评价表预览",
+          "gate_type": "blocked_until_teacher_dimension",
+          "allowed_now": false,
+          "write_effect": "preview_only"
+        }
+      ],
+      "future_actions": [
+        "define_assessment_dimension",
+        "preview_rubric"
+      ]
+    },
+    {
+      "slot_id": "blackboard_design",
+      "human_name": "板书设计",
+      "render_state": "placeholder",
+      "action_gate": "preview_then_confirm",
+      "payload_refs": [
+        "lesson_viewmodel.current_lesson.flow"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "teacher_input_required"
+        ],
+        "source_policy": "teacher_input_required",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [],
+      "future_actions": [
+        "generate_blackboard_preview"
+      ]
+    },
+    {
+      "slot_id": "materials_list",
+      "human_name": "材料清单",
+      "render_state": "bound_as_preview",
+      "action_gate": "preview_then_confirm",
+      "payload_refs": [
+        "lesson_viewmodel.current_lesson.sections.preparation",
+        "source_policy"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "source_matrix"
+        ],
+        "source_policy": "mixed_reference",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [],
+      "future_actions": [
+        "check_missing_materials",
+        "add_teacher_material"
+      ]
+    },
+    {
+      "slot_id": "source_evidence",
+      "human_name": "资料来源与证据",
+      "render_state": "contract_ready",
+      "action_gate": "view_only",
+      "payload_refs": [
+        "source_policy"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "source_matrix"
+        ],
+        "source_policy": "source_policy",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [],
+      "future_actions": [
+        "open_source_detail",
+        "run_source_policy_validator"
+      ]
+    },
+    {
+      "slot_id": "confirm_actions",
+      "human_name": "教师确认动作",
+      "render_state": "contract_ready",
+      "action_gate": "gate_required",
+      "payload_refs": [
+        "action_gate"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "runtime_actions"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [],
+      "future_actions": [
+        "confirm_preview",
+        "reject_preview",
+        "defer_action"
+      ]
+    },
+    {
+      "slot_id": "bottom_composer",
+      "human_name": "底部小教输入",
+      "render_state": "bound_as_prompt",
+      "action_gate": "intent_preview_only",
+      "payload_refs": [
+        "task_state.suggested_teacher_prompts"
+      ],
+      "source_refs": {
+        "source_ids": [
+          "task_state_contract_1013R_R13"
+        ],
+        "source_policy": "system_structure",
+        "must_show_source_badge": true,
+        "ai_draft_may_not_be_standard": true
+      },
+      "available_actions": [],
+      "future_actions": [
+        "submit_teacher_requirement",
+        "classify_intent"
+      ]
+    }
+  ],
+  "source_policy": {
+    "source_matrix": [
+      {
+        "source_id": "user_provided_g3_textbook_catalog_photo",
+        "label": "用户本轮提供的三年级教材目录照片",
+        "path": "E:/学校工作/教学/教学资料/教材图片资料/三年级教材内容 - 图片/三年级目录.jpg",
+        "exists": false,
+        "source_status": "teacher_provided_textbook_photo_current_turn",
+        "authority_status": "current_textbook_catalog_anchor",
+        "usage": "用于纠正伪课题《色彩的感觉》，建立三年级真实教材目录与当前课题锚点。",
+        "extracted_catalog": [
+          {
+            "unit_no": 1,
+            "unit_title": "记录生活",
+            "lessons": [
+              {
+                "lesson_no": 1,
+                "lesson_title": "画中的生活",
+                "page": 1
+              },
+              {
+                "lesson_no": 2,
+                "lesson_title": "流淌的情感",
+                "page": 4
+              }
+            ]
+          },
+          {
+            "unit_no": 2,
+            "unit_title": "多彩的世界",
+            "lessons": [
+              {
+                "lesson_no": 1,
+                "lesson_title": "色彩的渐变",
+                "page": 6
+              },
+              {
+                "lesson_no": 2,
+                "lesson_title": "渐变的节奏",
+                "page": 8
+              },
+              {
+                "lesson_no": 3,
+                "lesson_title": "多彩的生活",
+                "page": 10
+              }
+            ]
+          },
+          {
+            "unit_no": 3,
+            "unit_title": "辽阔的海洋",
+            "lessons": [
+              {
+                "lesson_no": 1,
+                "lesson_title": "奇异的海洋生物",
+                "page": 12
+              },
+              {
+                "lesson_no": 2,
+                "lesson_title": "跳动的蓝色心脏",
+                "page": 14
+              },
+              {
+                "lesson_no": 3,
+                "lesson_title": "守护生命的摇篮",
+                "page": 16
+              }
+            ]
+          },
+          {
+            "unit_no": 4,
+            "unit_title": "红领巾告诉我",
+            "lessons": [
+              {
+                "lesson_no": 1,
+                "lesson_title": "种下红色种子",
+                "page": 18
+              },
+              {
+                "lesson_no": 2,
+                "lesson_title": "传承红色精神",
+                "page": 20
+              }
+            ]
+          },
+          {
+            "unit_no": "special",
+            "unit_title": "青绿中国色",
+            "lessons": [
+              {
+                "lesson_no": "theme",
+                "lesson_title": "青绿中国色",
+                "page": 22
+              }
+            ],
+            "page_span": "22-27"
+          },
+          {
+            "unit_no": 5,
+            "unit_title": "足下生辉",
+            "lessons": [
+              {
+                "lesson_no": 1,
+                "lesson_title": "走过四季",
+                "page": 28
+              },
+              {
+                "lesson_no": 2,
+                "lesson_title": "魅力鞋汇",
+                "page": 30
+              },
+              {
+                "lesson_no": 3,
+                "lesson_title": "时空“履”行",
+                "page": 32
+              }
+            ]
+          },
+          {
+            "unit_no": 6,
+            "unit_title": "装点生活",
+            "lessons": [
+              {
+                "lesson_no": 1,
+                "lesson_title": "纹样有特点",
+                "page": 34
+              },
+              {
+                "lesson_no": 2,
+                "lesson_title": "纹样的魅力",
+                "page": 36
+              }
+            ]
+          },
+          {
+            "unit_no": 7,
+            "unit_title": "虎虎生威",
+            "lessons": [
+              {
+                "lesson_no": 1,
+                "lesson_title": "虎虎虎",
+                "page": 38
+              },
+              {
+                "lesson_no": 2,
+                "lesson_title": "巧手做老虎",
+                "page": 40
+              }
+            ]
+          },
+          {
+            "unit_no": 8,
+            "unit_title": "成长日记",
+            "lessons": [
+              {
+                "lesson_no": 1,
+                "lesson_title": "蓬勃的生命",
+                "page": 42
+              },
+              {
+                "lesson_no": 2,
+                "lesson_title": "奔跑的少年",
+                "page": 44
+              },
+              {
+                "lesson_no": 3,
+                "lesson_title": "未来的我们",
+                "page": 46
+              }
+            ]
+          },
+          {
+            "unit_no": "extension",
+            "unit_title": "迁移拓展",
+            "lessons": [
+              {
+                "lesson_no": "extension",
+                "lesson_title": "迁移拓展",
+                "page": 48
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source_id": "kb_g3_textbook_image_index_no_ocr",
+        "label": "知识库三年级教材图片索引",
+        "path": "knowledge-base/_parsed/kb_art_g3_textbook_images_20260427.txt",
+        "exists": true,
+        "char_count": 2762,
+        "source_status": "indexed_partial_no_ocr",
+        "authority_status": "image_index_only_not_textbook_text",
+        "usage": "只证明本地已有页图位置；该文件明确写着尚未完成 OCR，不能引用为教材原文。",
+        "excerpt_lines": [
+          "资料名称：三年级美术教材图片包",
+          "解析说明：当前仅登记教材图片原始位置、页图文件名、页序和文件大小；尚未完成 OCR，因此不能当作可引用原文。",
+          "001. 页图 00 | 0.jpg | 0.79 MB | 2026-03-06T06:34:50 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级教材内容 - 图片\\0.jpg",
+          "011. 页图 10 | 10.jpg | 0.78 MB | 2026-03-06T06:28:08 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级教材内容 - 图片\\10.jpg",
+          "021. 页图 20 | 20.jpg | 0.9 MB | 2026-03-06T06:29:03 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级教材内容 - 图片\\20.jpg",
+          "024. 页图 23 | 23.jpg | 1.05 MB | 2026-03-06T06:29:23 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级教材内容 - 图片\\23.jpg",
+          "025. 页图 25 | 三年级目录.jpg | 3.13 MB | 2026-03-06T06:05:03 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级目录.jpg"
+        ]
+      },
+      {
+        "source_id": "work_plan_render_packet_0993B_real_catalog_hint",
+        "label": "0993B 教学计划渲染包中的真实课题线索",
+        "path": "outputs/teaching_work_plan_content_0993B/readonly_render_packet_bundle_0993B.json",
+        "exists": true,
+        "char_count": 9161,
+        "source_status": "previous_runtime_fixture_reference",
+        "authority_status": "planning_fixture_reference_only",
+        "usage": "提供第二单元第1课《色彩的渐变》、第2课《渐变的节奏》、第3课《多彩的生活》的已有工程线索。",
+        "excerpt_lines": [
+          "\"第二单元第1课 色彩的渐变\",",
+          "\"第二单元第2课 渐变的节奏\",",
+          "\"第二单元第3课 多彩的生活\","
+        ]
+      },
+      {
+        "source_id": "work_plan_render_packet_0993B_keys",
+        "label": "0993B 渲染包结构索引",
+        "path": "outputs/teaching_work_plan_content_0993B/readonly_render_packet_bundle_0993B.json",
+        "exists": true,
+        "source_status": "previous_runtime_fixture_reference",
+        "authority_status": "planning_fixture_reference_only",
+        "usage": "只读参考，不能替代教师目录照片。",
+        "keys": [
+          "active_memory_created",
+          "backend_modified",
+          "bundle_id",
+          "frontend_modified",
+          "packet_count",
+          "packets",
+          "provider_called",
+          "readonly",
+          "source_stage",
+          "stage_id",
+          "target_renderer"
+        ]
+      },
+      {
+        "source_id": "kb_g3_u1_old_ai_gradient_unit_doc",
+        "label": "知识库旧 AI 第一单元《多变的色彩》备课文档",
+        "path": "knowledge-base/_parsed/kb_art_g3_lesson_case_lesson_8974535734.txt",
+        "exists": true,
+        "char_count": 5406,
+        "source_status": "kb_import_verified_but_reference_only",
+        "authority_status": "ai_generated_reference_only",
+        "usage": "旧 AI 教学设计中有渐变技法参考，但单元标题和教材目录不一致，不能作为标准对齐对象。",
+        "excerpt_lines": [
+          "# 第一单元《多变的色彩》备课文档",
+          "**单元：** 第一单元（2025第二学期）",
+          "- 识别和描述生活中和艺术作品中的渐变现象（明度渐变、纯度渐变）",
+          "- 感受渐变色彩带来的节奏感和韵律美",
+          "- 掌握三种不同工具（彩铅/油画棒/水粉）表现渐变的方法",
+          "- 学会使用水粉颜料进行调色渐变",
+          "- 理解并实践\"跳跃性渐变\"的不规则填充技法",
+          "- 在不规则形状中运用跳跃性渐变进行创意填充",
+          "- 尝试不同工具和颜色组合，发现渐变的多种表现方式",
+          "- 了解渐变在中外艺术作品中的应用（如林风眠花卉作品的色彩层次）"
+        ]
+      },
+      {
+        "source_id": "kb_g3_u1_old_ai_lesson2_pigment_gradient_reference",
+        "label": "知识库旧 AI 课时《颜料的渐变》参考教案",
+        "path": "knowledge-base/_parsed/kb_art_g3_lesson_case_2_07e719a809.txt",
+        "exists": true,
+        "char_count": 4469,
+        "source_status": "kb_import_verified_but_reference_only",
+        "authority_status": "ai_generated_reference_only",
+        "usage": "可参考水粉调色、加水形成明度变化等教学活动，但不改写真实课题《色彩的渐变》。",
+        "excerpt_lines": [
+          "# 课时2《颜料的渐变》教案",
+          "**所属大单元：** 第一单元 多变的色彩",
+          "**子课时名：** 颜料的渐变",
+          "**核心活动：** 初次尝试用水粉颜料进行调色渐变，用颜料的渐变画出生活中常见的事物和场景",
+          "**设计说明：** 三年级学生第一次接触水粉颜料，老师多示范；重点教颜料特性和调色方法；画在16K作业本上",
+          "| 所属大单元 | M+S | 本案例填写：第一单元：多变的色彩 |",
+          "| 所属子课时 | M+S | 本案例填写：课时2：颜料的渐变 |",
+          "- 水粉颜料（12色或24色，建议带24色）",
+          "- 水粉笔或水彩笔（用于蘸取和涂抹颜料）",
+          "- 渐变PPT（20页）→ 小美制作"
+        ]
+      },
+      {
+        "source_id": "legacy_color_feeling_static_to_deprecate",
+        "label": "前一版《色彩的感觉》静态原型",
+        "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013I_R6P_single_lesson_reading_surface_inherits_big_unit_static_upgrade/prep_room_render_canvas_deepen_v1_R6P_single_lesson_inherits_big_unit.html",
+        "exists": true,
+        "char_count": 298276,
+        "source_status": "deprecated_prototype_reference",
+        "authority_status": "not_a_textbook_lesson",
+        "usage": "只保留为错误来源追踪；不得再作为当前教材锚点或任务对象。",
+        "excerpt_lines": [
+          "prepNotebook: \"备课本当前聚焦真实课题 1-2《色彩的感觉》：默认读课，编辑时再集中处理段落候选、资料引用和待沉淀内容。\",",
+          "\"p6-mon\": [{ id: \"wc-fs-recvd6CpwhuXXD\", type: \"lesson\", classLabel: \"三5班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CpwhuXXD\", room: \"美术一室\", timeRange: \"14:10-14:50\", timeSource: \"school_day_period_time_config\" }],",
+          "\"p7-mon\": [{ id: \"wc-fs-recvd6Crqc3jE6\", type: \"lesson\", classLabel: \"三1班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6Crqc3jE6\", room: \"美术一室\", timeRange: \"15:00-15:40\", timeSource: \"school_day_period_time_config\" }],",
+          "\"p6-tue\": [{ id: \"wc-fs-recvd6CpTXPax8\", type: \"lesson\", classLabel: \"三3班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CpTXPax8\", room: \"美术一室\", timeRange: \"14:10-14:50\", timeSource: \"school_day_period_time_config\" }],",
+          "\"p3-wed\": [{ id: \"wc-fs-recviyPKQb2ieh\", type: \"lesson\", classLabel: \"三4班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recviyPKQb2ieh\", room: \"美术一室\", timeRange: \"10:20-11:00\", timeSource: \"school_day_period_time_config\" }],",
+          "\"p7-wed\": [{ id: \"wc-fs-recvd6CscCPKFT\", type: \"lesson\", classLabel: \"三3班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CscCPKFT\", room: \"美术一室\", timeRange: \"15:00-15:40\", timeSource: \"school_day_period_time_config\" }],",
+          "\"p7-thu\": [{ id: \"wc-fs-recvd6CszGgPNd\", type: \"lesson\", classLabel: \"三2班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CszGgPNd\", room: \"美术一室\", timeRange: \"15:00-15:40\", timeSource: \"school_day_period_time_config\" }],",
+          "\"p5-fri\": [{ id: \"wc-fs-recvd6Cp7nW4we\", type: \"lesson\", classLabel: \"三2班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6Cp7nW4we\", room: \"美术一室\", timeRange: \"13:20-14:00\", timeSource: \"school_day_period_time_config\" }],",
+          "\"p7-fri\": [{ id: \"wc-fs-recvd6CsUSNt3s\", type: \"lesson\", classLabel: \"三1班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CsUSNt3s\", room: \"美术一室\", timeRange: \"15:00-15:40\", timeSource: \"school_day_period_time_config\" }]",
+          "{ title: \"周一 第6节 14:10-14:50 三5班《色彩的感觉》\", status: \"进入备课本候选\" },"
+        ]
+      }
+    ],
+    "source_policy_notes": [
+      {
+        "category": "textbook_anchor",
+        "label": "教材依据",
+        "rule": "可作为当前课题、单元、页码和教材对象依据。",
+        "current_source_ids": [
+          "user_provided_g3_textbook_catalog_photo"
+        ]
+      },
+      {
+        "category": "teacher_input",
+        "label": "教师输入",
+        "rule": "可作为当前任务输入和课堂条件依据，但需要保留来源。",
+        "current_source_ids": [
+          "teacher_input_required"
+        ]
+      },
+      {
+        "category": "ai_draft",
+        "label": "AI 草案",
+        "rule": "只能作为草稿或参考，不能升格为教材标准、字段标准或正式评价依据。",
+        "current_source_ids": [
+          "kb_g3_u1_old_ai_gradient_unit_doc",
+          "kb_g3_u1_old_ai_lesson2_pigment_gradient_reference"
+        ]
+      },
+      {
+        "category": "system_structure",
+        "label": "系统结构",
+        "rule": "用于页面渲染、状态表达和操作门控，不等同于教学内容依据。",
+        "current_source_ids": [
+          "task_state_contract_1013R_R13",
+          "courseware_screen_patch"
+        ]
+      }
+    ],
+    "source_categories": [
+      "textbook_anchor",
+      "teacher_input",
+      "ai_draft",
+      "system_structure"
+    ],
+    "ai_draft_may_not_be_standard": true,
+    "textbook_anchor_required_for_current_object": true
+  },
+  "contracts_consumed": {
+    "r10_stage": "1013R_R10_PREP_ROOM_SINGLE_LESSON_VIEWMODEL_READONLY_ENDPOINT",
+    "r13_stage": "1013R_R13_XIAOJIAO_TASK_STATE_CONTRACT_AND_RENDER_SURFACE_MAP",
+    "r13_contract_id": "SHIWEI_TASK_STATE_CONTRACT_R0",
+    "r14_stage": "1013R_R14_TEACHER_ACTION_GATE_CONTRACT_R0",
+    "r14_contract_id": "SHIWEI_TEACHER_ACTION_GATE_CONTRACT_R0"
+  },
+  "renderer_contract": {
+    "single_entry": true,
+    "renderer_should_consume": [
+      "current_object",
+      "lesson_viewmodel",
+      "task_state",
+      "action_gate",
+      "render_surface_map",
+      "render_slots",
+      "source_policy",
+      "boundary"
+    ],
+    "renderer_must_not": [
+      "read_legacy_hydration_payload",
+      "replace_visible_text_by_walker",
+      "treat_ai_reference_as_standard",
+      "write_database_or_memory",
+      "formal_apply"
+    ]
+  },
+  "next_stage_recommendation": {
+    "stage": "1013R_R16_SOURCE_POLICY_LIGHT_VALIDATOR_R0",
+    "why": "统一 ViewModel 已合并页面、任务状态和动作门控；下一步应先轻量校验资料来源，避免 render_blocks 之前混淆教材依据、教师输入和 AI 草案。"
+  },
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R15_PREP_ROOM_UNIFIED_VIEWMODEL_R0",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": false,
+    "render_blocks_protocol_defined": false,
+    "light_render_adapter_defined": false,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true
+  }
+}

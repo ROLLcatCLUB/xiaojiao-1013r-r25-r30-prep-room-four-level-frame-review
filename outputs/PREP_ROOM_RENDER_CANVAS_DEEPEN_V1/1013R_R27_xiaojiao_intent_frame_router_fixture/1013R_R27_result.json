@@ -1,0 +1,16 @@
+{
+  "stage_id": "1013R_R27_XIAOJIAO_INTENT_FRAME_ROUTER_FIXTURE",
+  "status": "PASS",
+  "validator_pass": true,
+  "created_at": "2026-06-27T10:50:22+00:00",
+  "checks": {
+    "router_fixture_defined": true,
+    "uses_existing_command_dsl": true,
+    "cross_level_courseware_entry_detected": true,
+    "formal_actions_go_to_confirmation": true,
+    "static_fixture_only": true,
+    "runtime_router_connected": false,
+    "formal_apply_performed": false
+  },
+  "failed_checks": []
+}

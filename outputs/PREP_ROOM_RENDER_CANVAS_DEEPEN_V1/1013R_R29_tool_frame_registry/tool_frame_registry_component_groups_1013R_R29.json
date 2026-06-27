@@ -1,0 +1,29 @@
+[
+  {
+    "group_id": "prep_room_core",
+    "components": [
+      "PrepRoomObjectHeader",
+      "XiaojiaoTaskStatePanel",
+      "LessonSectionStack",
+      "TeachingProcessTimeline"
+    ]
+  },
+  {
+    "group_id": "derivative_objects",
+    "components": [
+      "CoursewareScriptPreview",
+      "ClassroomDisplayPreview",
+      "WorksheetPreviewSlot",
+      "AssessmentBlockedPanel",
+      "BlackboardDesignPreview"
+    ]
+  },
+  {
+    "group_id": "governance_and_actions",
+    "components": [
+      "SourceEvidencePanel",
+      "TeacherActionGatePanel",
+      "XiaojiaoComposerPrompt"
+    ]
+  }
+]

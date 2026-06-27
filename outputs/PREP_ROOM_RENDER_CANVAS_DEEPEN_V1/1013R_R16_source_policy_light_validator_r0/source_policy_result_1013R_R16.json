@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "stage": "1013R_R16_SOURCE_POLICY_LIGHT_VALIDATOR_R0",
+  "validator_id": "SHIWEI_SOURCE_POLICY_LIGHT_VALIDATOR_R0",
+  "generated_at": "2026-06-26T18:45:23+00:00",
+  "consumes": {
+    "unified_viewmodel_stage": "1013R_R15_PREP_ROOM_UNIFIED_VIEWMODEL_R0",
+    "viewmodel_type": "prep_room_unified_readonly_contract_viewmodel",
+    "current_object": {
+      "id": "g3_u2_l1_color_gradient",
+      "type": "single_lesson",
+      "grade": "三年级",
+      "term": "2025学年第二学期",
+      "unit": "第二单元 多彩的世界",
+      "title": "2-1《色彩的渐变》",
+      "textbook_page": "教材第6-7页",
+      "status": "待确认"
+    }
+  },
+  "checks": [
+    {
+      "check_id": "current_object_has_textbook_anchor",
+      "label": "当前课题必须有教材锚点",
+      "status": "pass",
+      "evidence": {
+        "id": "g3_u2_l1_color_gradient",
+        "type": "single_lesson",
+        "grade": "三年级",
+        "term": "2025学年第二学期",
+        "unit": "第二单元 多彩的世界",
+        "title": "2-1《色彩的渐变》",
+        "textbook_page": "教材第6-7页",
+        "status": "待确认"
+      }
+    },
+    {
+      "check_id": "ai_draft_not_standard",
+      "label": "AI 草案不能作为教材标准",
+      "status": "pass",
+      "evidence": {
+        "ai_reference_source_ids": [
+          "kb_g3_u1_old_ai_gradient_unit_doc",
+          "kb_g3_u1_old_ai_lesson2_pigment_gradient_reference"
+        ]
+      }
+    },
+    {
+      "check_id": "source_categories_present",
+      "label": "来源分类必须齐全",
+      "status": "pass",
+      "evidence": {
+        "source_categories": [
+          "ai_draft",
+          "system_structure",
+          "teacher_input",
+          "textbook_anchor"
+        ]
+      }
+    },
+    {
+      "check_id": "assessment_blocked_until_materials",
+      "label": "缺学生作品和评价维度时评价表必须阻断",
+      "status": "pass",
+      "evidence": {
+        "missing_materials": [
+          "assessment_dimensions",
+          "classroom_constraints",
+          "official_textbook_ocr",
+          "student_work_samples"
+        ],
+        "blocked_action": {
+          "action_id": "preview_assessment_rubric",
+          "label": "生成评价表预览",
+          "action_kind": "preview_candidate",
+          "target_slots": [
+            "assessment_rubric"
+          ],
+          "target_slot_gates": {
+            "assessment_rubric": "blocked_until_teacher_dimension"
+          },
+          "gate_type": "blocked_until_teacher_dimension",
+          "allowed_now": false,
+          "requires_teacher_confirmation": true,
+          "formal_apply_allowed": false,
+          "write_effect": "preview_only",
+          "blocked_by": [
+            "assessment_dimensions",
+            "student_work_samples"
+          ],
+          "must_show_before_confirm": [
+            "preview_content",
+            "impact_scope",
+            "source_badges",
+            "write_effect=preview_only"
+          ]
+        }
+      }
+    },
+    {
+      "check_id": "memory_write_blocked",
+      "label": "记忆写入必须后置",
+      "status": "pass",
+      "evidence": {
+        "action_id": "write_memory_or_archive",
+        "label": "写入记忆或档案",
+        "action_kind": "blocked_action",
+        "target_slots": [],
+        "gate_type": "future_only",
+        "allowed_now": false,
+        "requires_teacher_confirmation": true,
+        "formal_apply_allowed": false,
+        "write_effect": "none",
+        "blocked_reason": "记忆底座后置，当前避免污染教师偏好和历史记录。",
+        "unblock_requires": [
+          "memory_policy_contract",
+          "source_policy_validator"
+        ]
+      }
+    }
+  ],
+  "failed_checks": [],
+  "source_policy_summary": {
+    "textbook_anchor": "可作为当前课题、单元、页码和教材对象依据。",
+    "teacher_input": "可作为当前任务输入和课堂条件依据。",
+    "ai_draft": "只能作为草稿或参考，不能升格为教材标准、字段标准或正式评价依据。",
+    "system_structure": "只负责渲染和门控，不等同于教学内容依据。"
+  },
+  "next_stage_recommendation": {
+    "stage": "1013R_R17_RENDER_BLOCKS_PROTOCOL_R0",
+    "why": "来源轻校验通过后，可以把统一 ViewModel 转成 render_blocks 协议，供后续轻量渲染适配器消费。"
+  },
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R16_SOURCE_POLICY_LIGHT_VALIDATOR_R0",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": true,
+    "render_blocks_protocol_defined": false,
+    "light_render_adapter_defined": false,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true,
+    "source_policy_light_validator_readonly": true
+  }
+}

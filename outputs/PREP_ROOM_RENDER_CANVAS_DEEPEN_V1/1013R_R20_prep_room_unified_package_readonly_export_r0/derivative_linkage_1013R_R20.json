@@ -1,0 +1,263 @@
+{
+  "ok": true,
+  "stage": "1013R_R19_DERIVATIVE_OBJECT_STATIC_LINKAGE_SAMPLE",
+  "linkage_id": "SHIWEI_PREP_ROOM_DERIVATIVE_OBJECT_LINKAGE_R0",
+  "generated_at": "2026-06-26T19:09:27+00:00",
+  "consumes": {
+    "unified_viewmodel_stage": "1013R_R15_PREP_ROOM_UNIFIED_VIEWMODEL_R0",
+    "light_render_adapter_stage": "1013R_R18_LIGHT_RENDER_ADAPTER_SAMPLE",
+    "current_object": {
+      "id": "g3_u2_l1_color_gradient",
+      "type": "single_lesson",
+      "grade": "三年级",
+      "term": "2025学年第二学期",
+      "unit": "第二单元 多彩的世界",
+      "title": "2-1《色彩的渐变》",
+      "textbook_page": "教材第6-7页",
+      "status": "待确认"
+    }
+  },
+  "derivative_objects": [
+    {
+      "object_id": "courseware_script",
+      "label": "课件脚本",
+      "slot_id": "courseware_script",
+      "current_state": "preview",
+      "formal_output_created": false
+    },
+    {
+      "object_id": "classroom_display_screen",
+      "label": "大屏呈现",
+      "slot_id": "classroom_display_screen",
+      "current_state": "preview",
+      "formal_output_created": false
+    },
+    {
+      "object_id": "worksheet",
+      "label": "学习单",
+      "slot_id": "worksheet",
+      "current_state": "placeholder_with_preview_hooks",
+      "formal_output_created": false
+    },
+    {
+      "object_id": "assessment_rubric",
+      "label": "评价表",
+      "slot_id": "assessment_rubric",
+      "current_state": "blocked_until_teacher_dimension",
+      "formal_output_created": false
+    }
+  ],
+  "process_derivative_links": [
+    {
+      "link_id": "link_1_intro",
+      "process_step_id": "intro",
+      "process_step_title": "看见渐变",
+      "courseware_screen": {
+        "screen_no": 2,
+        "title": "看色彩图片",
+        "role": "导入观察",
+        "status": "待补图"
+      },
+      "classroom_display": {
+        "screen_seed": "一张自然渐变图 + 5格色阶",
+        "student_visible_prompt": "颜色慢慢变，层次就出现。",
+        "render_state": "preview"
+      },
+      "worksheet": {
+        "capture_prompt": "学生能指出变化方向。",
+        "render_state": "placeholder",
+        "requires_teacher_confirmation": true
+      },
+      "assessment_rubric": {
+        "evidence": "学生能指出变化方向。",
+        "render_state": "blocked_until_teacher_dimension",
+        "blocked_by": [
+          "student_work_samples",
+          "assessment_dimensions"
+        ]
+      }
+    },
+    {
+      "link_id": "link_2_sense",
+      "process_step_id": "sense",
+      "process_step_title": "比较明度与纯度",
+      "courseware_screen": {
+        "screen_no": 3,
+        "title": "比较两组颜色",
+        "role": "比较变化",
+        "status": "待补图"
+      },
+      "classroom_display": {
+        "screen_seed": "明度变化 / 纯度变化 对照",
+        "student_visible_prompt": "每一步只变一点点。",
+        "render_state": "preview"
+      },
+      "worksheet": {
+        "capture_prompt": "学生完成色阶排序。",
+        "render_state": "placeholder",
+        "requires_teacher_confirmation": true
+      },
+      "assessment_rubric": {
+        "evidence": "学生完成色阶排序。",
+        "render_state": "blocked_until_teacher_dimension",
+        "blocked_by": [
+          "student_work_samples",
+          "assessment_dimensions"
+        ]
+      }
+    },
+    {
+      "link_id": "link_3_explore",
+      "process_step_id": "explore",
+      "process_step_title": "做渐变实验",
+      "courseware_screen": {
+        "screen_no": 4,
+        "title": "感觉词卡",
+        "role": "比较变化",
+        "status": "已有文字"
+      },
+      "classroom_display": {
+        "screen_seed": "调色步骤：原色 -> 加白/加水 -> 逐格变化",
+        "student_visible_prompt": "试色纸也是作品证据。",
+        "render_state": "preview"
+      },
+      "worksheet": {
+        "capture_prompt": "试色纸保留过程。",
+        "render_state": "preview",
+        "requires_teacher_confirmation": true
+      },
+      "assessment_rubric": {
+        "evidence": "试色纸保留过程。",
+        "render_state": "blocked_until_teacher_dimension",
+        "blocked_by": [
+          "student_work_samples",
+          "assessment_dimensions"
+        ]
+      }
+    },
+    {
+      "link_id": "link_4_make",
+      "process_step_id": "make",
+      "process_step_title": "把渐变用到画面",
+      "courseware_screen": {
+        "screen_no": 5,
+        "title": "色彩实验任务",
+        "role": "色彩实验",
+        "status": "待补图"
+      },
+      "classroom_display": {
+        "screen_seed": "学生作品参考：鸟、鲸、纸构空间",
+        "student_visible_prompt": "颜色慢慢变，层次就出现。",
+        "render_state": "preview"
+      },
+      "worksheet": {
+        "capture_prompt": "作品中出现清晰渐变区域。",
+        "render_state": "placeholder",
+        "requires_teacher_confirmation": true
+      },
+      "assessment_rubric": {
+        "evidence": "作品中出现清晰渐变区域。",
+        "render_state": "blocked_until_teacher_dimension",
+        "blocked_by": [
+          "student_work_samples",
+          "assessment_dimensions"
+        ]
+      }
+    },
+    {
+      "link_id": "link_5_share",
+      "process_step_id": "share",
+      "process_step_title": "说出修改理由",
+      "courseware_screen": {
+        "screen_no": 6,
+        "title": "白板试色",
+        "role": "色彩实验",
+        "status": "可白板"
+      },
+      "classroom_display": {
+        "screen_seed": "我用了__到__的渐变，因为__。",
+        "student_visible_prompt": "每一步只变一点点。",
+        "render_state": "preview"
+      },
+      "worksheet": {
+        "capture_prompt": "学生能用证据说明作品。",
+        "render_state": "preview",
+        "requires_teacher_confirmation": true
+      },
+      "assessment_rubric": {
+        "evidence": "学生能用证据说明作品。",
+        "render_state": "blocked_until_teacher_dimension",
+        "blocked_by": [
+          "student_work_samples",
+          "assessment_dimensions"
+        ]
+      }
+    }
+  ],
+  "static_linkage_summary": {
+    "process_step_count": 5,
+    "courseware_screen_count": 8,
+    "linked_step_count": 5,
+    "assessment_blocked": true,
+    "exports_created": false
+  },
+  "teacher_visible_next_actions": [
+    "先确认大屏预览是否按教学过程走。",
+    "补学生作品样例后再开放评价表预览。",
+    "课件脚本仍是预览，不导出 PPT。",
+    "学习单只做轻量记录，不写入正式课包。"
+  ],
+  "next_stage_recommendation": {
+    "stage": "1013R_R20_PREP_ROOM_UNIFIED_PACKAGE_READONLY_EXPORT_R0",
+    "why": "R16-R19 已完成协议到轻量渲染与派生物联动；下一步先合成页面可消费的只读协议包，不注册真实 route，仍不 formal apply。"
+  },
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R19_DERIVATIVE_OBJECT_STATIC_LINKAGE_SAMPLE",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false,
+    "task_state_contract_readonly": true,
+    "render_surface_map_defined": true,
+    "teacher_action_gate_defined": true,
+    "unified_viewmodel_defined": true,
+    "source_policy_validator_defined": true,
+    "render_blocks_protocol_defined": true,
+    "light_render_adapter_defined": true,
+    "route_registered": false,
+    "teacher_action_gate_contract_readonly": true,
+    "task_state_contract_consumed": true,
+    "unified_viewmodel_readonly": true,
+    "source_policy_light_validator_readonly": true,
+    "render_blocks_protocol_readonly": true,
+    "light_render_adapter_readonly": true,
+    "existing_page_modified": false,
+    "derivative_object_linkage_readonly": true,
+    "derivative_static_linkage_defined": true,
+    "courseware_export_created": false,
+    "worksheet_export_created": false,
+    "assessment_written": false
+  }
+}

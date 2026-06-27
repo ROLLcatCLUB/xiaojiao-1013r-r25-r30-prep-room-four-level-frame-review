@@ -1,0 +1,17 @@
+{
+  "flask_test_client_used": true,
+  "http_server_started": false,
+  "task_route": "/api/prep-room/task-state/g3_u2_color_gradient",
+  "action_route": "/api/prep-room/task-state/g3_u2_color_gradient/action",
+  "task_route_registered": true,
+  "action_route_registered": true,
+  "url_rule_count": 71,
+  "get_status_code": 200,
+  "get_ok": true,
+  "get_stage": "1013R_R6_PREP_ROOM_OLD_MATERIAL_RUNTIME_BRIDGE",
+  "get_title": "三年级《色彩的渐变》",
+  "post_status_code": 200,
+  "post_ok": true,
+  "post_stage": "1013R_R6_PREP_ROOM_OLD_MATERIAL_RUNTIME_BRIDGE",
+  "post_write_allowed": false
+}

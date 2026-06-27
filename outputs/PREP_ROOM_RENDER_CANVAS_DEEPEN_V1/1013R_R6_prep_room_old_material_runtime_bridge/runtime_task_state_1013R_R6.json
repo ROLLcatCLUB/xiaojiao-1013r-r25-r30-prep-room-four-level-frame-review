@@ -1,0 +1,627 @@
+{
+  "ok": true,
+  "stage": "1013R_R6_PREP_ROOM_OLD_MATERIAL_RUNTIME_BRIDGE",
+  "runtime_mode": "local_readonly_task_state_bridge",
+  "generated_at": "2026-06-26T10:32:06+00:00",
+  "route": {
+    "task_state": "/api/prep-room/task-state/g3_u2_color_gradient",
+    "action": "/api/prep-room/task-state/g3_u2_color_gradient/action"
+  },
+  "task_object": {
+    "task_object_id": "PREP-G3-U2-L1-COLOR-GRADIENT",
+    "object_type": "lesson_plan",
+    "title": "三年级《色彩的渐变》",
+    "grade": "三年级",
+    "subject": "美术",
+    "unit_no": 2,
+    "unit_title": "第二单元《多彩的世界》",
+    "lesson_no": 1,
+    "lesson_title": "色彩的渐变",
+    "textbook_page": 6,
+    "status": "runtime_readonly_preview",
+    "current_focus": "reanchor_previous_color_line_to_real_textbook_catalog",
+    "teacher_confirmation_required": true,
+    "write_allowed": false
+  },
+  "base_context": {
+    "textbook_catalog": {
+      "grade": "三年级",
+      "source_status": "teacher_provided_catalog_photo_current_turn",
+      "ocr_status": "not_available_in_kb",
+      "catalog": [
+        {
+          "unit_no": 1,
+          "unit_title": "记录生活",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "画中的生活",
+              "page": 1
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "流淌的情感",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "unit_no": 2,
+          "unit_title": "多彩的世界",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "色彩的渐变",
+              "page": 6
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "渐变的节奏",
+              "page": 8
+            },
+            {
+              "lesson_no": 3,
+              "lesson_title": "多彩的生活",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "unit_no": 3,
+          "unit_title": "辽阔的海洋",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "奇异的海洋生物",
+              "page": 12
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "跳动的蓝色心脏",
+              "page": 14
+            },
+            {
+              "lesson_no": 3,
+              "lesson_title": "守护生命的摇篮",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "unit_no": 4,
+          "unit_title": "红领巾告诉我",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "种下红色种子",
+              "page": 18
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "传承红色精神",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "unit_no": "special",
+          "unit_title": "青绿中国色",
+          "lessons": [
+            {
+              "lesson_no": "theme",
+              "lesson_title": "青绿中国色",
+              "page": 22
+            }
+          ],
+          "page_span": "22-27"
+        },
+        {
+          "unit_no": 5,
+          "unit_title": "足下生辉",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "走过四季",
+              "page": 28
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "魅力鞋汇",
+              "page": 30
+            },
+            {
+              "lesson_no": 3,
+              "lesson_title": "时空“履”行",
+              "page": 32
+            }
+          ]
+        },
+        {
+          "unit_no": 6,
+          "unit_title": "装点生活",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "纹样有特点",
+              "page": 34
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "纹样的魅力",
+              "page": 36
+            }
+          ]
+        },
+        {
+          "unit_no": 7,
+          "unit_title": "虎虎生威",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "虎虎虎",
+              "page": 38
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "巧手做老虎",
+              "page": 40
+            }
+          ]
+        },
+        {
+          "unit_no": 8,
+          "unit_title": "成长日记",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "蓬勃的生命",
+              "page": 42
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "奔跑的少年",
+              "page": 44
+            },
+            {
+              "lesson_no": 3,
+              "lesson_title": "未来的我们",
+              "page": 46
+            }
+          ]
+        },
+        {
+          "unit_no": "extension",
+          "unit_title": "迁移拓展",
+          "lessons": [
+            {
+              "lesson_no": "extension",
+              "lesson_title": "迁移拓展",
+              "page": 48
+            }
+          ]
+        }
+      ]
+    },
+    "unit_package": {
+      "unit_title": "第二单元《多彩的世界》",
+      "unit_thread": "认识色彩明度与纯度 > 探究渐变秩序与节奏 > 用渐变装点校园与生活",
+      "source_status": "teacher_provided_catalog_photo_and_page_images",
+      "authority_status": "current_textbook_catalog_anchor"
+    },
+    "lesson_chain": [
+      {
+        "lesson_code": "2-1",
+        "lesson_title": "色彩的渐变",
+        "textbook_page": 6,
+        "role": "认识明度、纯度和渐变排列，做调色/排列实验。",
+        "source_status": "current_textbook_catalog_anchor"
+      },
+      {
+        "lesson_code": "2-2",
+        "lesson_title": "渐变的节奏",
+        "textbook_page": 8,
+        "role": "把色彩明度或纯度渐变用于画面节奏和旋律表达。",
+        "source_status": "current_textbook_catalog_anchor"
+      },
+      {
+        "lesson_code": "2-3",
+        "lesson_title": "多彩的生活",
+        "textbook_page": 10,
+        "role": "用渐变组织空间、装置或校园生活表达。",
+        "source_status": "current_textbook_catalog_anchor"
+      }
+    ],
+    "deprecation_notice": {
+      "deprecated_lesson_title": "色彩的感觉",
+      "reason": "该标题不在本轮教师提供的三年级教材目录中。",
+      "replacement": "第二单元第1课《色彩的渐变》",
+      "must_not_use_as_textbook_anchor": true
+    },
+    "knowledge_base_policy": {
+      "textbook_images_in_kb_have_ocr": false,
+      "ai_lesson_design_can_be_used_as_reference": true,
+      "ai_lesson_design_can_be_used_as_standard": false,
+      "field_schema_can_be_used_as_standard": false
+    }
+  },
+  "xiaojiao_task_state": {
+    "judgement": "教材锚点已纠偏，正在重新备课",
+    "known_materials": [
+      "年级：三年级",
+      "真实单元：第二单元《多彩的世界》",
+      "当前任务对象：第1课《色彩的渐变》",
+      "教材目录页显示第1课《色彩的渐变》/6，第2课《渐变的节奏》/8，第3课《多彩的生活》/10",
+      "本地知识库三年级教材图片只有索引，未完成 OCR"
+    ],
+    "missing_items": [
+      "把第6-11页教材图做正式 OCR 或人工摘录",
+      "把旧 AI《多变的色彩》资料降级为技法参考",
+      "按第二单元真实课题重排备课室左侧目录和当前工作对象",
+      "决定先接任务状态、学习单预览还是课件屏预览"
+    ],
+    "suggested_action": "先用只读 runtime 跑真实教材锚点《色彩的渐变》，再接正文候选和课件预览。",
+    "available_preview": [
+      "真实教材目录",
+      "当前课题锚点",
+      "第二单元课时链",
+      "旧资料降级说明",
+      "确认动作"
+    ]
+  },
+  "source_matrix": [
+    {
+      "source_id": "user_provided_g3_textbook_catalog_photo",
+      "label": "用户本轮提供的三年级教材目录照片",
+      "path": "E:/学校工作/教学/教学资料/教材图片资料/三年级教材内容 - 图片/三年级目录.jpg",
+      "exists": false,
+      "source_status": "teacher_provided_textbook_photo_current_turn",
+      "authority_status": "current_textbook_catalog_anchor",
+      "usage": "用于纠正伪课题《色彩的感觉》，建立三年级真实教材目录与当前课题锚点。",
+      "extracted_catalog": [
+        {
+          "unit_no": 1,
+          "unit_title": "记录生活",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "画中的生活",
+              "page": 1
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "流淌的情感",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "unit_no": 2,
+          "unit_title": "多彩的世界",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "色彩的渐变",
+              "page": 6
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "渐变的节奏",
+              "page": 8
+            },
+            {
+              "lesson_no": 3,
+              "lesson_title": "多彩的生活",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "unit_no": 3,
+          "unit_title": "辽阔的海洋",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "奇异的海洋生物",
+              "page": 12
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "跳动的蓝色心脏",
+              "page": 14
+            },
+            {
+              "lesson_no": 3,
+              "lesson_title": "守护生命的摇篮",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "unit_no": 4,
+          "unit_title": "红领巾告诉我",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "种下红色种子",
+              "page": 18
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "传承红色精神",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "unit_no": "special",
+          "unit_title": "青绿中国色",
+          "lessons": [
+            {
+              "lesson_no": "theme",
+              "lesson_title": "青绿中国色",
+              "page": 22
+            }
+          ],
+          "page_span": "22-27"
+        },
+        {
+          "unit_no": 5,
+          "unit_title": "足下生辉",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "走过四季",
+              "page": 28
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "魅力鞋汇",
+              "page": 30
+            },
+            {
+              "lesson_no": 3,
+              "lesson_title": "时空“履”行",
+              "page": 32
+            }
+          ]
+        },
+        {
+          "unit_no": 6,
+          "unit_title": "装点生活",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "纹样有特点",
+              "page": 34
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "纹样的魅力",
+              "page": 36
+            }
+          ]
+        },
+        {
+          "unit_no": 7,
+          "unit_title": "虎虎生威",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "虎虎虎",
+              "page": 38
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "巧手做老虎",
+              "page": 40
+            }
+          ]
+        },
+        {
+          "unit_no": 8,
+          "unit_title": "成长日记",
+          "lessons": [
+            {
+              "lesson_no": 1,
+              "lesson_title": "蓬勃的生命",
+              "page": 42
+            },
+            {
+              "lesson_no": 2,
+              "lesson_title": "奔跑的少年",
+              "page": 44
+            },
+            {
+              "lesson_no": 3,
+              "lesson_title": "未来的我们",
+              "page": 46
+            }
+          ]
+        },
+        {
+          "unit_no": "extension",
+          "unit_title": "迁移拓展",
+          "lessons": [
+            {
+              "lesson_no": "extension",
+              "lesson_title": "迁移拓展",
+              "page": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "kb_g3_textbook_image_index_no_ocr",
+      "label": "知识库三年级教材图片索引",
+      "path": "knowledge-base/_parsed/kb_art_g3_textbook_images_20260427.txt",
+      "exists": true,
+      "char_count": 2762,
+      "source_status": "indexed_partial_no_ocr",
+      "authority_status": "image_index_only_not_textbook_text",
+      "usage": "只证明本地已有页图位置；该文件明确写着尚未完成 OCR，不能引用为教材原文。",
+      "excerpt_lines": [
+        "资料名称：三年级美术教材图片包",
+        "解析说明：当前仅登记教材图片原始位置、页图文件名、页序和文件大小；尚未完成 OCR，因此不能当作可引用原文。",
+        "001. 页图 00 | 0.jpg | 0.79 MB | 2026-03-06T06:34:50 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级教材内容 - 图片\\0.jpg",
+        "011. 页图 10 | 10.jpg | 0.78 MB | 2026-03-06T06:28:08 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级教材内容 - 图片\\10.jpg",
+        "021. 页图 20 | 20.jpg | 0.9 MB | 2026-03-06T06:29:03 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级教材内容 - 图片\\20.jpg",
+        "024. 页图 23 | 23.jpg | 1.05 MB | 2026-03-06T06:29:23 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级教材内容 - 图片\\23.jpg",
+        "025. 页图 25 | 三年级目录.jpg | 3.13 MB | 2026-03-06T06:05:03 | E:\\学校工作\\教学\\教学资料\\教材图片资料\\三年级目录.jpg"
+      ]
+    },
+    {
+      "source_id": "work_plan_render_packet_0993B_real_catalog_hint",
+      "label": "0993B 教学计划渲染包中的真实课题线索",
+      "path": "outputs/teaching_work_plan_content_0993B/readonly_render_packet_bundle_0993B.json",
+      "exists": true,
+      "char_count": 9161,
+      "source_status": "previous_runtime_fixture_reference",
+      "authority_status": "planning_fixture_reference_only",
+      "usage": "提供第二单元第1课《色彩的渐变》、第2课《渐变的节奏》、第3课《多彩的生活》的已有工程线索。",
+      "excerpt_lines": [
+        "\"第二单元第1课 色彩的渐变\",",
+        "\"第二单元第2课 渐变的节奏\",",
+        "\"第二单元第3课 多彩的生活\","
+      ]
+    },
+    {
+      "source_id": "work_plan_render_packet_0993B_keys",
+      "label": "0993B 渲染包结构索引",
+      "path": "outputs/teaching_work_plan_content_0993B/readonly_render_packet_bundle_0993B.json",
+      "exists": true,
+      "source_status": "previous_runtime_fixture_reference",
+      "authority_status": "planning_fixture_reference_only",
+      "usage": "只读参考，不能替代教师目录照片。",
+      "keys": [
+        "active_memory_created",
+        "backend_modified",
+        "bundle_id",
+        "frontend_modified",
+        "packet_count",
+        "packets",
+        "provider_called",
+        "readonly",
+        "source_stage",
+        "stage_id",
+        "target_renderer"
+      ]
+    },
+    {
+      "source_id": "kb_g3_u1_old_ai_gradient_unit_doc",
+      "label": "知识库旧 AI 第一单元《多变的色彩》备课文档",
+      "path": "knowledge-base/_parsed/kb_art_g3_lesson_case_lesson_8974535734.txt",
+      "exists": true,
+      "char_count": 5406,
+      "source_status": "kb_import_verified_but_reference_only",
+      "authority_status": "ai_generated_reference_only",
+      "usage": "旧 AI 教学设计中有渐变技法参考，但单元标题和教材目录不一致，不能作为标准对齐对象。",
+      "excerpt_lines": [
+        "# 第一单元《多变的色彩》备课文档",
+        "**单元：** 第一单元（2025第二学期）",
+        "- 识别和描述生活中和艺术作品中的渐变现象（明度渐变、纯度渐变）",
+        "- 感受渐变色彩带来的节奏感和韵律美",
+        "- 掌握三种不同工具（彩铅/油画棒/水粉）表现渐变的方法",
+        "- 学会使用水粉颜料进行调色渐变",
+        "- 理解并实践\"跳跃性渐变\"的不规则填充技法",
+        "- 在不规则形状中运用跳跃性渐变进行创意填充",
+        "- 尝试不同工具和颜色组合，发现渐变的多种表现方式",
+        "- 了解渐变在中外艺术作品中的应用（如林风眠花卉作品的色彩层次）"
+      ]
+    },
+    {
+      "source_id": "kb_g3_u1_old_ai_lesson2_pigment_gradient_reference",
+      "label": "知识库旧 AI 课时《颜料的渐变》参考教案",
+      "path": "knowledge-base/_parsed/kb_art_g3_lesson_case_2_07e719a809.txt",
+      "exists": true,
+      "char_count": 4469,
+      "source_status": "kb_import_verified_but_reference_only",
+      "authority_status": "ai_generated_reference_only",
+      "usage": "可参考水粉调色、加水形成明度变化等教学活动，但不改写真实课题《色彩的渐变》。",
+      "excerpt_lines": [
+        "# 课时2《颜料的渐变》教案",
+        "**所属大单元：** 第一单元 多变的色彩",
+        "**子课时名：** 颜料的渐变",
+        "**核心活动：** 初次尝试用水粉颜料进行调色渐变，用颜料的渐变画出生活中常见的事物和场景",
+        "**设计说明：** 三年级学生第一次接触水粉颜料，老师多示范；重点教颜料特性和调色方法；画在16K作业本上",
+        "| 所属大单元 | M+S | 本案例填写：第一单元：多变的色彩 |",
+        "| 所属子课时 | M+S | 本案例填写：课时2：颜料的渐变 |",
+        "- 水粉颜料（12色或24色，建议带24色）",
+        "- 水粉笔或水彩笔（用于蘸取和涂抹颜料）",
+        "- 渐变PPT（20页）→ 小美制作"
+      ]
+    },
+    {
+      "source_id": "legacy_color_feeling_static_to_deprecate",
+      "label": "前一版《色彩的感觉》静态原型",
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013I_R6P_single_lesson_reading_surface_inherits_big_unit_static_upgrade/prep_room_render_canvas_deepen_v1_R6P_single_lesson_inherits_big_unit.html",
+      "exists": true,
+      "char_count": 298276,
+      "source_status": "deprecated_prototype_reference",
+      "authority_status": "not_a_textbook_lesson",
+      "usage": "只保留为错误来源追踪；不得再作为当前教材锚点或任务对象。",
+      "excerpt_lines": [
+        "prepNotebook: \"备课本当前聚焦真实课题 1-2《色彩的感觉》：默认读课，编辑时再集中处理段落候选、资料引用和待沉淀内容。\",",
+        "\"p6-mon\": [{ id: \"wc-fs-recvd6CpwhuXXD\", type: \"lesson\", classLabel: \"三5班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CpwhuXXD\", room: \"美术一室\", timeRange: \"14:10-14:50\", timeSource: \"school_day_period_time_config\" }],",
+        "\"p7-mon\": [{ id: \"wc-fs-recvd6Crqc3jE6\", type: \"lesson\", classLabel: \"三1班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6Crqc3jE6\", room: \"美术一室\", timeRange: \"15:00-15:40\", timeSource: \"school_day_period_time_config\" }],",
+        "\"p6-tue\": [{ id: \"wc-fs-recvd6CpTXPax8\", type: \"lesson\", classLabel: \"三3班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CpTXPax8\", room: \"美术一室\", timeRange: \"14:10-14:50\", timeSource: \"school_day_period_time_config\" }],",
+        "\"p3-wed\": [{ id: \"wc-fs-recviyPKQb2ieh\", type: \"lesson\", classLabel: \"三4班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recviyPKQb2ieh\", room: \"美术一室\", timeRange: \"10:20-11:00\", timeSource: \"school_day_period_time_config\" }],",
+        "\"p7-wed\": [{ id: \"wc-fs-recvd6CscCPKFT\", type: \"lesson\", classLabel: \"三3班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CscCPKFT\", room: \"美术一室\", timeRange: \"15:00-15:40\", timeSource: \"school_day_period_time_config\" }],",
+        "\"p7-thu\": [{ id: \"wc-fs-recvd6CszGgPNd\", type: \"lesson\", classLabel: \"三2班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CszGgPNd\", room: \"美术一室\", timeRange: \"15:00-15:40\", timeSource: \"school_day_period_time_config\" }],",
+        "\"p5-fri\": [{ id: \"wc-fs-recvd6Cp7nW4we\", type: \"lesson\", classLabel: \"三2班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6Cp7nW4we\", room: \"美术一室\", timeRange: \"13:20-14:00\", timeSource: \"school_day_period_time_config\" }],",
+        "\"p7-fri\": [{ id: \"wc-fs-recvd6CsUSNt3s\", type: \"lesson\", classLabel: \"三1班\", code: \"1-2\", title: \"色彩的感觉\", packageStatus: \"正式课表 · 待备课\", sourceRecordId: \"recvd6CsUSNt3s\", room: \"美术一室\", timeRange: \"15:00-15:40\", timeSource: \"school_day_period_time_config\" }]",
+        "{ title: \"周一 第6节 14:10-14:50 三5班《色彩的感觉》\", status: \"进入备课本候选\" },"
+      ]
+    }
+  ],
+  "runtime_actions": [
+    {
+      "action_id": "continue_refine",
+      "teacher_label": "继续精修",
+      "result_state": "preview_state_patch_only",
+      "write_allowed": false
+    },
+    {
+      "action_id": "generate_courseware_preview",
+      "teacher_label": "生成课件预览",
+      "result_state": "courseware_preview_request_only",
+      "write_allowed": false
+    },
+    {
+      "action_id": "build_learning_sheet_preview",
+      "teacher_label": "做学习单预览",
+      "result_state": "learning_sheet_preview_request_only",
+      "write_allowed": false
+    },
+    {
+      "action_id": "confirm_real_textbook_anchor",
+      "teacher_label": "确认按色彩的渐变重排",
+      "result_state": "real_textbook_anchor_confirmed_in_runtime_only",
+      "write_allowed": false
+    }
+  ],
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false
+  }
+}

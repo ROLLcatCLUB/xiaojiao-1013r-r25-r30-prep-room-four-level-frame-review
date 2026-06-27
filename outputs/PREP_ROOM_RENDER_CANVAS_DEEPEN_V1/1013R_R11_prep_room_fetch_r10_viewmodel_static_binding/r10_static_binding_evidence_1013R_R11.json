@@ -1,0 +1,56 @@
+{
+  "html_path": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R11_prep_room_fetch_r10_viewmodel_static_binding\\prep_room_render_canvas_deepen_v1_1013R_R11_prep_room_fetch_r10_viewmodel_static_binding.html",
+  "source_r9_html_path": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R9_real_textbook_prep_page_sync\\prep_room_render_canvas_deepen_v1_1013R_R9_real_textbook_prep_page_sync.html",
+  "stage_id": "1013R_R11_PREP_ROOM_R9_FETCH_R10_VIEWMODEL_STATIC_BINDING",
+  "r10_viewmodel_route": "/api/prep-room/single-lesson-viewmodel/g3_u2_l1_color_gradient",
+  "r11_script_id": "script-1013R-R11-fetch-r10-viewmodel-static-binding",
+  "disabled_legacy_scripts": {
+    "main-shell-visible-hydration-1013L-R11": {
+      "present": true,
+      "type_text_plain": true,
+      "disabled_marker": true
+    },
+    "script-1013R-R7-runtime-task-state-binding": {
+      "present": true,
+      "type_text_plain": true,
+      "disabled_marker": true
+    }
+  },
+  "r11_script_length": 10428,
+  "r11_script_uses_r10_route": true,
+  "r11_script_avoids_full_text_walker": true,
+  "r11_script_avoids_old_hydration_id": true,
+  "lesson_title_from_r10": "2-1《色彩的渐变》",
+  "courseware_screen_count_from_r10": 8,
+  "section_count_from_r10": 7,
+  "process_step_count_from_r10": 5,
+  "boundary": {
+    "old_material_runtime_bridge": true,
+    "runtime_connected": true,
+    "runtime_write_allowed": false,
+    "reuse_previous_material_first": true,
+    "new_system_created": false,
+    "preview_only": true,
+    "teacher_review_required": true,
+    "textbook_catalog_rearranged": true,
+    "textbook_ocr_available": false,
+    "ai_generated_source_reference_only": true,
+    "source_material_standard_alignment_allowed": false,
+    "field_schema_standard_alignment_allowed": false,
+    "provider_called": false,
+    "model_called": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "main_shell_modified": false,
+    "main_project_pushed": false,
+    "stage": "1013R_R10_PREP_ROOM_SINGLE_LESSON_VIEWMODEL_READONLY_ENDPOINT",
+    "single_lesson_viewmodel_readonly": true,
+    "render_hydration_ready": true,
+    "text_replace_bridge_only": false,
+    "formal_frontend_binding_performed": false
+  }
+}
